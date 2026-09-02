@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Screen } from '@/components';
+import { BrewsScreen } from '@/features/brews';
 
-/** Placeholder. Owned by `src/features/brews/` — see BUILD-BRIEF.md. */
-export default function BrewsScreen(): React.JSX.Element {
-  return <Screen title="Brews" subtitle="Placeholder screen. The brews feature lands here." testID="screen-brews" />;
+/** Route only. Everything lives in `src/features/brews/`. */
+export default function BrewsRoute(): React.JSX.Element {
+  return <BrewsScreen />;
 }
