@@ -1,26 +1,266 @@
 [
-  { "id": "main-gate", "name": "Main Gate", "kind": "gate", "x": 90, "y": 500, "lat": 37.9374, "lng": -107.8091, "note": "Primary entrance off East Colorado Ave. Bag check here." },
-  { "id": "east-gate", "name": "East Gate", "kind": "gate", "x": 940, "y": 540, "note": "Opens at noon daily. Closest gate to the campground." },
-  { "id": "box-office", "name": "Box Office & Will Call", "kind": "info", "x": 120, "y": 585, "note": "Opens 10:00 AM daily. Photo ID required for will call." },
-  { "id": "info-booth", "name": "Info Booth", "kind": "info", "x": 175, "y": 520, "note": "Lost and found, accessibility check-in, lost kids." },
-  { "id": "main-stage", "name": "Main Stage", "kind": "stage", "x": 820, "y": 470, "lat": 37.9372, "lng": -107.8055 },
-  { "id": "blues-stage", "name": "Blues Stage", "kind": "stage", "x": 210, "y": 300, "lat": 37.9379, "lng": -107.8072 },
-  { "id": "showcase-tent", "name": "Brewers Showcase Tent", "kind": "stage", "x": 500, "y": 240, "lat": 37.9377, "lng": -107.8062, "note": "Tasting sessions Friday through Sunday afternoon." },
-  { "id": "kids-tent", "name": "Kids' Tent", "kind": "info", "x": 330, "y": 175, "note": "Free with any ticket. Shade, crafts, and an instrument petting zoo." },
-  { "id": "water-west", "name": "Water Station — West", "kind": "water", "x": 250, "y": 560, "note": "Free refills. Bring an empty bottle." },
-  { "id": "water-central", "name": "Water Station — Food Row", "kind": "water", "x": 520, "y": 600, "note": "Free refills." },
-  { "id": "water-east", "name": "Water Station — Main Stage", "kind": "water", "x": 790, "y": 600, "note": "Free refills. Busiest between sets." },
-  { "id": "medical-main", "name": "Medical Tent — Main Stage", "kind": "medical", "x": 700, "y": 425, "note": "Staffed whenever gates are open. Oxygen available." },
-  { "id": "medical-west", "name": "Medical Tent — West", "kind": "medical", "x": 190, "y": 420, "note": "Staffed whenever gates are open." },
-  { "id": "restroom-west", "name": "Restrooms — West", "kind": "restroom", "x": 160, "y": 665 },
-  { "id": "restroom-central", "name": "Restrooms — Food Row", "kind": "restroom", "x": 470, "y": 705, "note": "Accessible stalls at the east end of this bank." },
-  { "id": "restroom-east", "name": "Restrooms — Main Stage", "kind": "restroom", "x": 865, "y": 665 },
-  { "id": "atm-entry", "name": "ATM — Main Gate", "kind": "atm", "x": 140, "y": 465 },
-  { "id": "atm-food-row", "name": "ATM — Food Row", "kind": "atm", "x": 600, "y": 690 },
-  { "id": "food-row-west", "name": "Food Row — West", "kind": "food", "x": 380, "y": 650 },
-  { "id": "food-row-east", "name": "Food Row — East", "kind": "food", "x": 625, "y": 650 },
-  { "id": "beer-garden", "name": "Beer Garden", "kind": "food", "x": 560, "y": 430, "note": "21+ with wristband. ID check at the entrance." },
-  { "id": "gondola-station", "name": "Gondola — Station Telluride", "kind": "gondola", "x": 60, "y": 190, "lat": 37.9375, "lng": -107.8135, "note": "Free. Runs to Mountain Village until midnight." },
-  { "id": "shuttle-stop", "name": "Town Park Shuttle Stop", "kind": "shuttle", "x": 105, "y": 120, "note": "Free Galloping Goose loop, roughly every 20 minutes." },
-  { "id": "campground", "name": "Town Park Campground", "kind": "camp", "x": 760, "y": 790, "note": "Festival camping only. Quiet hours 1:00 AM to 7:00 AM." }
+  {
+    "id": "main-entrance",
+    "name": "Main Entrance",
+    "kind": "gate",
+    "x": 430,
+    "y": 70,
+    "note": "North side of the festival grounds, reached over the vehicle bridge at the main entrance to Town Park."
+  },
+  {
+    "id": "merch-store",
+    "name": "Merch Store",
+    "kind": "info",
+    "x": 560,
+    "y": 95,
+    "note": "North side of the grounds, next to the Main Entrance and the House of Brews Bar."
+  },
+  {
+    "id": "house-of-brews",
+    "name": "House of Brews Bar",
+    "kind": "food",
+    "x": 520,
+    "y": 135,
+    "note": "North side of the grounds, next to the Merch Store and Main Entrance. Up to ten rotating styles per day; each style is featured on only one day and in limited quantity."
+  },
+  {
+    "id": "main-stage",
+    "name": "Main Stage",
+    "kind": "stage",
+    "x": 330,
+    "y": 250,
+    "note": "The current stage was unveiled in 2016, replacing the Fred Shellman Memorial Stage built by the Town of Telluride in 1991."
+  },
+  {
+    "id": "music-maker-drink-house",
+    "name": "Music Maker Drink House",
+    "kind": "info",
+    "x": 235,
+    "y": 340,
+    "note": "Original artwork, vinyl listening stations and artist meet-and-greets."
+  },
+  {
+    "id": "sound-booth",
+    "name": "Sound Booth & ADA Viewing",
+    "kind": "info",
+    "x": 330,
+    "y": 430,
+    "note": "Out in the crowd facing the Main Stage. The designated wheelchair space is directly in front of it, and high-back chairs are not permitted between the sound booth and the stage."
+  },
+  {
+    "id": "beer-garden",
+    "name": "Beer Garden",
+    "kind": "food",
+    "x": 430,
+    "y": 470,
+    "note": "Between the Main Stage and the Blues Stage. Home of the four Brewers Showcase tasting sessions."
+  },
+  {
+    "id": "water-station",
+    "name": "Free Drinking Water",
+    "kind": "water",
+    "x": 500,
+    "y": 340,
+    "note": "Free drinking water is available on the grounds — bring your own bottle."
+  },
+  {
+    "id": "food-vendors",
+    "name": "Food & Craft Vendors",
+    "kind": "food",
+    "x": 570,
+    "y": 300,
+    "note": "Food and craft vendors on the grounds; individual vendor names are not published by the festival."
+  },
+  {
+    "id": "restrooms",
+    "name": "Port-a-Potties & Hand Sinks",
+    "kind": "restroom",
+    "x": 570,
+    "y": 540,
+    "note": "Port-a-potties, hand sinks, and trash / recycling / compost stations. Handicap porta-potties are available."
+  },
+  {
+    "id": "camp-pale-ale-lounge",
+    "name": "Camp Pale Ale Beer Lounge",
+    "kind": "food",
+    "x": 390,
+    "y": 560,
+    "note": "Sierra Nevada's bar, also referenced as the High Altitude Craft Beer Lounge. Six rare specialty beers plus a festival-only flavor; rare beers are announced from the stage between sets each day and poured until the keg is dry."
+  },
+  {
+    "id": "truck-stage",
+    "name": "Truck Stage",
+    "kind": "stage",
+    "x": 250,
+    "y": 560,
+    "note": "Presented by Sierra Nevada; referenced on one artist page as an \"Artist Pop-Up — Festival Field.\" Its exact position on the grounds is NOT published — this pin is provisional."
+  },
+  {
+    "id": "blues-stage",
+    "name": "Blues Stage",
+    "kind": "stage",
+    "x": 470,
+    "y": 640,
+    "note": "Introduced in 2015 and indoors, inside the Town Park Hanley Pavilion. Theater-style seating and a full bar with beer, wine and cocktails. Doubles as the largest Juke Joint venue at night."
+  },
+  {
+    "id": "rainbow-kids-area",
+    "name": "Rainbow Kids Area",
+    "kind": "info",
+    "x": 630,
+    "y": 180,
+    "note": "Back northeast section of the grounds. Ages 3 and up. Climbing wall, inflatable bounce games, face painting, a talent show, workshops, and parades on Saturday and Sunday. Fees are charged for the games; prices and hours are not published."
+  },
+  {
+    "id": "medical-tent",
+    "name": "Medical Tent",
+    "kind": "medical",
+    "x": 690,
+    "y": 430,
+    "note": "East edge of the festival grounds, campground side. EMTs carry basics like ibuprofen and sunblock."
+  },
+  {
+    "id": "shade-alley",
+    "name": "Shade Alley",
+    "kind": "info",
+    "x": 350,
+    "y": 770,
+    "note": "The back perimeter of the grounds — the only place sunshade tents are permitted."
+  },
+  {
+    "id": "main-campground",
+    "name": "Main Campground",
+    "kind": "camp",
+    "x": 830,
+    "y": 430,
+    "note": "5-Day Camping, $80. Large wooded area east of the festival grounds, open Wednesday–Monday, backing onto Bear Creek Wilderness. Charcoal and propane both permitted."
+  },
+  {
+    "id": "campground-stage",
+    "name": "Campground Stage",
+    "kind": "stage",
+    "x": 800,
+    "y": 560,
+    "note": "A handcrafted wooden stage built by a local artisan from wood taken from a nearby river, set among the trees by the river in the Town Park Campground. Sets are billed as Campground Sessions."
+  },
+  {
+    "id": "zone-1-camping",
+    "name": "Zone 1 Camping",
+    "kind": "camp",
+    "x": 900,
+    "y": 660,
+    "note": "5-Day Camping, $80. Smaller wooded section in the southeast corner of the Main Campground, adjacent to Bear Creek Wilderness. Open Wednesday–Monday."
+  },
+  {
+    "id": "warner-field-camping",
+    "name": "Warner Field Camping",
+    "kind": "camp",
+    "x": 430,
+    "y": 870,
+    "note": "4-Day Camping, $70. At the baseball field entrance to Town Park, treeless and directly adjacent to the Beer Garden and Tasting Sessions. Open Thursday–Monday. Propane grills and BBQs allowed; charcoal prohibited."
+  },
+  {
+    "id": "town-park-parking-ada",
+    "name": "Town Park Parking Lot (limited ADA parking)",
+    "kind": "info",
+    "x": 350,
+    "y": 25,
+    "note": "Limited handicap parking, reached over the vehicle bridge at the main entrance to the Park. There is no general festival parking lot."
+  },
+  {
+    "id": "warming-hut",
+    "name": "Warming Hut — Lost & Found",
+    "kind": "info",
+    "x": 235,
+    "y": 110,
+    "note": "Next to the Town Park Oval, on the path from the Box Office to the main entrance."
+  },
+  {
+    "id": "box-office",
+    "name": "Festival Box Office",
+    "kind": "info",
+    "x": 95,
+    "y": 180,
+    "note": "300 E Pacific Street. Wristband pickup: bring your Front Gate digital ticket and valid photo ID in person. Thu 10:00–18:30 · Fri & Sat 09:00–20:15 · Sun 10:00–19:15."
+  },
+  {
+    "id": "information-station",
+    "name": "Information Station",
+    "kind": "info",
+    "x": 20,
+    "y": 250,
+    "note": "At the entrance to town. Camping, parking and ticket questions. Open 9:00 AM – 5:00 PM Thursday through Saturday."
+  },
+  {
+    "id": "elks-park",
+    "name": "Elks Park",
+    "kind": "info",
+    "x": 105,
+    "y": 340,
+    "note": "Site of the Blisters & Brews 5K (Saturday 8:50–9:30 AM) and the free Yoga Sessions (Saturday and Sunday 10:00–11:00 AM)."
+  },
+  {
+    "id": "liz",
+    "name": "Liz",
+    "kind": "stage",
+    "x": 135,
+    "y": 380,
+    "note": "Juke Joint venue hosting the stand-up comedy bill on both Juke Joint nights. The festival publishes only the name \"Liz\" — no full venue name or address."
+  },
+  {
+    "id": "sheridan-opera-house",
+    "name": "Sheridan Opera House",
+    "kind": "stage",
+    "x": 60,
+    "y": 405,
+    "note": "Historic Telluride theater. Hosts Thursday's Bal De Maison opening show, Juke Joints on Friday and Saturday, and Sunday's Fais Do-Do closing show."
+  },
+  {
+    "id": "moon-obannons",
+    "name": "The Moon at O'Bannon's",
+    "kind": "stage",
+    "x": 115,
+    "y": 435,
+    "note": "Intimate in-town room, Juke Joint venue on Friday and Saturday."
+  },
+  {
+    "id": "elks-lodge",
+    "name": "Elks Lodge",
+    "kind": "stage",
+    "x": 80,
+    "y": 470,
+    "note": "472 West Pacific Avenue (address per Visit Telluride, not the festival site). Juke Joint venue, and the site of Blues For Breakfast and the Telluride Blues Challenge."
+  },
+  {
+    "id": "gondola-telluride-station",
+    "name": "Gondola — Telluride Station",
+    "kind": "gondola",
+    "x": 20,
+    "y": 520,
+    "note": "Oak Street, at the west end of the commercial core — the opposite end of town from Town Park. Free. Festival-week hours: Thu 6:30 AM–12:00 AM · Fri & Sat 6:30 AM–2:00 AM · Sun 6:30 AM–12:00 AM."
+  },
+  {
+    "id": "galloping-goose-shuttle",
+    "name": "Galloping Goose Shuttle",
+    "kind": "shuttle",
+    "x": 150,
+    "y": 250,
+    "note": "Free town shuttle running fixed laps every 20 minutes, 7:00 AM–midnight during the concert weekend. Stops every few blocks, marked by signs."
+  },
+  {
+    "id": "silverjack-garage",
+    "name": "SilverJack Parking Garage",
+    "kind": "info",
+    "x": 50,
+    "y": 570,
+    "note": "155 W Pacific Avenue. $2.00/hour plus a $50/night overnight fee."
+  },
+  {
+    "id": "madeline-hotel",
+    "name": "Madeline Hotel & Residences",
+    "kind": "info",
+    "x": 30,
+    "y": 880,
+    "note": "In Mountain Village, reached by the free gondola. Hosts Thursday's Beer Pairing Dinner and a Sunday Blues For Breakfast location."
+  }
 ]

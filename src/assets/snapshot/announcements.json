@@ -1,50 +1,52 @@
 [
   {
-    "id": "2026-06-10-volunteer-applications",
-    "publishedAt": "2026-06-10T09:00:00-06:00",
-    "title": "Volunteer applications are open",
-    "body": "We take about 400 volunteers each year across gates, recycling, hospitality, and the Brewers Showcase. Four shifts earns you a festival pass. Applications close August 15 and we fill up early — apply at tellurideblues.com/volunteer.",
-    "priority": "info",
-    "push": false,
-    "audience": "all",
-    "expiresAt": "2026-08-15T23:59:00-06:00"
-  },
-  {
-    "id": "2026-08-25-single-day-tickets",
-    "publishedAt": "2026-08-25T10:00:00-06:00",
-    "title": "Single-day tickets released",
-    "body": "A limited block of Friday, Saturday, and Sunday single-day tickets is now available. Three-day passes are still the better value if you are coming for the weekend, and they are the only ticket that includes campground eligibility.",
+    "id": "ann-2026-vip-soldout",
+    "publishedAt": "2026-08-20T09:00:00-06:00",
+    "expiresAt": "2026-08-31T23:59:00-06:00",
+    "title": "VIP and Super VIP 3-Day Passes are sold out",
+    "body": "VIP 3-Day, Super VIP 3-Day and VIP Glamping are all sold out for 2026, along with RV Parking and Vehicle Parking.\n\nAll sales are final and tickets are non-refundable and non-exchangeable, but sold-out ticket types can be listed for exchange through the official Front Gate exchange. GA 3-Day passes ($300) and single-day tickets are still available.",
     "priority": "info",
     "push": false,
     "audience": "all"
   },
   {
-    "id": "2026-08-28-schedule-is-live",
-    "publishedAt": "2026-08-28T12:00:00-06:00",
-    "title": "Set times are live",
-    "body": "The full three-day schedule is in the app, including Brewers Showcase sessions and the late-night club shows. Save what you want to see and the app will flag any overlaps for you. Set times can still move — the app updates itself whenever we publish a change.",
+    "id": "ann-2026-wristbands-not-mailed",
+    "publishedAt": "2026-09-04T10:00:00-06:00",
+    "expiresAt": "2026-09-20T23:59:00-06:00",
+    "title": "New for 2026: wristbands are not being mailed",
+    "body": "Wristbands will NOT be mailed this year. Every admission wristband is distributed on-site during festival week.\n\nAbout a week before the festival, Front Gate will email you a digital ticket. Bring it — printed or on your phone — plus valid photo ID to the Box Office at 300 E Pacific Street.\n\nEach ticket-holder must be present in person. You cannot collect a wristband for anyone else, including someone travelling with you.\n\nBox Office: Thursday 10:00 AM–6:30 PM · Friday & Saturday 9:00 AM–8:15 PM · Sunday 10:00 AM–7:15 PM.",
     "priority": "important",
     "push": true,
     "audience": "all"
   },
   {
-    "id": "2026-08-31-campground-wristbands",
-    "publishedAt": "2026-08-31T16:30:00-06:00",
-    "title": "Campground wristband pickup has moved",
-    "body": "Town Park Campground wristbands are no longer issued at the East Gate. Pick them up at the Box Office on the west side of the park, 10:00 AM to 8:00 PM Thursday and Friday. Bring photo ID and your confirmation. If you arrive after 8:00 PM Friday, check in at the Info Booth instead.",
+    "id": "ann-2026-rare-beer-session",
+    "publishedAt": "2026-09-10T12:00:00-06:00",
+    "expiresAt": "2026-09-19T16:00:00-06:00",
+    "title": "Saturday rare-beer session is close to selling out",
+    "body": "Saturday Session Two (4–6 PM in the Beer Garden) is the rare list: 35 or more high-ABV, barrel-aged, rare, wild and non-traditional beers. It is the smallest-capacity session of the weekend and is close to selling out.\n\nTasting tickets are $30–$45 and are separate from festival entry. You must be 21+ and hold a Single-Day or 3-Day festival pass in addition to the tasting ticket.",
+    "priority": "info",
+    "push": false,
+    "audience": "all"
+  },
+  {
+    "id": "ann-2026-gondola-hours",
+    "publishedAt": "2026-09-15T08:00:00-06:00",
+    "expiresAt": "2026-09-21T02:00:00-06:00",
+    "title": "Gondola and shuttle hours for festival week",
+    "body": "The free Telluride–Mountain Village gondola runs extended hours this week:\n\n• Thursday 6:30 AM – 12:00 AM\n• Friday & Saturday 6:30 AM – 2:00 AM\n• Sunday 6:30 AM – 12:00 AM\n\nThe free Galloping Goose shuttle runs fixed laps every 20 minutes from 7:00 AM to midnight all concert weekend, and Mountain Village shuttles run every 30 minutes. Dial-A-Ride operates 7:00 AM–12:30 AM on (970) 728-8888.\n\nThere is no festival parking lot. If Telluride is full you will be directed to Mountain Village — park at the Gondola Garage (free 6:30 AM–2:00 AM, $30 overnight) and ride in.",
+    "priority": "info",
+    "push": false,
+    "audience": "all"
+  },
+  {
+    "id": "ann-2026-stage-2-fire-restrictions",
+    "publishedAt": "2026-09-16T16:30:00-06:00",
+    "expiresAt": "2026-09-21T11:00:00-06:00",
+    "title": "Stage 2 fire restrictions are in effect — campers read this",
+    "body": "The Telluride Fire Protection District is in Stage 2 fire restrictions. If you are camping this week:\n\n• NO wood fires anywhere, at any time.\n• Charcoal only in designated containers, and only in the Main Campground and Zone 1. Charcoal is prohibited at Warner Field — propane grills and BBQs only there.\n• No camping within 50 feet of Bear Creek Falls.\n\nRestrictions can tighten at short notice. Check the San Miguel Sheriff's Office and West Slope Fire Information for the current status before you light anything.",
     "priority": "urgent",
     "push": true,
-    "audience": "all",
-    "expiresAt": "2026-09-21T12:00:00-06:00"
-  },
-  {
-    "id": "2026-09-18-gondola-late-service",
-    "publishedAt": "2026-09-18T09:00:00-06:00",
-    "title": "Gondola running late all three nights",
-    "body": "The gondola between Telluride and Mountain Village will run until 2:00 AM Friday, Saturday, and Sunday nights so the late-night club crowd can get back. Last car up from Station Telluride leaves at 1:45 AM. It is free, as always.",
-    "priority": "important",
-    "push": true,
-    "audience": "all",
-    "expiresAt": "2026-09-21T06:00:00-06:00"
+    "audience": "campers"
   }
 ]

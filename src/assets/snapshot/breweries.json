@@ -1,98 +1,152 @@
 [
   {
-    "id": "switchback-pass",
-    "name": "Switchback Pass Brewing",
-    "city": "Ouray",
+    "id": "sierra-nevada",
+    "name": "Sierra Nevada Brewing Company",
+    "city": "Chico",
+    "state": "CA"
+  },
+  {
+    "id": "4-noses",
+    "name": "4 Noses Brewing Co",
+    "city": "Broomfield",
     "state": "CO"
   },
   {
-    "id": "high-line-ditch",
-    "name": "High Line Ditch Brewery",
-    "city": "Grand Junction",
-    "state": "CO"
-  },
-  {
-    "id": "copper-kettle-co",
-    "name": "Copper Kettle & Co.",
+    "id": "ska-brewing",
+    "name": "Ska Brewing Company",
     "city": "Durango",
     "state": "CO"
   },
   {
-    "id": "red-mountain-malt",
-    "name": "Red Mountain Malthouse",
-    "city": "Silverton",
-    "state": "CO"
+    "id": "firestone-walker",
+    "name": "Firestone Walker Brewing Company",
+    "city": "Paso Robles",
+    "state": "CA"
   },
   {
-    "id": "tin-cup-fermentory",
-    "name": "Tin Cup Fermentory",
-    "city": "Salida",
-    "state": "CO"
-  },
-  {
-    "id": "wildcat-basin",
-    "name": "Wildcat Basin Brewing",
+    "id": "telluride-brewing",
+    "name": "Telluride Brewing Co",
     "city": "Telluride",
     "state": "CO"
   },
   {
-    "id": "sagebrush-union",
-    "name": "Sagebrush Union Beer Co.",
-    "city": "Moab",
-    "state": "UT"
-  },
-  {
-    "id": "quaking-aspen",
-    "name": "Quaking Aspen Ales",
-    "city": "Crested Butte",
+    "id": "crooked-stave",
+    "name": "Crooked Stave Artisan Beer Project",
+    "city": "Denver",
     "state": "CO"
   },
   {
-    "id": "front-range-forge",
-    "name": "Front Range Forge Brewing",
-    "city": "Longmont",
-    "state": "CO"
-  },
-  {
-    "id": "cinder-cone",
-    "name": "Cinder Cone Brewery",
-    "city": "Flagstaff",
+    "id": "grand-canyon-brewing",
+    "name": "Grand Canyon Brewing",
+    "city": "Williams",
     "state": "AZ"
   },
   {
-    "id": "dolores-river",
-    "name": "Dolores River Brewworks",
-    "city": "Dolores",
-    "state": "CO"
-  },
-  {
-    "id": "north-fork-common",
-    "name": "North Fork Common House",
-    "city": "Paonia",
-    "state": "CO"
-  },
-  {
-    "id": "jackrabbit-creek",
-    "name": "Jackrabbit Creek Brewing",
-    "city": "Santa Fe",
-    "state": "NM"
-  },
-  {
-    "id": "old-lift-line",
-    "name": "Old Lift Line Brewery",
-    "city": "Ridgway",
-    "state": "CO"
-  },
-  {
-    "id": "black-canyon-barrel",
-    "name": "Black Canyon Barrel Works",
-    "city": "Montrose",
-    "state": "CO"
-  },
-  {
-    "id": "two-dollar-bridge",
-    "name": "Two Dollar Bridge Brewing",
+    "id": "montucky-cold-snacks",
+    "name": "Montucky Cold Snacks",
     "city": "Bozeman",
     "state": "MT"
+  },
+  {
+    "id": "strong-house",
+    "name": "Strong House",
+    "city": "",
+    "state": "CO"
+  },
+  {
+    "id": "big-bs-hard-cider",
+    "name": "Big B's Hard Cider",
+    "city": "Hotchkiss",
+    "state": "CO"
+  },
+  {
+    "id": "white-claw",
+    "name": "White Claw",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "id": "colorado-grain-chain",
+    "name": "Colorado Grain Chain",
+    "city": "",
+    "state": "CO"
+  },
+  {
+    "id": "colorful-colorado-beverage",
+    "name": "Colorful Colorado Beverage",
+    "city": "",
+    "state": "CO"
+  },
+  {
+    "id": "outer-range",
+    "name": "Outer Range Brewing Co",
+    "city": "Frisco",
+    "state": "CO"
+  },
+  {
+    "id": "fenceline-cider",
+    "name": "Fenceline Cider",
+    "city": "Mancos",
+    "state": "CO"
+  },
+  {
+    "id": "carver-brewing",
+    "name": "Carver Brewing Co",
+    "city": "Durango",
+    "state": "CO"
+  },
+  {
+    "id": "lawsons-finest-liquids",
+    "name": "Lawson's Finest Liquids",
+    "city": "Waitsfield",
+    "state": "VT"
+  },
+  {
+    "id": "liquid-mechanics",
+    "name": "Liquid Mechanics Brewing",
+    "city": "Lafayette",
+    "state": "CO"
+  },
+  {
+    "id": "shelter-distilling",
+    "name": "Shelter Distilling",
+    "city": "Mammoth Lakes",
+    "state": "CA"
+  },
+  {
+    "id": "wild-provisions",
+    "name": "Wild Provisions Beer Co",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  {
+    "id": "avery-brewing",
+    "name": "Avery Brewing Co",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  {
+    "id": "ex-novo-brewing",
+    "name": "Ex Novo Brewing Co",
+    "city": "Portland",
+    "state": "OR"
+  },
+  {
+    "id": "smuggler-union",
+    "name": "Smuggler-Union Restaurant & Brewery",
+    "city": "Telluride",
+    "state": "CO"
+  },
+  {
+    "id": "verde-brewing",
+    "name": "Verde Brewing",
+    "city": "",
+    "state": "CO"
+  },
+  {
+    "id": "colorado-brewers-guild",
+    "name": "Colorado Brewers Guild",
+    "city": "",
+    "state": "CO"
   }
 ]

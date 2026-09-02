@@ -1,471 +1,780 @@
 [
   {
-    "id": "fri-yoga-0800",
-    "artist": "odessa-pike",
-    "stage": "blues",
-    "start": "2026-09-18T08:00:00-06:00",
-    "end": "2026-09-18T09:00:00-06:00",
-    "type": "yoga",
-    "note": "Sunrise yoga on the Town Park lawn. Mats provided; acoustic accompaniment by Odessa Pike."
+    "id": "thu-madeline-hotel-1700-myron-elkins",
+    "artist": "myron-elkins",
+    "stage": "madeline-hotel",
+    "start": "2026-09-17T17:00:00-06:00",
+    "end": "2026-09-17T21:00:00-06:00",
+    "type": "showcase",
+    "note": "Beer Pairing Dinner presented by the Madeline Hotel & Residences, Auberge Resorts Collection. Multi-course modern mountain cuisine paired with craft beer, brewers present. Myron Elkins performs. Ticketed separately; price not published."
   },
   {
-    "id": "fri-main-1200",
-    "artist": "low-country-static",
+    "id": "thu-sheridan-opera-house-2100-daniel-donatos-cosmic-country",
+    "artist": "daniel-donatos-cosmic-country",
+    "stage": "sheridan-opera-house",
+    "start": "2026-09-17T21:00:00-06:00",
+    "end": "2026-09-17T22:30:00-06:00",
+    "type": "club",
+    "note": "Bal De Maison — the Thursday-night opening show. Doors 8:30 PM, show 9:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "fri-main-1200-myron-elkins",
+    "artist": "myron-elkins",
     "stage": "main",
     "start": "2026-09-18T12:00:00-06:00",
     "end": "2026-09-18T13:00:00-06:00",
+    "type": "main",
+    "note": "First Main Stage set of the festival."
+  },
+  {
+    "id": "fri-main-1330-greyhounds",
+    "artist": "greyhounds",
+    "stage": "main",
+    "start": "2026-09-18T13:30:00-06:00",
+    "end": "2026-09-18T14:30:00-06:00",
     "type": "main"
   },
   {
-    "id": "fri-blues-1230",
-    "artist": "purefoy-and-the-mule",
+    "id": "fri-main-1500-eggy",
+    "artist": "eggy",
+    "stage": "main",
+    "start": "2026-09-18T15:00:00-06:00",
+    "end": "2026-09-18T16:00:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "fri-main-1630-g-love-special-sauce",
+    "artist": "g-love-special-sauce",
+    "stage": "main",
+    "start": "2026-09-18T16:30:00-06:00",
+    "end": "2026-09-18T17:40:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "fri-main-1810-daniel-donatos-cosmic-country",
+    "artist": "daniel-donatos-cosmic-country",
+    "stage": "main",
+    "start": "2026-09-18T18:10:00-06:00",
+    "end": "2026-09-18T19:20:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "fri-main-2000-marcus-king-band",
+    "artist": "marcus-king-band",
+    "stage": "main",
+    "start": "2026-09-18T20:00:00-06:00",
+    "end": "2026-09-18T21:30:00-06:00",
+    "type": "main",
+    "note": "Friday headline set."
+  },
+  {
+    "id": "fri-blues-1300-nigel-wearne-the-spectres",
+    "artist": "nigel-wearne-the-spectres",
     "stage": "blues",
-    "start": "2026-09-18T12:30:00-06:00",
-    "end": "2026-09-18T13:30:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "fri-show-1300",
-    "artist": "cricket-fontaine",
-    "stage": "showcase",
     "start": "2026-09-18T13:00:00-06:00",
     "end": "2026-09-18T14:00:00-06:00",
-    "type": "showcase",
-    "note": "Solo piano set inside the Brewers Showcase tent."
-  },
-  {
-    "id": "fri-main-1320",
-    "artist": "wildwood-telegraph",
-    "stage": "main",
-    "start": "2026-09-18T13:20:00-06:00",
-    "end": "2026-09-18T14:20:00-06:00",
     "type": "main"
   },
   {
-    "id": "fri-blues-1400",
-    "artist": "the-gravel-choir",
+    "id": "fri-blues-1430-katie-skene",
+    "artist": "katie-skene",
     "stage": "blues",
+    "start": "2026-09-18T14:30:00-06:00",
+    "end": "2026-09-18T15:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "fri-blues-1600-david-jacobsstrain-and-bob-beach",
+    "artist": "david-jacobsstrain-and-bob-beach",
+    "stage": "blues",
+    "start": "2026-09-18T16:00:00-06:00",
+    "end": "2026-09-18T17:00:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "fri-blues-1730-little-willie-farmer",
+    "artist": "little-willie-farmer",
+    "stage": "blues",
+    "start": "2026-09-18T17:30:00-06:00",
+    "end": "2026-09-18T18:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "fri-campground-1400-derrick-dove-the-peacekeepers",
+    "artist": "derrick-dove-the-peacekeepers",
+    "stage": "campground",
     "start": "2026-09-18T14:00:00-06:00",
     "end": "2026-09-18T15:00:00-06:00",
     "type": "main"
   },
   {
-    "id": "fri-main-1445",
-    "artist": "junction-blue",
-    "stage": "main",
-    "start": "2026-09-18T14:45:00-06:00",
-    "end": "2026-09-18T15:50:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "fri-show-1500",
-    "artist": "the-tallow-sisters",
-    "stage": "showcase",
-    "start": "2026-09-18T15:00:00-06:00",
-    "end": "2026-09-18T16:00:00-06:00",
-    "type": "showcase"
-  },
-  {
-    "id": "fri-blues-1530",
-    "artist": "bitterroot-mabel",
-    "stage": "blues",
+    "id": "fri-campground-1530-albert-white-2026",
+    "artist": "albert-white-2026",
+    "stage": "campground",
     "start": "2026-09-18T15:30:00-06:00",
-    "end": "2026-09-18T16:40:00-06:00",
+    "end": "2026-09-18T16:30:00-06:00",
     "type": "main"
   },
   {
-    "id": "fri-main-1615",
-    "artist": "hoodoo-mercantile",
-    "stage": "main",
-    "start": "2026-09-18T16:15:00-06:00",
-    "end": "2026-09-18T17:25:00-06:00",
+    "id": "fri-truck-1430-kirk-fletcher-2026",
+    "artist": "kirk-fletcher-2026",
+    "stage": "truck",
+    "start": "2026-09-18T14:30:00-06:00",
+    "end": "2026-09-18T15:30:00-06:00",
     "type": "main"
   },
   {
-    "id": "fri-blues-1710",
-    "artist": "the-blue-dram",
-    "stage": "blues",
-    "start": "2026-09-18T17:10:00-06:00",
-    "end": "2026-09-18T18:20:00-06:00",
+    "id": "fri-truck-1740-ken-valdez",
+    "artist": "ken-valdez",
+    "stage": "truck",
+    "start": "2026-09-18T17:40:00-06:00",
+    "end": "2026-09-18T18:10:00-06:00",
     "type": "main"
   },
   {
-    "id": "fri-main-1750",
-    "artist": "cotton-gin-social-club",
-    "stage": "main",
-    "start": "2026-09-18T17:50:00-06:00",
-    "end": "2026-09-18T19:05:00-06:00",
-    "type": "main"
+    "id": "fri-beer-garden-1300-brewers-showcase",
+    "artist": "brewers-showcase",
+    "stage": "beer-garden",
+    "start": "2026-09-18T13:00:00-06:00",
+    "end": "2026-09-18T15:00:00-06:00",
+    "type": "showcase",
+    "note": "Session One. 25+ breweries pouring 70+ styles plus the Colorado Brewers Guild tasting tent. 21+; requires a Single-Day or 3-Day festival pass in addition to the tasting ticket."
   },
   {
-    "id": "fri-main-1935",
-    "artist": "ruby-slate",
-    "stage": "main",
-    "start": "2026-09-18T19:35:00-06:00",
-    "end": "2026-09-18T21:00:00-06:00",
-    "type": "main"
+    "id": "fri-beer-garden-1600-brewers-showcase",
+    "artist": "brewers-showcase",
+    "stage": "beer-garden",
+    "start": "2026-09-18T16:00:00-06:00",
+    "end": "2026-09-18T18:00:00-06:00",
+    "type": "showcase",
+    "note": "Session Two. 25+ breweries pouring 70+ styles plus the Colorado Brewers Guild tasting tent. 21+; requires a Single-Day or 3-Day festival pass in addition to the tasting ticket."
   },
   {
-    "id": "fri-comedy-2000",
-    "artist": "cricket-fontaine",
-    "stage": "conference-center",
-    "start": "2026-09-18T20:00:00-06:00",
-    "end": "2026-09-18T21:15:00-06:00",
-    "type": "comedy",
-    "note": "Blues & Bad Jokes — storytelling and stand-up, hosted by Cricket Fontaine. Separate ticket."
-  },
-  {
-    "id": "fri-main-2120",
-    "artist": "delta-vaudeville",
-    "stage": "main",
-    "start": "2026-09-18T21:20:00-06:00",
-    "end": "2026-09-18T22:30:00-06:00",
-    "type": "main",
-    "note": "Friday headline set."
-  },
-  {
-    "id": "fri-opera-2200",
-    "artist": "the-blue-dram",
-    "stage": "opera-house",
+    "id": "fri-sheridan-opera-house-2200-eggy",
+    "artist": "eggy",
+    "stage": "sheridan-opera-house",
     "start": "2026-09-18T22:00:00-06:00",
     "end": "2026-09-18T23:30:00-06:00",
     "type": "club",
-    "note": "Late-night club show. Separate ticket."
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
   },
   {
-    "id": "fri-conf-2215",
-    "artist": "lantern-city-horns",
-    "stage": "conference-center",
-    "start": "2026-09-18T22:15:00-06:00",
-    "end": "2026-09-18T23:45:00-06:00",
+    "id": "fri-sheridan-opera-house-2200-terry-harmonica-bean-2026",
+    "artist": "terry-harmonica-bean-2026",
+    "stage": "sheridan-opera-house",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
     "type": "club",
-    "note": "Late-night club show in Mountain Village. Separate ticket."
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
   },
   {
-    "id": "fri-flymoon-2230",
-    "artist": "low-country-static",
-    "stage": "fly-me-to-the-moon",
-    "start": "2026-09-18T22:30:00-06:00",
-    "end": "2026-09-19T01:00:00-06:00",
+    "id": "fri-elks-lodge-2200-myron-elkins",
+    "artist": "myron-elkins",
+    "stage": "elks-lodge",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
     "type": "club",
-    "note": "Late-night club show. Separate ticket. 21+."
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch. The schedule writes this venue as \"The Elks\" on Friday and \"Elks Lodge\" on Saturday."
   },
   {
-    "id": "sat-5k-0800",
-    "artist": "junction-blue",
-    "stage": "main",
-    "start": "2026-09-19T08:00:00-06:00",
-    "end": "2026-09-19T10:00:00-06:00",
-    "type": "5k",
-    "note": "Blues & Brews 5K along the San Miguel River Trail. Live music at the finish line."
-  },
-  {
-    "id": "sat-yoga-0830",
-    "artist": "odessa-pike",
+    "id": "fri-blues-2200-the-record-company",
+    "artist": "the-record-company",
     "stage": "blues",
-    "start": "2026-09-19T08:30:00-06:00",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch. The Blues Stage doubles as the largest Juke Joint venue at night."
+  },
+  {
+    "id": "fri-blues-2200-ken-valdez",
+    "artist": "ken-valdez",
+    "stage": "blues",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch. The Blues Stage doubles as the largest Juke Joint venue at night."
+  },
+  {
+    "id": "fri-moon-obannons-2200-greyhounds",
+    "artist": "greyhounds",
+    "stage": "moon-obannons",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "fri-liz-2200-troy-walker-2026",
+    "artist": "troy-walker-2026",
+    "stage": "liz",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "fri-liz-2200-baron-vaughn",
+    "artist": "baron-vaughn",
+    "stage": "liz",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "fri-liz-2200-kiran-deol",
+    "artist": "kiran-deol",
+    "stage": "liz",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "fri-liz-2200-hannah-jones",
+    "artist": "hannah-jones",
+    "stage": "liz",
+    "start": "2026-09-18T22:00:00-06:00",
+    "end": "2026-09-18T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-elks-park-0850-blisters-brews-5k",
+    "artist": "blisters-brews-5k",
+    "stage": "elks-park",
+    "start": "2026-09-19T08:50:00-06:00",
     "end": "2026-09-19T09:30:00-06:00",
-    "type": "yoga",
-    "note": "Sunrise yoga on the Town Park lawn. Mats provided."
+    "type": "5k",
+    "note": "$35, benefiting the Telluride Adaptive Sports Program."
   },
   {
-    "id": "sat-kids-1100",
-    "artist": "the-gravel-choir",
-    "stage": "blues",
-    "start": "2026-09-19T11:00:00-06:00",
+    "id": "sat-elks-lodge-0900-blues-for-breakfast",
+    "artist": "blues-for-breakfast",
+    "stage": "elks-lodge",
+    "start": "2026-09-19T09:00:00-06:00",
     "end": "2026-09-19T12:00:00-06:00",
-    "type": "kids",
-    "note": "Kids' Tent singalong and instrument petting zoo. Free with any ticket."
+    "type": "club",
+    "note": "Blues For Breakfast, running alongside the Telluride Blues Challenge. The Challenge winner plays a 15-minute Main Stage slot at 2:45 PM the same day."
   },
   {
-    "id": "sat-main-1200",
-    "artist": "eight-mile-ferry",
+    "id": "sat-elks-park-1000-yoga-sessions",
+    "artist": "yoga-sessions",
+    "stage": "elks-park",
+    "start": "2026-09-19T10:00:00-06:00",
+    "end": "2026-09-19T11:00:00-06:00",
+    "type": "yoga",
+    "note": "Free and guided; no ticket required."
+  },
+  {
+    "id": "sat-main-1200-j-the-causeways",
+    "artist": "j-the-causeways",
     "stage": "main",
     "start": "2026-09-19T12:00:00-06:00",
-    "end": "2026-09-19T13:05:00-06:00",
+    "end": "2026-09-19T13:00:00-06:00",
     "type": "main"
   },
   {
-    "id": "sat-blues-1220",
-    "artist": "saltwater-baptist",
-    "stage": "blues",
-    "start": "2026-09-19T12:20:00-06:00",
-    "end": "2026-09-19T13:20:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sat-show-1300",
-    "artist": "cricket-fontaine",
-    "stage": "showcase",
-    "start": "2026-09-19T13:00:00-06:00",
-    "end": "2026-09-19T14:00:00-06:00",
-    "type": "showcase"
-  },
-  {
-    "id": "sat-main-1330",
-    "artist": "odessa-pike",
+    "id": "sat-main-1330-judith-hill",
+    "artist": "judith-hill",
     "stage": "main",
     "start": "2026-09-19T13:30:00-06:00",
-    "end": "2026-09-19T14:35:00-06:00",
+    "end": "2026-09-19T14:30:00-06:00",
     "type": "main"
   },
   {
-    "id": "sat-blues-1345",
-    "artist": "the-yellow-dog-transit",
-    "stage": "blues",
-    "start": "2026-09-19T13:45:00-06:00",
-    "end": "2026-09-19T14:50:00-06:00",
-    "type": "main"
+    "id": "sat-main-1445-blues-challenge-winner-2026",
+    "artist": "blues-challenge-winner-2026",
+    "stage": "main",
+    "start": "2026-09-19T14:45:00-06:00",
+    "end": "2026-09-19T15:00:00-06:00",
+    "type": "main",
+    "note": "A 15-minute Main Stage slot for the winner of that morning’s Telluride Blues Challenge. The performer is not named in advance on the official schedule."
   },
   {
-    "id": "sat-main-1500",
-    "artist": "the-tin-roof-preachers",
+    "id": "sat-main-1500-nether-hour",
+    "artist": "nether-hour",
     "stage": "main",
     "start": "2026-09-19T15:00:00-06:00",
-    "end": "2026-09-19T16:10:00-06:00",
+    "end": "2026-09-19T16:00:00-06:00",
     "type": "main"
   },
   {
-    "id": "sat-blues-1515",
-    "artist": "panhandle-electric",
-    "stage": "blues",
-    "start": "2026-09-19T15:15:00-06:00",
-    "end": "2026-09-19T16:25:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sat-show-1530",
-    "artist": "the-gravel-choir",
-    "stage": "showcase",
-    "start": "2026-09-19T15:30:00-06:00",
-    "end": "2026-09-19T16:30:00-06:00",
-    "type": "showcase"
-  },
-  {
-    "id": "sat-main-1635",
-    "artist": "brass-hollow",
+    "id": "sat-main-1630-charlie-musselwhite-ga20",
+    "artist": "charlie-musselwhite-ga20",
     "stage": "main",
-    "start": "2026-09-19T16:35:00-06:00",
-    "end": "2026-09-19T17:50:00-06:00",
+    "start": "2026-09-19T16:30:00-06:00",
+    "end": "2026-09-19T17:40:00-06:00",
     "type": "main"
   },
   {
-    "id": "sat-blues-1650",
-    "artist": "quicksilver-junction",
-    "stage": "blues",
-    "start": "2026-09-19T16:50:00-06:00",
-    "end": "2026-09-19T18:00:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sat-main-1815",
-    "artist": "lantern-city-horns",
+    "id": "sat-main-1810-the-record-company",
+    "artist": "the-record-company",
     "stage": "main",
-    "start": "2026-09-19T18:15:00-06:00",
-    "end": "2026-09-19T19:25:00-06:00",
+    "start": "2026-09-19T18:10:00-06:00",
+    "end": "2026-09-19T19:20:00-06:00",
     "type": "main"
   },
   {
-    "id": "sat-blues-1825",
-    "artist": "the-rambler-nine",
-    "stage": "blues",
-    "start": "2026-09-19T18:25:00-06:00",
-    "end": "2026-09-19T19:40:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sat-main-1950",
-    "artist": "the-copperline-revue",
+    "id": "sat-main-2000-taj-mahal-keb-mo",
+    "artist": "taj-mahal-keb-mo",
     "stage": "main",
-    "start": "2026-09-19T19:50:00-06:00",
-    "end": "2026-09-19T21:05:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sat-comedy-2000",
-    "artist": "purefoy-and-the-mule",
-    "stage": "conference-center",
     "start": "2026-09-19T20:00:00-06:00",
-    "end": "2026-09-19T21:15:00-06:00",
-    "type": "comedy",
-    "note": "Late-Night Laughs in Mountain Village. Separate ticket."
-  },
-  {
-    "id": "sat-main-2130",
-    "artist": "mercy-lowdown",
-    "stage": "main",
-    "start": "2026-09-19T21:30:00-06:00",
-    "end": "2026-09-19T22:30:00-06:00",
+    "end": "2026-09-19T21:30:00-06:00",
     "type": "main",
     "note": "Saturday headline set."
   },
   {
-    "id": "sat-opera-2200",
-    "artist": "ruby-slate",
-    "stage": "opera-house",
-    "start": "2026-09-19T22:00:00-06:00",
-    "end": "2026-09-19T23:30:00-06:00",
-    "type": "club",
-    "note": "Late-night club show. Separate ticket."
-  },
-  {
-    "id": "sat-conf-2230",
-    "artist": "the-rambler-nine",
-    "stage": "conference-center",
-    "start": "2026-09-19T22:30:00-06:00",
-    "end": "2026-09-20T00:30:00-06:00",
-    "type": "club",
-    "note": "Late-night club show in Mountain Village. Separate ticket."
-  },
-  {
-    "id": "sat-flymoon-2300",
-    "artist": "purefoy-and-the-mule",
-    "stage": "fly-me-to-the-moon",
-    "start": "2026-09-19T23:00:00-06:00",
-    "end": "2026-09-20T01:30:00-06:00",
-    "type": "club",
-    "note": "Late-night club show. Separate ticket. 21+."
-  },
-  {
-    "id": "sun-yoga-0830",
-    "artist": "odessa-pike",
+    "id": "sat-blues-1300-derrick-dove-the-peacekeepers",
+    "artist": "derrick-dove-the-peacekeepers",
     "stage": "blues",
-    "start": "2026-09-20T08:30:00-06:00",
-    "end": "2026-09-20T09:30:00-06:00",
-    "type": "yoga",
-    "note": "Sunrise yoga on the Town Park lawn. Mats provided."
-  },
-  {
-    "id": "sun-kids-1100",
-    "artist": "the-tallow-sisters",
-    "stage": "blues",
-    "start": "2026-09-20T11:00:00-06:00",
-    "end": "2026-09-20T12:00:00-06:00",
-    "type": "kids",
-    "note": "Kids' Tent singalong. Free with any ticket."
-  },
-  {
-    "id": "sun-main-1200",
-    "artist": "sister-ida-bloom",
-    "stage": "main",
-    "start": "2026-09-20T12:00:00-06:00",
-    "end": "2026-09-20T13:00:00-06:00",
-    "type": "main",
-    "note": "Sunday gospel set."
-  },
-  {
-    "id": "sun-blues-1230",
-    "artist": "sable-mountain-choir",
-    "stage": "blues",
-    "start": "2026-09-20T12:30:00-06:00",
-    "end": "2026-09-20T13:35:00-06:00",
+    "start": "2026-09-19T13:00:00-06:00",
+    "end": "2026-09-19T14:00:00-06:00",
     "type": "main"
   },
   {
-    "id": "sun-show-1300",
-    "artist": "wildwood-telegraph",
-    "stage": "showcase",
-    "start": "2026-09-20T13:00:00-06:00",
-    "end": "2026-09-20T14:00:00-06:00",
-    "type": "showcase"
+    "id": "sat-blues-1430-kirk-fletcher-2026",
+    "artist": "kirk-fletcher-2026",
+    "stage": "blues",
+    "start": "2026-09-19T14:30:00-06:00",
+    "end": "2026-09-19T15:30:00-06:00",
+    "type": "main"
   },
   {
-    "id": "sun-main-1325",
-    "artist": "the-tallow-sisters",
+    "id": "sat-blues-1600-troy-walker-2026",
+    "artist": "troy-walker-2026",
+    "stage": "blues",
+    "start": "2026-09-19T16:00:00-06:00",
+    "end": "2026-09-19T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-blues-1600-baron-vaughn",
+    "artist": "baron-vaughn",
+    "stage": "blues",
+    "start": "2026-09-19T16:00:00-06:00",
+    "end": "2026-09-19T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-blues-1600-kiran-deol",
+    "artist": "kiran-deol",
+    "stage": "blues",
+    "start": "2026-09-19T16:00:00-06:00",
+    "end": "2026-09-19T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-blues-1600-hannah-jones",
+    "artist": "hannah-jones",
+    "stage": "blues",
+    "start": "2026-09-19T16:00:00-06:00",
+    "end": "2026-09-19T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-blues-1730-albert-white-2026",
+    "artist": "albert-white-2026",
+    "stage": "blues",
+    "start": "2026-09-19T17:30:00-06:00",
+    "end": "2026-09-19T18:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sat-campground-1230-nigel-wearne-the-spectres",
+    "artist": "nigel-wearne-the-spectres",
+    "stage": "campground",
+    "start": "2026-09-19T12:30:00-06:00",
+    "end": "2026-09-19T13:30:00-06:00",
+    "type": "main",
+    "note": "Listed on the official schedule as \"Nigel Wearne\"."
+  },
+  {
+    "id": "sat-campground-1400-david-jacobsstrain-and-bob-beach",
+    "artist": "david-jacobsstrain-and-bob-beach",
+    "stage": "campground",
+    "start": "2026-09-19T14:00:00-06:00",
+    "end": "2026-09-19T15:00:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sat-campground-1530-troy-walker-2026",
+    "artist": "troy-walker-2026",
+    "stage": "campground",
+    "start": "2026-09-19T15:30:00-06:00",
+    "end": "2026-09-19T16:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-campground-1530-baron-vaughn",
+    "artist": "baron-vaughn",
+    "stage": "campground",
+    "start": "2026-09-19T15:30:00-06:00",
+    "end": "2026-09-19T16:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-campground-1530-kiran-deol",
+    "artist": "kiran-deol",
+    "stage": "campground",
+    "start": "2026-09-19T15:30:00-06:00",
+    "end": "2026-09-19T16:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-campground-1530-hannah-jones",
+    "artist": "hannah-jones",
+    "stage": "campground",
+    "start": "2026-09-19T15:30:00-06:00",
+    "end": "2026-09-19T16:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sat-truck-1430-katie-skene",
+    "artist": "katie-skene",
+    "stage": "truck",
+    "start": "2026-09-19T14:30:00-06:00",
+    "end": "2026-09-19T15:30:00-06:00",
+    "type": "main",
+    "note": "Katie Skene’s own artist page labels this slot \"Artist Pop-Up — Festival Field, 2:30–3:00 PM\" while the schedule page gives Truck Stage, 2:30–3:30 PM. The two appear to be the same thing; the schedule page is used here. Unresolved on the official site."
+  },
+  {
+    "id": "sat-truck-1600-nigel-wearne-the-spectres",
+    "artist": "nigel-wearne-the-spectres",
+    "stage": "truck",
+    "start": "2026-09-19T16:00:00-06:00",
+    "end": "2026-09-19T16:30:00-06:00",
+    "type": "main",
+    "note": "Listed on the official schedule as \"Nigel Wearne\"."
+  },
+  {
+    "id": "sat-truck-1740-derrick-dove-the-peacekeepers",
+    "artist": "derrick-dove-the-peacekeepers",
+    "stage": "truck",
+    "start": "2026-09-19T17:40:00-06:00",
+    "end": "2026-09-19T18:10:00-06:00",
+    "type": "main",
+    "note": "This slot sits inside the Main Stage changeover gap."
+  },
+  {
+    "id": "sat-beer-garden-1300-brewers-showcase",
+    "artist": "brewers-showcase",
+    "stage": "beer-garden",
+    "start": "2026-09-19T13:00:00-06:00",
+    "end": "2026-09-19T15:00:00-06:00",
+    "type": "showcase",
+    "note": "Session One. 25+ breweries pouring 70+ styles plus the Colorado Brewers Guild tasting tent. 21+; requires a Single-Day or 3-Day festival pass in addition to the tasting ticket."
+  },
+  {
+    "id": "sat-beer-garden-1600-brewers-showcase",
+    "artist": "brewers-showcase",
+    "stage": "beer-garden",
+    "start": "2026-09-19T16:00:00-06:00",
+    "end": "2026-09-19T18:00:00-06:00",
+    "type": "showcase",
+    "note": "Session Two — the rare-beer session. 35 or more high-ABV, barrel-aged, rare, wild and non-traditional beers. 21+; requires a Single-Day or 3-Day festival pass in addition to the tasting ticket."
+  },
+  {
+    "id": "sat-sheridan-opera-house-2200-tab-benoit-2026",
+    "artist": "tab-benoit-2026",
+    "stage": "sheridan-opera-house",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-sheridan-opera-house-2200-nether-hour",
+    "artist": "nether-hour",
+    "stage": "sheridan-opera-house",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-moon-obannons-2200-j-the-causeways",
+    "artist": "j-the-causeways",
+    "stage": "moon-obannons",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-blues-2200-samantha-fish-2026",
+    "artist": "samantha-fish-2026",
+    "stage": "blues",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch. The Blues Stage doubles as the largest Juke Joint venue at night."
+  },
+  {
+    "id": "sat-blues-2200-zac-shulze-gang",
+    "artist": "zac-shulze-gang",
+    "stage": "blues",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch. The Blues Stage doubles as the largest Juke Joint venue at night."
+  },
+  {
+    "id": "sat-elks-lodge-2200-judith-hill",
+    "artist": "judith-hill",
+    "stage": "elks-lodge",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "club",
+    "note": "Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-liz-2200-troy-walker-2026",
+    "artist": "troy-walker-2026",
+    "stage": "liz",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-liz-2200-baron-vaughn",
+    "artist": "baron-vaughn",
+    "stage": "liz",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-liz-2200-kiran-deol",
+    "artist": "kiran-deol",
+    "stage": "liz",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sat-liz-2200-hannah-jones",
+    "artist": "hannah-jones",
+    "stage": "liz",
+    "start": "2026-09-19T22:00:00-06:00",
+    "end": "2026-09-19T23:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets. Juke Joint. VIP doors 9:30 PM, GA doors 9:45 PM, show 10:00 PM. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
+  },
+  {
+    "id": "sun-elks-lodge-0900-alex-maryol",
+    "artist": "alex-maryol",
+    "stage": "elks-lodge",
+    "start": "2026-09-20T09:00:00-06:00",
+    "end": "2026-09-20T12:00:00-06:00",
+    "type": "club",
+    "note": "Blues For Breakfast. The official schedule lists this morning at both the Elks Lodge and the Madeline Hotel; Alex Maryol’s own artist page places him at the Elks Lodge."
+  },
+  {
+    "id": "sun-elks-park-1000-yoga-sessions",
+    "artist": "yoga-sessions",
+    "stage": "elks-park",
+    "start": "2026-09-20T10:00:00-06:00",
+    "end": "2026-09-20T11:00:00-06:00",
+    "type": "yoga",
+    "note": "Free and guided; no ticket required."
+  },
+  {
+    "id": "sun-main-1200-the-harlem-gospel-travelers",
+    "artist": "the-harlem-gospel-travelers",
     "stage": "main",
-    "start": "2026-09-20T13:25:00-06:00",
+    "start": "2026-09-20T12:00:00-06:00",
+    "end": "2026-09-20T13:00:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sun-main-1330-dk-harrell",
+    "artist": "dk-harrell",
+    "stage": "main",
+    "start": "2026-09-20T13:30:00-06:00",
     "end": "2026-09-20T14:30:00-06:00",
     "type": "main"
   },
   {
-    "id": "sun-blues-1400",
-    "artist": "the-tin-roof-preachers",
-    "stage": "blues",
-    "start": "2026-09-20T14:00:00-06:00",
-    "end": "2026-09-20T15:10:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sun-main-1455",
-    "artist": "cricket-fontaine",
+    "id": "sun-main-1500-eddie-9v",
+    "artist": "eddie-9v",
     "stage": "main",
-    "start": "2026-09-20T14:55:00-06:00",
-    "end": "2026-09-20T16:05:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sun-show-1500",
-    "artist": "bitterroot-mabel",
-    "stage": "showcase",
     "start": "2026-09-20T15:00:00-06:00",
     "end": "2026-09-20T16:00:00-06:00",
-    "type": "showcase"
-  },
-  {
-    "id": "sun-blues-1535",
-    "artist": "low-country-static",
-    "stage": "blues",
-    "start": "2026-09-20T15:35:00-06:00",
-    "end": "2026-09-20T16:45:00-06:00",
     "type": "main"
   },
   {
-    "id": "sun-main-1630",
-    "artist": "hoodoo-mercantile",
+    "id": "sun-main-1630-samantha-fish-2026",
+    "artist": "samantha-fish-2026",
     "stage": "main",
     "start": "2026-09-20T16:30:00-06:00",
-    "end": "2026-09-20T17:45:00-06:00",
+    "end": "2026-09-20T17:40:00-06:00",
     "type": "main"
   },
   {
-    "id": "sun-blues-1710",
-    "artist": "eight-mile-ferry",
-    "stage": "blues",
-    "start": "2026-09-20T17:10:00-06:00",
-    "end": "2026-09-20T18:20:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sun-main-1810",
-    "artist": "junction-blue",
+    "id": "sun-main-1810-tab-benoit-2026",
+    "artist": "tab-benoit-2026",
     "stage": "main",
     "start": "2026-09-20T18:10:00-06:00",
-    "end": "2026-09-20T19:25:00-06:00",
+    "end": "2026-09-20T19:20:00-06:00",
     "type": "main"
   },
   {
-    "id": "sun-main-1950",
-    "artist": "brass-hollow",
+    "id": "sun-main-2000-jon-batiste",
+    "artist": "jon-batiste",
     "stage": "main",
-    "start": "2026-09-20T19:50:00-06:00",
-    "end": "2026-09-20T21:05:00-06:00",
-    "type": "main"
-  },
-  {
-    "id": "sun-main-2125",
-    "artist": "delta-vaudeville",
-    "stage": "main",
-    "start": "2026-09-20T21:25:00-06:00",
-    "end": "2026-09-20T22:30:00-06:00",
+    "start": "2026-09-20T20:00:00-06:00",
+    "end": "2026-09-20T21:30:00-06:00",
     "type": "main",
-    "note": "Sunday headline set — festival close."
+    "note": "Sunday headline set and the festival’s closing performance."
   },
   {
-    "id": "sun-opera-2200",
-    "artist": "marigold-and-the-thieves",
-    "stage": "opera-house",
-    "start": "2026-09-20T22:00:00-06:00",
-    "end": "2026-09-20T23:15:00-06:00",
-    "type": "club",
-    "note": "Closing-night club show. Separate ticket."
+    "id": "sun-blues-1300-zac-shulze-gang",
+    "artist": "zac-shulze-gang",
+    "stage": "blues",
+    "start": "2026-09-20T13:00:00-06:00",
+    "end": "2026-09-20T14:00:00-06:00",
+    "type": "main"
   },
   {
-    "id": "sun-flymoon-2200",
-    "artist": "panhandle-electric",
-    "stage": "fly-me-to-the-moon",
+    "id": "sun-blues-1430-ken-valdez",
+    "artist": "ken-valdez",
+    "stage": "blues",
+    "start": "2026-09-20T14:30:00-06:00",
+    "end": "2026-09-20T15:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sun-blues-1600-troy-walker-2026",
+    "artist": "troy-walker-2026",
+    "stage": "blues",
+    "start": "2026-09-20T16:00:00-06:00",
+    "end": "2026-09-20T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-blues-1600-baron-vaughn",
+    "artist": "baron-vaughn",
+    "stage": "blues",
+    "start": "2026-09-20T16:00:00-06:00",
+    "end": "2026-09-20T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-blues-1600-kiran-deol",
+    "artist": "kiran-deol",
+    "stage": "blues",
+    "start": "2026-09-20T16:00:00-06:00",
+    "end": "2026-09-20T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-blues-1600-hannah-jones",
+    "artist": "hannah-jones",
+    "stage": "blues",
+    "start": "2026-09-20T16:00:00-06:00",
+    "end": "2026-09-20T17:00:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-blues-1730-terry-harmonica-bean-2026",
+    "artist": "terry-harmonica-bean-2026",
+    "stage": "blues",
+    "start": "2026-09-20T17:30:00-06:00",
+    "end": "2026-09-20T18:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sun-campground-1230-troy-walker-2026",
+    "artist": "troy-walker-2026",
+    "stage": "campground",
+    "start": "2026-09-20T12:30:00-06:00",
+    "end": "2026-09-20T13:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-campground-1230-baron-vaughn",
+    "artist": "baron-vaughn",
+    "stage": "campground",
+    "start": "2026-09-20T12:30:00-06:00",
+    "end": "2026-09-20T13:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-campground-1230-kiran-deol",
+    "artist": "kiran-deol",
+    "stage": "campground",
+    "start": "2026-09-20T12:30:00-06:00",
+    "end": "2026-09-20T13:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-campground-1230-hannah-jones",
+    "artist": "hannah-jones",
+    "stage": "campground",
+    "start": "2026-09-20T12:30:00-06:00",
+    "end": "2026-09-20T13:30:00-06:00",
+    "type": "comedy",
+    "note": "Combined stand-up bill — Troy Walker, Baron Vaughn, Kiran Deol and Hannah Jones are billed together in this slot rather than as separate sets."
+  },
+  {
+    "id": "sun-campground-1400-alex-maryol",
+    "artist": "alex-maryol",
+    "stage": "campground",
+    "start": "2026-09-20T14:00:00-06:00",
+    "end": "2026-09-20T15:00:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sun-campground-1530-little-willie-farmer",
+    "artist": "little-willie-farmer",
+    "stage": "campground",
+    "start": "2026-09-20T15:30:00-06:00",
+    "end": "2026-09-20T16:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sun-truck-1600-derrick-dove-the-peacekeepers",
+    "artist": "derrick-dove-the-peacekeepers",
+    "stage": "truck",
+    "start": "2026-09-20T16:00:00-06:00",
+    "end": "2026-09-20T16:30:00-06:00",
+    "type": "main"
+  },
+  {
+    "id": "sun-truck-1740-zac-shulze-gang",
+    "artist": "zac-shulze-gang",
+    "stage": "truck",
+    "start": "2026-09-20T17:40:00-06:00",
+    "end": "2026-09-20T18:10:00-06:00",
+    "type": "main",
+    "note": "This slot sits inside the Main Stage changeover gap."
+  },
+  {
+    "id": "sun-sheridan-opera-house-2200-eddie-9v",
+    "artist": "eddie-9v",
+    "stage": "sheridan-opera-house",
     "start": "2026-09-20T22:00:00-06:00",
-    "end": "2026-09-21T00:30:00-06:00",
+    "end": "2026-09-20T23:30:00-06:00",
     "type": "club",
-    "note": "Closing-night club show. Separate ticket. 21+."
+    "note": "Fais Do-Do — the Sunday closing show. The /schedule page gives doors 9:30 PM and show 10:00 PM while the /late-night-shows page gives doors 8:30 PM and show 9:00 PM; the schedule page is used here. Unresolved on the official site. The festival publishes a start time for this show but no end time; the end value here is a one-set placeholder and must be replaced before launch."
   }
 ]

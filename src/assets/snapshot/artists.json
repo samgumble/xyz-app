@@ -1,443 +1,797 @@
 [
   {
-    "slug": "delta-vaudeville",
-    "name": "Delta Vaudeville",
-    "bio": "A seven-piece out of Memphis that plays the blues like a travelling medicine show: two horns, a Hammond organ, and a frontwoman who works a field like a tent revival. Their third record turned a reliable bar band into a festival act more or less overnight. Live, they stretch the songs until the horn section starts arguing with itself.",
+    "slug": "marcus-king-band",
+    "name": "Marcus King Band",
+    "bio": "Marcus King is a South Carolina guitarist and singer who has been working as a professional musician since he was a teenager, and his playing sits where blues, southern rock and soul overlap. His recent record Darling Blue is openly about coming through a hard stretch and out the other side, and that candor carries into how he performs live. This is his first time closing the Telluride Blues & Brews main stage.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433216417-L45YMEUG2Z65XR40FE0M/2026-website-artist-gallery-icons-1-marcus-king-band.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/096cf2ec-8fb0-428f-a035-113bb4d59f39/marcus-king-web.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/Delta%20Vaudeville",
-      "apple": "https://music.apple.com/us/search?term=Delta%20Vaudeville",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Delta%20Vaudeville",
-      "website": "https://duckduckgo.com/?q=Delta%20Vaudeville%20band"
+      "website": "https://www.marcuskingofficial.com/",
+      "instagram": "https://www.instagram.com/realmarcusking/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/marcuskingofficial/",
+      "tiktok": "https://www.tiktok.com/@marcusking",
+      "youtube": "https://www.youtube.com/channel/UC6dwaC5J_YiXXsRCZhqK3yw"
     },
     "tags": [
-      "blues",
-      "soul",
-      "rock"
-    ],
-    "headliner": true
-  },
-  {
-    "slug": "the-copperline-revue",
-    "name": "The Copperline Revue",
-    "bio": "Nine musicians, three singers, and a horn chart for absolutely everything. The Copperline Revue is a Muscle Shoals soul band that flatly refuses to be a nostalgia act, opening with a slow burner and finishing somewhere in the neighborhood of gospel. This is their first tour with the full string section, so the ballads land differently than they used to.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/The%20Copperline%20Revue",
-      "apple": "https://music.apple.com/us/search?term=The%20Copperline%20Revue",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Copperline%20Revue",
-      "website": "https://duckduckgo.com/?q=The%20Copperline%20Revue%20band"
-    },
-    "tags": [
-      "soul",
-      "funk",
-      "r&b"
-    ],
-    "headliner": true
-  },
-  {
-    "slug": "mercy-lowdown",
-    "name": "Mercy Lowdown",
-    "bio": "Mercy Lowdown sings like she has somewhere to be and the song is in the way. She spent a decade as a session vocalist before anyone put her name on the front of a record, and that apprenticeship shows up in the writing. Her band is deliberately small — bass, drums, one guitar — which leaves a great deal of room for her to use.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Mercy%20Lowdown",
-      "apple": "https://music.apple.com/us/search?term=Mercy%20Lowdown",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Mercy%20Lowdown",
-      "website": "https://duckduckgo.com/?q=Mercy%20Lowdown%20band"
-    },
-    "tags": [
-      "soul",
-      "blues",
-      "r&b"
-    ],
-    "headliner": true
-  },
-  {
-    "slug": "ruby-slate",
-    "name": "Ruby Slate",
-    "bio": "Ruby Slate came up playing Tuesday nights in Kansas City clubs and still tunes her Telecaster by ear between songs. She writes short, mean, funny songs about landlords and long drives, and she plays every solo herself. Her band has not changed personnel in nine years, and you can hear it in how little anyone has to look up.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Ruby%20Slate",
-      "apple": "https://music.apple.com/us/search?term=Ruby%20Slate",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Ruby%20Slate",
-      "website": "https://duckduckgo.com/?q=Ruby%20Slate%20band"
-    },
-    "tags": [
-      "blues",
-      "guitar",
-      "rock"
-    ]
-  },
-  {
-    "slug": "hoodoo-mercantile",
-    "name": "Hoodoo Mercantile",
-    "bio": "Swamp blues built on a baritone guitar and a drummer who plays behind the beat on purpose. Hoodoo Mercantile records live to tape in a converted feed store outside Lafayette and has never punched in a fix. Their sets start quiet enough to make you lean in and end with the whole field shouting the chorus back.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Hoodoo%20Mercantile",
-      "apple": "https://music.apple.com/us/search?term=Hoodoo%20Mercantile",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Hoodoo%20Mercantile",
-      "website": "https://duckduckgo.com/?q=Hoodoo%20Mercantile%20band"
-    },
-    "tags": [
-      "blues",
-      "swamp",
-      "roots"
-    ]
-  },
-  {
-    "slug": "sable-mountain-choir",
-    "name": "Sable Mountain Choir",
-    "bio": "A twelve-voice gospel ensemble that has been singing together in one form or another since 2009. They arrange everything themselves and travel with only a drummer and an organist, which is all they have ever needed. Their Sunday morning sets have been known to make people quietly put their beer down.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Sable%20Mountain%20Choir",
-      "apple": "https://music.apple.com/us/search?term=Sable%20Mountain%20Choir",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Sable%20Mountain%20Choir",
-      "website": "https://duckduckgo.com/?q=Sable%20Mountain%20Choir%20band"
-    },
-    "tags": [
-      "gospel",
+      "blues rock",
+      "southern rock",
       "soul"
-    ]
+    ],
+    "headliner": true
   },
   {
-    "slug": "junction-blue",
-    "name": "Junction Blue",
-    "bio": "A Denver four-piece with a Front Range take on Chicago blues: loud, tight, and a little impatient. They cut their teeth opening for touring acts on Colfax and now sell out their own nights. Expect two guitars trading fours for considerably longer than is strictly reasonable.",
+    "slug": "taj-mahal-keb-mo",
+    "name": "Taj Mahal & Keb' Mo'",
+    "bio": "Two elder statesmen of American blues — Henry St. Claire Fredericks Jr. and Kevin Roosevelt Moore — touring the pairing that won them a Grammy for Best Contemporary Blues Album with 2017's TajMo, now extended by the newer collection Room on the Porch. The set leans warm and conversational rather than loud: acoustic-forward blues, two voices trading lines, songs pitched as a place to put your guard down. Taj Mahal has deep history with this specific venue, having joined The Allman Brothers Band here in 1991 and again with Gregg Allman in 2015.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433216494-48OTNF0IGGD63DWFRG5B/2026-website-artist-gallery-icons-2-taj-mahal-keb-mo.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/7ec8d2f8-4011-4073-9c7e-3014bd801efc/taj-mahal-keb-mo-web.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/Junction%20Blue",
-      "apple": "https://music.apple.com/us/search?term=Junction%20Blue",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Junction%20Blue",
-      "website": "https://duckduckgo.com/?q=Junction%20Blue%20band"
+      "website": "https://www.tajblues.com/",
+      "spotify": "https://open.spotify.com/artist/1aTDTChWWyiJH3SEnYrdVp",
+      "instagram": "https://www.instagram.com/kebmomusic"
+    },
+    "linksExtra": {
+      "websiteAlt": "https://kebmo.com/",
+      "instagramAlt": "http://instagram.com/tajmahalblues",
+      "facebook": "https://www.facebook.com/kebmo",
+      "facebookAlt": "https://www.facebook.com/tajmahal"
     },
     "tags": [
       "blues",
-      "rock"
-    ]
+      "contemporary blues",
+      "acoustic blues",
+      "Americana"
+    ],
+    "headliner": true
   },
   {
-    "slug": "the-tin-roof-preachers",
-    "name": "The Tin Roof Preachers",
-    "bio": "Roots music with a pulpit streak — mandolin, resonator, upright bass, and four voices that mostly stay in tune. The Tin Roof Preachers write about weather, debt, and the highway, in roughly that order. They have played every kind of room and seem to prefer the outdoor ones.",
+    "slug": "jon-batiste",
+    "name": "Jon Batiste",
+    "bio": "A New Orleans–born pianist and bandleader who trained at the New Orleans Center for Creative Arts and then Juilliard, where he took a master's in jazz. Wide audiences know him from more than 300 episodes fronting Stay Human as the house band on The Late Show. His awards shelf includes five Grammy wins from twenty nominations plus an Academy Award, Golden Globe, BAFTA and NAACP Image Award for his work on the film Soul. He closes the 2026 festival.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433218639-PXVUPTM90E0NIX8QCPRK/2026-website-artist-gallery-icons-3-jon-batiste.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/42342544-8dfb-4726-8671-9cee1039c85e/jon-batiste.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/The%20Tin%20Roof%20Preachers",
-      "apple": "https://music.apple.com/us/search?term=The%20Tin%20Roof%20Preachers",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Tin%20Roof%20Preachers",
-      "website": "https://duckduckgo.com/?q=The%20Tin%20Roof%20Preachers%20band"
+      "website": "https://www.jonbatiste.com/",
+      "instagram": "https://www.instagram.com/jonbatiste/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/JonBatisteMusic/",
+      "twitter": "https://twitter.com/JonBatiste",
+      "tiktok": "https://www.tiktok.com/@iamjonbatiste"
     },
     "tags": [
-      "roots",
-      "americana",
+      "jazz",
+      "New Orleans R&B",
+      "soul",
+      "gospel",
+      "pop"
+    ],
+    "headliner": true
+  },
+  {
+    "slug": "daniel-donatos-cosmic-country",
+    "name": "Daniel Donato's Cosmic Country",
+    "bio": "Guitarist Daniel Donato calls his band's sound \"Cosmic Country\" and describes it as a frequency more than a genre — outlaw country and bluegrass pushed through psychedelic jam improvisation. He has framed the approach as deliberately living between order and chaos. The band plays twice at the 2026 festival: the Thursday-night opening show at the Sheridan Opera House and a late-afternoon Main Stage slot on Friday.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433219042-MVOWOAZVSXV7KA8VO1EM/2026-website-artist-gallery-icons-4-daniel-donato.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/6bfca6ba-3ca6-4c99-b069-ccf53c840008/daniel-donato-web.jpg",
+    "links": {
+      "website": "https://danieldonato.com/",
+      "spotify": "https://open.spotify.com/artist/0BPT9SFoQzi6Pfk387jLE8",
+      "instagram": "http://instagram.com/thedanieldonato"
+    },
+    "linksExtra": {
+      "facebook": "http://facebook.com/danieldonatoguitarist",
+      "tiktok": "https://www.tiktok.com/@thedanieldonato",
+      "twitter": "https://x.com/danieljdonato"
+    },
+    "tags": [
+      "cosmic country",
+      "jam",
+      "psychedelic country",
+      "bluegrass-adjacent"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "the-record-company",
+    "name": "The Record Company",
+    "bio": "An LA trio — Chris Vos, Alex Stiff and Marc Cazorla — playing gritty, riff-driven Delta-inflected blues rock. Their 2016 debut Give It Back to You was recorded in Stiff's living room on no budget and still earned a Grammy nomination; 2026 is a year-long anniversary tour behind that record. They previously played the festival in 2023.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433220327-XD5WPSUHVXJACOUMOJ6Q/2026-website-artist-gallery-icons-5-the-record-company.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/b7905eb9-1063-44b7-8ca6-494f897105e5/the-record-company-web.jpg",
+    "links": {
+      "website": "https://therecordcompany.net/",
+      "spotify": "https://open.spotify.com/artist/6vYg01ZFt1nREsUDMDPUYX",
+      "instagram": "https://instagram.com/therecordcompany"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/therecordcompany/",
+      "twitter": "https://twitter.com/therecordcomp"
+    },
+    "tags": [
+      "blues rock",
+      "garage blues",
+      "roots rock"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "samantha-fish-2026",
+    "name": "Samantha Fish",
+    "bio": "A Kansas City guitarist and singer who first played Telluride in 2017 and, per the festival, has returned every year since. Her records are emotionally direct blues rock and have drawn Grammy nominations; the most recent, 2025's Paper Doll, foregrounds her vocals alongside the guitar work. Her live sets are the high-energy end of the bill.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433220820-EA9DLWH4N0CTGYUH90WC/2026-website-artist-gallery-icons-6-samantha-fish.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1ff47bbd-7dc8-4496-969e-24e0920e7909/samantha-fish-web.jpg",
+    "links": {
+      "website": "https://samanthafish.com/",
+      "instagram": "https://www.instagram.com/samanthafishmusic/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/samanthafishmusic",
+      "youtube": "https://www.youtube.com/channel/UCaTmuzKbejaJBvfeHLNYJqQ",
+      "twitter": "https://x.com/samantha_fish"
+    },
+    "tags": [
+      "blues rock",
+      "roots rock",
+      "guitar blues"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "g-love-special-sauce",
+    "name": "G. Love & Special Sauce",
+    "bio": "Garrett Dutton, working as G. Love, has spent three decades splicing loose hip-hop phrasing onto blues harmonica and guitar — the self-titled 1994 debut, 2001's Electric Mile, and solo records including The Hustle, Lemonade, Fixin' to Die and The Juice. The delivery is relaxed and the lyrics are sharper than they first sound. He is a returning Telluride performer.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433221838-0MO59SYC5CWKXFHU6QNK/2026-website-artist-gallery-icons-7-g-love.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1710646b-f0a0-4168-9439-55f3b474c93a/g-love-web.jpg",
+    "links": {
+      "website": "https://www.philadelphonic.com/",
+      "instagram": "https://www.instagram.com/phillyglove/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/glovespecialsauce",
+      "twitter": "https://twitter.com/glove",
+      "youtube": "https://www.youtube.com/channel/UCe72aF-_zk6zkrhReM1Y99w"
+    },
+    "tags": [
+      "blues hop",
+      "alternative hip hop",
+      "funk",
       "blues"
-    ]
+    ],
+    "headliner": false
   },
   {
-    "slug": "cricket-fontaine",
-    "name": "Cricket Fontaine",
-    "bio": "A New Orleans piano player who learned the barrelhouse repertoire from a neighbor and then spent twenty years making it hers. Cricket Fontaine plays left-hand-heavy, sings in a low conversational register, and tells long stories between songs that are usually worth the wait. She has never once played the same set list twice.",
+    "slug": "charlie-musselwhite-ga20",
+    "name": "Charlie Musselwhite & GA-20",
+    "bio": "Charlie Musselwhite is a Blues Hall of Fame harmonica player with a career spanning the classic Chicago era to a well-known collaboration with Ben Harper. GA-20 — named for a Gibson amplifier built from 1950 to 1961 — was started in 2018 by Boston guitarist Matthew Stubbs, who had been in Musselwhite's band, and plays a deliberately stripped-back, raw Chicago blues. This is the two acts reuniting as one billing.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773681772719-A3A5OIRN6S7VYMYY4D9L/2026-website-artist-gallery-icons-8-charlie-musselwhite.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/b7086424-fbbb-4f83-9a09-478329ade2c7/charlie-musselwhite-ga-20-web-2.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/Cricket%20Fontaine",
-      "apple": "https://music.apple.com/us/search?term=Cricket%20Fontaine",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Cricket%20Fontaine",
-      "website": "https://duckduckgo.com/?q=Cricket%20Fontaine%20band"
+      "website": "https://www.charliemusselwhite.com/",
+      "spotify": "https://open.spotify.com/artist/5lg8xPLWMK8R3EfQlKA5bT",
+      "instagram": "https://www.instagram.com/charliemusselwhiteofficial/"
+    },
+    "linksExtra": {
+      "websiteAlt": "https://ga20band.com/",
+      "spotifyAlt": "https://artists.spotify.com/c/artist/4NikxGoDm5LGVYAHj0Euoc",
+      "instagramAlt": "https://www.instagram.com/ga20band/",
+      "facebook": "https://www.facebook.com/CharlieMusselwhiteOfficial/",
+      "facebookAlt": "https://www.facebook.com/GA20blues/"
     },
     "tags": [
-      "blues",
-      "piano",
-      "new orleans"
-    ]
+      "Chicago blues",
+      "harmonica blues",
+      "traditional electric blues"
+    ],
+    "headliner": false
   },
   {
-    "slug": "brass-hollow",
-    "name": "Brass Hollow",
-    "bio": "Eight horns and a sousaphone doing the work of a rhythm section. Brass Hollow started as a second-line street band and grew into something closer to a funk orchestra without ever losing the parade tempo. They are famously difficult to keep on stage — expect them in the crowd by the third song.",
+    "slug": "tab-benoit-2026",
+    "name": "Tab Benoit",
+    "bio": "From Houma, Louisiana, Tab Benoit plays swamp blues on a well-worn Fender Telecaster Thinline, taught in his youth by Louisiana blues players living nearby. He has twice been named B.B. King Entertainer of the Year at the Blues Music Awards. He also co-authored a book on the blues and mental health, written partly to reduce stigma and partly to raise money for the HART Fund.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433224595-EUJ6THQV2GJCZEUUODSU/2026-website-artist-gallery-icons-9-tab-benoit.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/518717b4-6c35-4a74-8947-c4610839d9d8/tab-benoit-web.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/Brass%20Hollow",
-      "apple": "https://music.apple.com/us/search?term=Brass%20Hollow",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Brass%20Hollow",
-      "website": "https://duckduckgo.com/?q=Brass%20Hollow%20band"
+      "website": "https://www.tabbenoit.com/",
+      "spotify": "https://open.spotify.com/artist/3ODYbknLzVe3cWQzVfbzGB",
+      "instagram": "https://www.instagram.com/tabbenoitofficial/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/TabBenoit",
+      "twitter": "https://twitter.com/tabbenoitla"
     },
     "tags": [
-      "funk",
-      "brass"
-    ]
+      "swamp blues",
+      "Louisiana blues",
+      "blues rock"
+    ],
+    "headliner": false
   },
   {
-    "slug": "the-yellow-dog-transit",
-    "name": "The Yellow Dog Transit",
-    "bio": "Boogie blues played fast and without much sentiment. The Yellow Dog Transit is a trio that has driven a great deal of the country in a van with a name painted on the side, and the songs are mostly about that. Their shows run about ninety minutes with no gaps.",
+    "slug": "eggy",
+    "name": "Eggy",
+    "bio": "A Connecticut quartet — Jake Brownstein, Dani Battat, Mike Goodman and Alex Bailey — working the modern jam-band lane with actual songwriting underneath the improvisation. Their 2024 album Waiting Game was co-produced by James Petralli of White Denim, and the touring since has taken them to Austin City Limits, Electric Forest and Suwannee Hulaween.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768619353-VPCRPV4PJ3CTT3AARLFI/2026-website-artist-gallery-icons-additional-artists-eggy.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/d6d0c072-beb4-421d-9667-6e7f2183f9e5/eggy-web.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/The%20Yellow%20Dog%20Transit",
-      "apple": "https://music.apple.com/us/search?term=The%20Yellow%20Dog%20Transit",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Yellow%20Dog%20Transit",
-      "website": "https://duckduckgo.com/?q=The%20Yellow%20Dog%20Transit%20band"
+      "website": "https://eggymusic.com/",
+      "instagram": "https://www.instagram.com/eggymusic/"
     },
-    "tags": [
-      "blues",
-      "boogie",
-      "rock"
-    ]
-  },
-  {
-    "slug": "odessa-pike",
-    "name": "Odessa Pike",
-    "bio": "Odessa Pike writes the kind of songs that sound like they have been around longer than she has. Guitar, fiddle, and a voice that sits somewhere between a hymn and a complaint. She spent three winters playing ski-town bars in Colorado, so the altitude will not bother her.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Odessa%20Pike",
-      "apple": "https://music.apple.com/us/search?term=Odessa%20Pike",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Odessa%20Pike",
-      "website": "https://duckduckgo.com/?q=Odessa%20Pike%20band"
-    },
-    "tags": [
-      "americana",
-      "roots",
-      "folk"
-    ]
-  },
-  {
-    "slug": "saltwater-baptist",
-    "name": "Saltwater Baptist",
-    "bio": "Coastal gospel blues from a band that treats a slide guitar as a second voice. Saltwater Baptist has a rotating cast around a fixed core of two brothers and a drummer they met in a church basement. Their records are short and their sets are not.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Saltwater%20Baptist",
-      "apple": "https://music.apple.com/us/search?term=Saltwater%20Baptist",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Saltwater%20Baptist",
-      "website": "https://duckduckgo.com/?q=Saltwater%20Baptist%20band"
-    },
-    "tags": [
-      "gospel",
-      "blues",
-      "slide"
-    ]
-  },
-  {
-    "slug": "the-gravel-choir",
-    "name": "The Gravel Choir",
-    "bio": "Four singers, one guitar, and no monitors if they can help it. The Gravel Choir builds arrangements out of close harmony and long silences, which is a risky thing to do at a festival and works anyway. They are best heard from close to the rail.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/The%20Gravel%20Choir",
-      "apple": "https://music.apple.com/us/search?term=The%20Gravel%20Choir",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Gravel%20Choir",
-      "website": "https://duckduckgo.com/?q=The%20Gravel%20Choir%20band"
-    },
-    "tags": [
-      "roots",
-      "folk",
-      "harmony"
-    ]
-  },
-  {
-    "slug": "lantern-city-horns",
-    "name": "Lantern City Horns",
-    "bio": "A horn-forward soul revue assembled out of the session scene, playing original material that could pass for lost sides from 1968. Lantern City Horns rehearses more than most bands tour. The arrangements are airtight; the between-song patter is not, and that is part of the appeal.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Lantern%20City%20Horns",
-      "apple": "https://music.apple.com/us/search?term=Lantern%20City%20Horns",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Lantern%20City%20Horns",
-      "website": "https://duckduckgo.com/?q=Lantern%20City%20Horns%20band"
-    },
-    "tags": [
-      "funk",
-      "brass",
-      "soul"
-    ]
-  },
-  {
-    "slug": "bitterroot-mabel",
-    "name": "Bitterroot Mabel",
-    "bio": "Bitterroot Mabel plays slide guitar in open D and sings about the mountain West without romanticizing much of it. She came out of Missoula, recorded her first album in a rented cabin, and has been touring on it ever since. Her sets get louder as they go.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Bitterroot%20Mabel",
-      "apple": "https://music.apple.com/us/search?term=Bitterroot%20Mabel",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Bitterroot%20Mabel",
-      "website": "https://duckduckgo.com/?q=Bitterroot%20Mabel%20band"
-    },
-    "tags": [
-      "blues",
-      "slide",
-      "americana"
-    ]
-  },
-  {
-    "slug": "quicksilver-junction",
-    "name": "Quicksilver Junction",
-    "bio": "A jam-leaning rock five-piece that grew out of a college basement and never quite left the format. Quicksilver Junction improvises across song boundaries and rarely lands where the set list said it would. They are the reason the schedule has a buffer after their slot.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Quicksilver%20Junction",
-      "apple": "https://music.apple.com/us/search?term=Quicksilver%20Junction",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Quicksilver%20Junction",
-      "website": "https://duckduckgo.com/?q=Quicksilver%20Junction%20band"
-    },
-    "tags": [
-      "rock",
-      "jam"
-    ]
-  },
-  {
-    "slug": "purefoy-and-the-mule",
-    "name": "Purefoy & the Mule",
-    "bio": "A guitar-and-drums duo that makes an unreasonable amount of noise for two people. Purefoy plays a hollow-body through a broken amp on purpose; the Mule hits things. Twenty-five minutes into a set it stops sounding like a novelty and starts sounding like a plan.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Purefoy%20%26%20the%20Mule",
-      "apple": "https://music.apple.com/us/search?term=Purefoy%20%26%20the%20Mule",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Purefoy%20%26%20the%20Mule",
-      "website": "https://duckduckgo.com/?q=Purefoy%20%26%20the%20Mule%20band"
-    },
-    "tags": [
-      "blues",
-      "garage",
-      "duo"
-    ]
-  },
-  {
-    "slug": "wildwood-telegraph",
-    "name": "Wildwood Telegraph",
-    "bio": "Americana with a pedal steel player who is clearly the best musician on stage and knows better than to act like it. Wildwood Telegraph writes narrative songs with actual endings. They have a reputation for winning over crowds who came for something louder.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Wildwood%20Telegraph",
-      "apple": "https://music.apple.com/us/search?term=Wildwood%20Telegraph",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Wildwood%20Telegraph",
-      "website": "https://duckduckgo.com/?q=Wildwood%20Telegraph%20band"
-    },
-    "tags": [
-      "americana",
-      "roots",
-      "country"
-    ]
-  },
-  {
-    "slug": "the-tallow-sisters",
-    "name": "The Tallow Sisters",
-    "bio": "Three-part harmony soul from siblings who have been singing together since before any of them chose it. The Tallow Sisters arrange in the car and rehearse in hotel hallways. Their ballads are the quietest thing on this bill and reliably the most requested.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/The%20Tallow%20Sisters",
-      "apple": "https://music.apple.com/us/search?term=The%20Tallow%20Sisters",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Tallow%20Sisters",
-      "website": "https://duckduckgo.com/?q=The%20Tallow%20Sisters%20band"
-    },
-    "tags": [
-      "soul",
-      "harmony",
-      "r&b"
-    ]
-  },
-  {
-    "slug": "eight-mile-ferry",
-    "name": "Eight Mile Ferry",
-    "bio": "Blues rock built around a bass player who writes the songs, which explains why they move the way they do. Eight Mile Ferry spent four years as a house band before releasing anything and it left them impossible to rattle. They will play through weather.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Eight%20Mile%20Ferry",
-      "apple": "https://music.apple.com/us/search?term=Eight%20Mile%20Ferry",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Eight%20Mile%20Ferry",
-      "website": "https://duckduckgo.com/?q=Eight%20Mile%20Ferry%20band"
-    },
-    "tags": [
-      "blues",
-      "rock"
-    ]
-  },
-  {
-    "slug": "cotton-gin-social-club",
-    "name": "Cotton Gin Social Club",
-    "bio": "A funk collective with a loose membership and a strict rhythm section. Cotton Gin Social Club runs long grooves under rotating singers and horn players, which makes every show slightly different. The last thirty minutes are usually the point.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Cotton%20Gin%20Social%20Club",
-      "apple": "https://music.apple.com/us/search?term=Cotton%20Gin%20Social%20Club",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Cotton%20Gin%20Social%20Club",
-      "website": "https://duckduckgo.com/?q=Cotton%20Gin%20Social%20Club%20band"
-    },
-    "tags": [
-      "funk",
-      "soul"
-    ]
-  },
-  {
-    "slug": "the-blue-dram",
-    "name": "The Blue Dram",
-    "bio": "Jazz-inflected blues from a quartet led by a tenor saxophonist who spent years in big bands and clearly missed the small rooms. The Blue Dram plays standards nobody else bothers with and originals that sound like them. Best experienced late, indoors.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/The%20Blue%20Dram",
-      "apple": "https://music.apple.com/us/search?term=The%20Blue%20Dram",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Blue%20Dram",
-      "website": "https://duckduckgo.com/?q=The%20Blue%20Dram%20band"
-    },
-    "tags": [
-      "blues",
-      "jazz"
-    ]
-  },
-  {
-    "slug": "marigold-and-the-thieves",
-    "name": "Marigold & the Thieves",
-    "bio": "A soul-rock band with a frontwoman who treats the stage as a much smaller room than it is. Marigold & the Thieves write hooks and then bury them under two guitars, which somehow works. Their live album was recorded in a venue that has since closed.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Marigold%20%26%20the%20Thieves",
-      "apple": "https://music.apple.com/us/search?term=Marigold%20%26%20the%20Thieves",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Marigold%20%26%20the%20Thieves",
-      "website": "https://duckduckgo.com/?q=Marigold%20%26%20the%20Thieves%20band"
-    },
-    "tags": [
-      "rock",
-      "soul"
-    ]
-  },
-  {
-    "slug": "panhandle-electric",
-    "name": "Panhandle Electric",
-    "bio": "West Texas blues rock, played loud and dry. Panhandle Electric has a guitarist who bends notes further than seems advisable and a drummer who never fills. The songs are about distance, mostly.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Panhandle%20Electric",
-      "apple": "https://music.apple.com/us/search?term=Panhandle%20Electric",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Panhandle%20Electric",
-      "website": "https://duckduckgo.com/?q=Panhandle%20Electric%20band"
-    },
-    "tags": [
-      "blues",
-      "rock",
-      "texas"
-    ]
-  },
-  {
-    "slug": "sister-ida-bloom",
-    "name": "Sister Ida Bloom",
-    "bio": "Sister Ida Bloom sings gospel-soul with an organ, a bass, and a great deal of patience. She came to touring late, after twenty-two years of Sunday services, and treats a festival crowd exactly the way she treated a congregation. It works better than you would expect.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/Sister%20Ida%20Bloom",
-      "apple": "https://music.apple.com/us/search?term=Sister%20Ida%20Bloom",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Sister%20Ida%20Bloom",
-      "website": "https://duckduckgo.com/?q=Sister%20Ida%20Bloom%20band"
-    },
-    "tags": [
-      "gospel",
-      "soul"
-    ]
-  },
-  {
-    "slug": "the-rambler-nine",
-    "name": "The Rambler Nine",
-    "bio": "Nine players, one groove, very few chord changes. The Rambler Nine is a jam-funk outfit that thinks of a set as a single piece of music with movements. They have opened for almost everyone and headlined enough to know how to close.",
-    "links": {
-      "spotify": "https://open.spotify.com/search/The%20Rambler%20Nine",
-      "apple": "https://music.apple.com/us/search?term=The%20Rambler%20Nine",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Rambler%20Nine",
-      "website": "https://duckduckgo.com/?q=The%20Rambler%20Nine%20band"
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/pg/eggylivemusic",
+      "youtube": "https://www.youtube.com/@EGGYlivemusic",
+      "twitter": "https://x.com/eggylive"
     },
     "tags": [
       "jam",
-      "funk"
-    ]
+      "improvisational rock",
+      "indie rock"
+    ],
+    "headliner": false
   },
   {
-    "slug": "low-country-static",
-    "name": "Low Country Static",
-    "bio": "Garage blues recorded and performed with the treble left all the way up. Low Country Static is three people, two of whom sing, none of whom tune between songs. Their shows are short, fast, and hard to follow.",
+    "slug": "eddie-9v",
+    "name": "Eddie 9V",
+    "bio": "Brooks Mason, performing as Eddie 9V, has played since he was six and points at Rory Gallagher, Muddy Waters, Howlin’ Wolf and Freddie King as his reference points. His latest record is Saratoga. He last played Telluride in 2022 and returns to both a Main Stage slot and the Sunday closing show.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433226135-IWUVLJ5OX33ORT00Q9EJ/2026-website-artist-gallery-icons-10-eddie-9v.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/3acce3d8-51b2-47de-90ef-771db3e4743a/eddie-9v-web.jpg",
     "links": {
-      "spotify": "https://open.spotify.com/search/Low%20Country%20Static",
-      "apple": "https://music.apple.com/us/search?term=Low%20Country%20Static",
-      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Low%20Country%20Static",
-      "website": "https://duckduckgo.com/?q=Low%20Country%20Static%20band"
+      "website": "https://www.eddie9volt.com/",
+      "spotify": "https://open.spotify.com/artist/2GHXeEEol7BPT31flS6O1B",
+      "instagram": "https://www.instagram.com/eddie9volt/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/Eddie9V",
+      "youtube": "https://www.youtube.com/channel/UCtTJjdnHdIp9AWe0SK64-KQ"
+    },
+    "tags": [
+      "electric blues",
+      "soul blues",
+      "roots rock"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "greyhounds",
+    "name": "Greyhounds",
+    "bio": "Guitarist Andrew Trube and keyboardist Anthony Farrell met in Austin in the late 1990s and have split songwriting and singing ever since, first pitching songs to artists including Derek Trucks and Susan Tedeschi. The catalogue is soul-leaning blues funk; the newest is Austin to Tulsa, made with King Cabbage Brass Band.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433226658-SHHAVYMXVYLT38Q6BEPS/2026-website-artist-gallery-icons-11-greyhounds.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1e8c8124-a627-4fe6-bed7-a11217a46510/the-greyhounds-web.jpg",
+    "links": {
+      "website": "https://www.greyhoundsmusic.com/",
+      "spotify": "https://open.spotify.com/artist/1FcTd89N9ESEOsIDD883Kp",
+      "instagram": "http://instagram.com/greyhoundsmusic"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/greyhoundsmusic/",
+      "youtube": "https://www.youtube.com/@GreyhoundsMusic"
+    },
+    "tags": [
+      "soul",
+      "blues funk",
+      "Austin roots"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "judith-hill",
+    "name": "Judith Hill",
+    "bio": "Judith Hill sang backing vocals for Prince, Michael Jackson and Stevie Wonder and appears in the documentary 20 Feet From Stardom. She now fronts her own band, writing blues-funk that pulls on gospel, soul and jazz, and she plays guitar — an instrument she has described choosing because it comes closest to the expressive range of the human voice.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433227703-M1E5Z03E8OV9PPOGUBRI/2026-website-artist-gallery-icons-12-judith-hill.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/42415f6c-f3c7-4699-b899-eb61d95ee97d/judith-hill-web.jpg",
+    "links": {
+      "website": "https://www.judithhill.com/",
+      "spotify": "https://open.spotify.com/artist/04ka9403wgTxmWFMY1PD5t",
+      "instagram": "https://www.instagram.com/judithgloryhill"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/JudithHillOfficial",
+      "twitter": "https://twitter.com/Judith_Hill"
+    },
+    "tags": [
+      "soul",
+      "funk",
+      "blues",
+      "gospel"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "nether-hour",
+    "name": "Nether Hour",
+    "bio": "An Austin trio — Bobby Flaco on vocals and guitar, Bishop on lead guitar and mandolin, Bercy on bass — mixing Louisiana swamp grooves with Texas funk, blues, soul and rock. They built their reputation on dive bars and roadhouse rooms and play loud.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768622537-QDTYVAMJKYW725EUXMVZ/2026-website-artist-gallery-icons-additional-artists-nether-hour.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/6dfb10b8-9d0a-4c06-9524-f654ce34ec99/nether-hour-web.jpg",
+    "links": {
+      "website": "https://www.netherhour.com/",
+      "spotify": "https://open.spotify.com/artist/7xFkiQ9B6WA6932TniPRGr",
+      "instagram": "https://www.instagram.com/netherhour/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/netherhour",
+      "youtube": "https://www.youtube.com/@netherhour"
+    },
+    "tags": [
+      "southern rock",
+      "swamp funk",
+      "blues rock"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "myron-elkins",
+    "name": "Myron Elkins",
+    "bio": "A Michigan songwriter and former welder whose 2023 debut Factories, Farms and Amphetamines was made in Nashville with producer Dave Cobb. He left Nashville for Memphis to record 2025's Nostalgia for Sale, keeping the heartland country-blues-rock frame but with a more weathered point of view.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433228431-RGIG97168GJOO4JTG632/2026-website-artist-gallery-icons-13-myron-elkins.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/e3a64804-a486-4816-9b1b-ed794bb8a3b4/myron-elkins-web.jpg",
+    "links": {
+      "website": "https://www.myronelkins.com/",
+      "spotify": "https://open.spotify.com/artist/0jeJvES8frg5KT4HMg4NZi",
+      "instagram": "https://www.instagram.com/myron_elkins_music/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/myronelkinsmusic",
+      "youtube": "https://www.youtube.com/channel/UCxNZn-UtZMOYBfUd8u7fMZQ"
+    },
+    "tags": [
+      "heartland rock",
+      "country blues",
+      "roots rock"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "dk-harrell",
+    "name": "DK Harrell",
+    "bio": "From Ruston, Louisiana, D.K. Harrell pairs stinging single-note guitar lines with church-trained vocals. He has won a Blues Music Award and records for Alligator, where his debut Talkin’ Heavy landed him coverage in Living Blues, Vintage Guitar and Blues Music Magazine. He is one of the most visible young players in the current blues wave.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433229395-TJWB2TQ143CDEH3Z9TKJ/2026-website-artist-gallery-icons-14-dk-harrell.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/4c9519ad-201f-429b-8c06-0ce7db1725b5/dk-harrell-web.jpg",
+    "links": {
+      "website": "https://dkblues.com/",
+      "instagram": "https://www.instagram.com/dkblues_"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/DHarrell98/",
+      "youtube": "https://www.youtube.com/@d.k.harrellblues"
+    },
+    "tags": [
+      "modern blues",
+      "soul blues",
+      "guitar blues"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "the-harlem-gospel-travelers",
+    "name": "The Harlem Gospel Travelers",
+    "bio": "Vocalists Ifedayo Gatling, Dennis Bailey and George Marage sing gospel with the arrangement sensibility of mid-1960s soul and funk. Their album Rhapsody follows 2021’s Look Up! and grew out of a suggestion from their mentor Eli \"Paperboy\" Reed to reinterpret gospel-funk material from the Numero Group reissue catalogue.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768622815-TO2PMHG8XEWJMBIRLYSK/2026-website-artist-gallery-icons-additional-artists-the-harlem-gospel-travelers.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/e4c6dd0c-8833-4d3b-ae7a-17cf13bb2797/harlem-gospel-travelers-web.jpg",
+    "links": {
+      "website": "https://harlemgospeltravelers.com/",
+      "spotify": "https://open.spotify.com/artist/16Nni80EpZ7s54i3hJKvft",
+      "instagram": "https://www.instagram.com/harlemgospeltravelers/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/harlemgospeltravelers",
+      "tiktok": "https://www.tiktok.com/@harlem.gospel.travelers",
+      "youtube": "https://www.youtube.com/channel/UCQm9QGAyklADaQRgE1el8mA"
+    },
+    "tags": [
+      "gospel",
+      "gospel funk",
+      "soul"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "j-the-causeways",
+    "name": "J & The Causeways",
+    "bio": "A New Orleans R&B and soul band fronted by singer and keyboardist Jordan Anderson — the \"J\" — that formed at the Maple Leaf Bar. Horns, big vocals and a band that plays loose without falling apart. Anderson talks about the group as consciously representing the city’s musical lineage.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433230068-FIDIW5QBACIHQP8JUAS9/2026-website-artist-gallery-icons-15-j-and-the-causeways.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/bc2d9859-bfb4-420b-87e1-91da5d01af03/j-and-the-causeways-web.jpg",
+    "links": {
+      "website": "https://jandthecauseways.com/",
+      "spotify": "https://open.spotify.com/artist/7eSxHkobu10rRoDPfgpwCs",
+      "instagram": "https://www.instagram.com/jandthecauseways/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/jandthecauseways"
+    },
+    "tags": [
+      "New Orleans R&B",
+      "soul",
+      "funk"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "kirk-fletcher-2026",
+    "name": "Kirk Fletcher",
+    "bio": "An LA-born, Nashville-based guitarist, singer and producer with multiple Blues Music Award nominations and a run of Billboard Blues chart placements. He has been a go-to collaborator for Joe Bonamassa, Kim Wilson and The Fabulous Thunderbirds. His album Heartache By The Pound was recorded at FAME Studios in Muscle Shoals and leans on horns and gospel phrasing.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433230897-QMEKFRID9G4GYMQAB003/2026-website-artist-gallery-icons-16-kirk-fletcher.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/5a175d6b-b81f-4f29-86b7-280cd8ce8a6a/kirk-fletcher-web.jpg",
+    "links": {
+      "website": "https://kirkfletcherband.com/",
+      "instagram": "https://www.instagram.com/kirkfletchermusic/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/kirk.fletcher.58",
+      "youtube": "https://www.youtube.com/channel/UCmZ2iiega7fb7vriOS-jjfA"
     },
     "tags": [
       "blues",
-      "garage",
-      "rock"
-    ]
+      "soul blues",
+      "guitar blues"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "david-jacobsstrain-and-bob-beach",
+    "name": "David Jacobs-Strain and Bob Beach",
+    "bio": "A duo built around slide guitar and harmonica trading lines with each other. The material swings between wry, subversive blues, quiet ballads and swampy hard-driving rock, with a West Coast storytelling bent.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433231644-WILOB3DWGQ7UXBG2ZFH1/2026-website-artist-gallery-icons-17-david-jacobs-strain-and-bob-beach.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/9ed2ce5a-5e76-4d45-b541-93a8b71fc8d5/david-jacobs-strain-bob-beach-web.jpg",
+    "links": {
+      "website": "https://davidjacobs-strain.com/",
+      "instagram": "https://www.instagram.com/davidjacobsstrain/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/davidjacobsstrain/",
+      "youtube": "https://www.youtube.com/channel/UCqHUB6wBjvFau5brQn1L95A"
+    },
+    "tags": [
+      "acoustic blues",
+      "slide guitar",
+      "harmonica blues",
+      "roots"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "zac-shulze-gang",
+    "name": "The Zac Schulze Gang",
+    "bio": "A UK trio — guitarist and vocalist Zac Schulze with drummer Ben Schulze and bassist Ant Greenwell — playing loud, unfussy blues-rooted rock. Their debut Straight To It draws on Rory Gallagher and Dr. Feelgood, and they came up on the DIY circuit before breakouts at Rory Gallagher’s Tribute Festival and Eric Clapton’s Crossroads. They hold multiple UK Blues Awards including Young Artist of the Year.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433233135-91719H3XXSK8HJF6RBEJ/2026-website-artist-gallery-icons-18-the-zac-shulze-gang.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/c2214b35-fea7-40de-b555-fae2ce622198/zac-shulze-gang-web.jpg",
+    "links": {
+      "website": "https://www.zacschulzegang.rocks/",
+      "instagram": "https://www.instagram.com/thezacschulzegang/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/zacschulzegang",
+      "youtube": "https://www.youtube.com/c/TheZacSchulzeGang"
+    },
+    "tags": [
+      "blues rock",
+      "hard rock",
+      "UK blues"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "derrick-dove-the-peacekeepers",
+    "name": "Derrick Dove & The Peacekeepers",
+    "bio": "An award-winning southern-fried blues rock band out of the South Georgia pines near Tifton, led by guitarist, vocalist and bandleader Derrick Dove. Gritty blues, soul grooves and classic-rock energy, played for a crowd. They have the most set assignments of any 2026 artist — four across three days.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768619246-ZDIJIHEIYNEQZTTJYIC8/2026-website-artist-gallery-icons-additional-artists-derrick-dove-peacekeepers.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/2ae4ceba-78f8-4c9a-b43d-1f4933d154ff/derrick-dove-the-peacekeepers.jpg",
+    "links": {
+      "website": "https://derrickdove.com/",
+      "spotify": "https://open.spotify.com/artist/4HOpaqQ6HG4mtoyZ0jRBKb",
+      "instagram": "https://instagram.com/ddovepeacekeepers"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/derrickdoveandthepeacekeepers",
+      "youtube": "https://www.youtube.com/channel/UC52fL_CNAJpCv9el5vyZXfw"
+    },
+    "tags": [
+      "southern blues rock",
+      "soul",
+      "southern rock"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "ken-valdez",
+    "name": "Ken Valdez",
+    "bio": "Originally from the high desert around Santa Fe and now based in Minneapolis, Ken Valdez is a guitarist with a rough-edged, soulful voice who folds blues, rock, funk and Latin music into one sound. He describes his own writing as melody-first.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768621339-UF7549SN63BEBP59VRM3/2026-website-artist-gallery-icons-additional-artists-ken-valdez.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/d6afc709-ad21-40ed-abca-2a50937e7741/ken-valdez.jpg",
+    "links": {
+      "website": "https://www.kenvaldez.com/",
+      "spotify": "https://open.spotify.com/artist/6ROgm2FfyLwikfAInjSH5r",
+      "instagram": "https://instagram.com/kenvaldezmusic"
+    },
+    "linksExtra": {
+      "facebook": "http://www.facebook.com/kenvaldezmusic",
+      "youtube": "http://www.youtube.com/kenvaldezmusic"
+    },
+    "tags": [
+      "blues",
+      "funk",
+      "Latin rock",
+      "singer-songwriter"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "nigel-wearne-the-spectres",
+    "name": "Nigel Wearne & The Spectres",
+    "bio": "The Australian winner of the 2025 Telluride Blues Challenge, returning the following year as part of the standing prize. His writing sits closer to Tom Waits, Nick Cave and Rickie Lee Jones than to twelve-bar orthodoxy — jazzy inflections, larger arrangements and homespun country blues in the same set.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433233776-3MB01048YUT2KOHER49C/2026-website-artist-gallery-icons-19-nigel-wearne.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1dd21087-e65d-40db-98f5-41c630aa0fe1/nigel-wearne.jpg",
+    "links": {
+      "website": "https://www.nigelwearne.com/",
+      "spotify": "https://open.spotify.com/artist/46borjrmKCaBVcb2SMBNHe",
+      "instagram": "http://www.instagram.com/nigelwearne"
+    },
+    "linksExtra": {
+      "facebook": "http://www.facebook.com/nigelwearnemusic",
+      "youtube": "https://www.youtube.com/nigelwearne"
+    },
+    "tags": [
+      "country blues",
+      "Americana",
+      "noir folk"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "katie-skene",
+    "name": "Katie Skene",
+    "bio": "A guitarist and songwriter who came up in the Tallahassee blues scene, spent a decade in the California jam circuit, and now works out of Nashville. She calls the result Cosmic Swamp Americana: electric southern blues and jam-band exploration over a heavy groove, with keys and slide-leaning guitar. Allman Brothers and Grateful Dead are the obvious lineage.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768620492-OKD95KCB8KIV5SWFE6P2/2026-website-artist-gallery-icons-additional-artists-katie-skene.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/a5b695b1-1e6c-405c-9ffb-4253df117c73/katie-skene-web.jpg",
+    "links": {
+      "website": "https://katieskene.com/",
+      "spotify": "https://open.spotify.com/artist/3lwi8JQ1ncdtHCDEX0SY55",
+      "instagram": "https://instagram.com/katie_skene"
+    },
+    "linksExtra": {
+      "facebook": "http://facebook.com/katieskenemusic",
+      "youtube": "http://youtube.com/katieskenemusic",
+      "tiktok": "https://www.tiktok.com/katieskenemusic"
+    },
+    "tags": [
+      "southern blues",
+      "jam",
+      "Americana",
+      "Cosmic Swamp Americana"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "alex-maryol",
+    "name": "Alex Maryol",
+    "bio": "A Santa Fe–based blues-rock player with rough vocals and expressive guitar, mixing Delta blues, indie rock, R&B and Chicago blues. Once written up as a blues prodigy, he has since shared stages with Etta James, Bonnie Raitt, Lyle Lovett, Leon Russell and Blues Traveler, and has played King Biscuit as well as this festival.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768617958-PG2E1VY5U97OPP9LOAMY/2026-website-artist-gallery-icons-additional-artists-alex-maryol.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/9e389a1f-cd58-4df3-86b3-b31359701dc4/alex-maryol.jpg",
+    "links": {
+      "website": "https://alexmaryol.com/",
+      "spotify": "https://open.spotify.com/artist/4wKIsFYSk4fGkhDYMd79Ap",
+      "instagram": "https://www.instagram.com/alexmaryol/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/alexmaryolmusic/",
+      "youtube": "https://www.youtube.com/channel/UCTtZieO1Uw052RV57IBdmBg"
+    },
+    "tags": [
+      "blues rock",
+      "alt-blues",
+      "Delta blues",
+      "R&B"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "little-willie-farmer",
+    "name": "Little Willie Farmer",
+    "bio": "A lifelong resident of Duck Hill, Mississippi who spent decades working as an auto mechanic and playing nights and weekends, drawing on Muddy Waters, Howlin’ Wolf and Lightnin’ Hopkins. He is a Music Maker Relief Foundation partner artist. His 2019 album The Man From the Hill earned the critical attention that let him leave the repair shop for music full time.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433236254-4O1B4W96HYQJB31L48JP/2026-website-artist-gallery-icons-little-willie-farmer.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/b28f7144-2208-4568-8a2e-38a4b05472f7/Little-Willie-Farmer-web.jpg",
+    "links": {},
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/willie.farmer.7583",
+      "musicMaker": "https://www.musicmaker.org/artist/willie-farmer-2/"
+    },
+    "tags": [
+      "Mississippi blues",
+      "deep blues",
+      "traditional blues",
+      "Music Maker Foundation"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "albert-white-2026",
+    "name": "Albert White",
+    "bio": "An Atlanta native who learned playing behind his uncle Piano Red — the R&B hitmaker whose \"Doctor Feelgood\" the Beatles later covered. White and his band The Rockers have worked jukes, clubs and celebrations across the Southeast since the 1960s, sharing bills with Rufus Thomas, Ray Charles, The Tams and Joe Tex. His set carries the high-energy funky R&B side of that tradition.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773769017792-4GJ09B3LTL91D0WAFXIW/2026-website-artist-gallery-icons-additional-artists-albert-white.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1622576843744-EDHZ4CWMA5BJPZC88JE5/Albert-White-web.jpeg",
+    "links": {},
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/albertwhiteblues/"
+    },
+    "tags": [
+      "R&B",
+      "soul",
+      "funk",
+      "blues",
+      "Music Maker Foundation"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "terry-harmonica-bean-2026",
+    "name": "Terry \"Harmonica\" Bean",
+    "bio": "A Mississippi player who was headed for baseball until a motorcycle accident redirected him to harmonica and guitar. He plays hill country blues and is precise about the difference from Delta style — where Delta players sat still and worked in open tunings with slides and picks, hill country players used the whole porch, stomping and moving, in unusual tunings.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433238439-K713Z2ZC977ZP0125OW2/2026-website-artist-gallery-icons-terry-harmonica-bean.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/c0679d47-6696-4127-9c2a-74993ad5ae84/Terry-Harmonica-Bean-web.jpg",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/7gfUIUQoOPp9M2U1lqudoD",
+      "instagram": "https://www.instagram.com/musicmakerfdn/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/MusicMakerBlues",
+      "musicMaker": "https://musicmaker.org/artist/terry-harmonica-bean/"
+    },
+    "tags": [
+      "hill country blues",
+      "harmonica blues",
+      "traditional blues",
+      "Music Maker Foundation"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "scramble-campbell-2026",
+    "name": "Scramble Campbell",
+    "bio": "Keith \"Scramble\" Campbell paints the festival as it happens, working from a small riser beside the sound tower and finishing a canvas by the time the set ends. The approach is borrowed from Leroy Neiman, who did the same at sporting events; Campbell applied it to music instead. He has been a fixture at Blues & Brews for many years.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1768433236747-KI6YPGP7KDOJYO9RDXEO/2026-website-artist-gallery-icons-scramble-campbell.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1742262493052-CY1JV4TS7PRXEJVEWKYE/scramble-campbell-web.jpg",
+    "links": {
+      "website": "https://www.scramblecampbell.com/",
+      "instagram": "https://www.instagram.com/scramblecampbellart/"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/profile.php?id=100057794104102"
+    },
+    "tags": [
+      "live painting",
+      "visual art"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "troy-walker-2026",
+    "name": "Troy Walker",
+    "bio": "A comedian and writer whose credits include VICE’s Flophouse and writing for both the 95th and 96th Academy Awards ceremonies. He recently recorded a debut album. Some press coverage of the lineup announcement billed the comedy segment as \"Troy Walker & Friends.\"",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773769036473-JT0T5W7ZLXVSFS8MX5GF/2026-website-artist-gallery-icons-20-troy-walker.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1556658712594-5HEY8MNX9YL7GXPU3NB7/Troy-Walker-Web.jpg",
+    "links": {
+      "instagram": "https://www.instagram.com/troywalkeresq/"
+    },
+    "linksExtra": {
+      "twitter": "https://x.com/troywalkeresq"
+    },
+    "tags": [
+      "stand-up comedy"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "baron-vaughn",
+    "name": "Baron Vaughn",
+    "bio": "A comedian, actor and director best known as Bud on Netflix’s Grace and Frankie opposite Jane Fonda and Lily Tomlin, and as the voice of Tom Servo in recent Mystery Science Theater 3000 seasons. He co-created and co-hosted The New Negroes with Open Mike Eagle, co-created Call & Response, and made the documentary project Fatherless.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768617954-SH3E3360E18DHNK3JILE/2026-website-artist-gallery-icons-additional-artists-baron-vaugn.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/b6ba41bd-df77-4909-9e33-8df4c0855f8b/baron-vaughn.jpg",
+    "links": {
+      "website": "https://www.baronvaughn.com/",
+      "instagram": "https://instagram.com/barvonblaq"
+    },
+    "linksExtra": {
+      "facebook": "https://www.facebook.com/baron.vaughn/"
+    },
+    "tags": [
+      "stand-up comedy"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "kiran-deol",
+    "name": "Kiran Deol",
+    "bio": "A comedian and actor who starred in Didn’t Die at Sundance 2025, where Paste called it a star-making turn. Her screen work includes Sunnyside (NBC/Hulu), Destroy All Neighbors, How to Get Away with Murder, Modern Family and Freakier Friday.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768621706-YW3LU84SRB8VNDJES7E4/2026-website-artist-gallery-icons-additional-artists-kiran-deol.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/abb3404a-607e-40a1-b0b6-557a63ea3e40/kiran-deol.jpg",
+    "links": {
+      "website": "https://www.kirandeol.com/",
+      "instagram": "https://instagram.com/shitfromkiran"
+    },
+    "linksExtra": {
+      "tiktok": "https://tiktok.com/@kirandeolcomedian",
+      "twitter": "https://x.com/shitfromkiran",
+      "youtube": "https://www.youtube.com/user/kkkdeol"
+    },
+    "tags": [
+      "stand-up comedy"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "hannah-jones",
+    "name": "Hannah Jones",
+    "bio": "A Denver-based comedian who was homeschooled in a conservative religious co-op and now builds material out of sex, dating and gender politics. Her short-form video has been viewed tens of millions of times. She has appeared on Netflix Is A Joke Radio and Don’t Tell Secret Sets, been written up in Denverite and Westword, and opened for Josh Gondelman, Atsuko Okatsuka and Kumail Nanjiani. She is a regular at Denver’s Comedy Works.",
+    "photo": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/1773768620275-HJ0DQ9UL4FUZ1OOOAA7B/2026-website-artist-gallery-icons-additional-artists-hannah-jones.jpg",
+    "photoHero": "https://images.squarespace-cdn.com/content/v1/5be480544611a0a58ac2f320/a827c0b8-5841-4343-84e6-b402cc31c34a/hannah-jones.jpg",
+    "links": {
+      "website": "https://hannahjonescool.com/",
+      "instagram": "https://www.instagram.com/Hannahjonescool"
+    },
+    "linksExtra": {
+      "tiktok": "https://www.tiktok.com/@hannahjonescool1",
+      "twitter": "https://x.com/hannahjonescool"
+    },
+    "tags": [
+      "stand-up comedy"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "brewers-showcase",
+    "name": "Brewers Showcase",
+    "bio": "The festival’s beer tasting programme, presented by the Telluride Blues Society and held in the Beer Garden between the Main Stage and the Blues Stage. Three of the four sessions pour 70+ styles from 25+ breweries plus a Colorado Brewers Guild tent; the late Saturday session is the rare list — 35 or more high-ABV, barrel-aged, wild and non-traditional beers. 21+, and a Single-Day or 3-Day festival pass is required in addition to the tasting ticket.",
+    "links": {
+      "website": "https://www.tellurideblues.com/brewers-showcase"
+    },
+    "tags": [
+      "festival program",
+      "beer"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "blisters-brews-5k",
+    "name": "Blisters & Brews 5K",
+    "bio": "The Saturday-morning 5K in Elks Park, $35 to enter, benefiting the Telluride Adaptive Sports Program.",
+    "links": {},
+    "tags": [
+      "festival program",
+      "ancillary event"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "yoga-sessions",
+    "name": "Yoga Sessions",
+    "bio": "Free guided yoga in Elks Park on Saturday and Sunday morning, 10:00–11:00 AM. Open to everyone; no ticket required.",
+    "links": {},
+    "tags": [
+      "festival program",
+      "ancillary event"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "blues-for-breakfast",
+    "name": "Blues For Breakfast",
+    "bio": "The Saturday and Sunday morning session at the Elks Lodge, 9:00 AM–12:00 PM. On Saturday it runs alongside the Telluride Blues Challenge, whose winner takes a 15-minute Main Stage slot the same afternoon and returns to play the following year’s festival.",
+    "links": {},
+    "tags": [
+      "festival program",
+      "ancillary event"
+    ],
+    "headliner": false
+  },
+  {
+    "slug": "blues-challenge-winner-2026",
+    "name": "2026 Telluride Blues Challenge Winner",
+    "bio": "A 15-minute Main Stage slot on Saturday afternoon awarded to the winner of that morning’s Telluride Blues Challenge at the Elks Lodge. The performer is decided on the day, so the official schedule lists the slot without a name. The 2025 winner was Nigel Wearne, who returns to the 2026 bill as part of the standing prize.",
+    "links": {},
+    "tags": [
+      "festival program",
+      "to be announced"
+    ],
+    "headliner": false
   }
 ]

@@ -59,9 +59,9 @@ describe('theme shape', () => {
   });
 
   it('gives every stage its own colour', () => {
-    const day = ['main', 'blues', 'showcase', 'opera-house'].map((id) => stageColor(daylight, id));
+    const day = ['main', 'blues', 'showcase', 'sheridan-opera-house'].map((id) => stageColor(daylight, id));
     expect(new Set(day).size).toBe(4);
-    expect(stageColor(daylight, 'fly-me-to-the-moon')).toBe(daylight.colors.stageClub);
+    expect(stageColor(daylight, 'the-moon-at-obannons')).toBe(daylight.colors.stageClub);
   });
 
   it('uses a 4pt spacing scale and a 44pt-safe hit slop', () => {

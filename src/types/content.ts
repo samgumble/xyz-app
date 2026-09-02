@@ -23,7 +23,8 @@ export type Priority = 'info' | 'important' | 'urgent';
 export interface Festival {
   id: string;
   name: string;
-  edition: number;
+  /** Descriptive edition label as the festival writes it, e.g. `32nd Annual`. */
+  edition: string;
   dates: { start: string; end: string };
   /** IANA zone, e.g. `America/Denver`. Never hard-code this at a call site. */
   timezone: string;
@@ -32,6 +33,8 @@ export interface Festival {
   links: Record<string, string>;
   /** True when the bundled data is fictional placeholder content. */
   _placeholder?: boolean;
+  /** Provenance and caveats for the bundled data. Surfaced in the app's credits. */
+  _dataNote?: string;
 }
 
 export interface Stage {
@@ -50,8 +53,12 @@ export interface Artist {
   name: string;
   bio: string;
   photo?: string;
+  /** Larger native-aspect press photo, used on the artist detail screen. */
+  photoHero?: string;
   photoCredit?: string;
   links: Partial<Record<ArtistLinkKey, string>>;
+  /** Additional platforms beyond the four first-class ones (facebook, youtube, tiktok...). */
+  linksExtra?: Record<string, string>;
   tags: string[];
   headliner?: boolean;
 }

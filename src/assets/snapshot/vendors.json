@@ -1,13 +1,1 @@
-[
-  { "id": "san-juan-smokehouse", "name": "San Juan Smokehouse", "kind": "food", "place": "food-row-west" },
-  { "id": "high-camp-tacos", "name": "High Camp Tacos", "kind": "food", "place": "food-row-west" },
-  { "id": "butter-and-brine", "name": "Butter & Brine Grilled Cheese", "kind": "food", "place": "food-row-west" },
-  { "id": "mesa-verde-bowls", "name": "Mesa Verde Grain Bowls", "kind": "food", "place": "food-row-east" },
-  { "id": "cornmeal-collective", "name": "Cornmeal Collective", "kind": "food", "place": "food-row-east" },
-  { "id": "alpenglow-coffee", "name": "Alpenglow Coffee Cart", "kind": "food", "place": "food-row-east" },
-  { "id": "box-canyon-ice-cream", "name": "Box Canyon Ice Cream", "kind": "food", "place": "food-row-east" },
-  { "id": "ophir-leatherworks", "name": "Ophir Leatherworks", "kind": "craft", "place": "info-booth" },
-  { "id": "wildflower-press", "name": "Wildflower Print Press", "kind": "craft", "place": "info-booth" },
-  { "id": "silverpick-silver", "name": "Silverpick Jewelry", "kind": "craft", "place": "info-booth" },
-  { "id": "festival-merch", "name": "Official Festival Merch", "kind": "craft", "place": "main-gate" }
-]
+[]

@@ -3,48 +3,66 @@
     "id": "main",
     "name": "Main Stage",
     "shortName": "Main",
-    "kind": "main",
-    "lat": 37.9372,
-    "lng": -107.8055
+    "kind": "main"
   },
   {
     "id": "blues",
     "name": "Blues Stage",
     "shortName": "Blues",
-    "kind": "main",
-    "lat": 37.9379,
-    "lng": -107.8072
+    "kind": "main"
   },
   {
-    "id": "showcase",
-    "name": "Brewers Showcase Tent",
-    "shortName": "Showcase",
-    "kind": "tent",
-    "lat": 37.9377,
-    "lng": -107.8062
+    "id": "campground",
+    "name": "Campground Stage",
+    "shortName": "Campground",
+    "kind": "other"
   },
   {
-    "id": "opera-house",
+    "id": "truck",
+    "name": "Truck Stage, presented by Sierra Nevada",
+    "shortName": "Truck",
+    "kind": "other"
+  },
+  {
+    "id": "beer-garden",
+    "name": "Beer Garden",
+    "shortName": "Beer Garden",
+    "kind": "tent"
+  },
+  {
+    "id": "sheridan-opera-house",
     "name": "Sheridan Opera House",
-    "shortName": "Opera House",
-    "kind": "club",
-    "lat": 37.9376,
-    "lng": -107.8125
+    "shortName": "Sheridan",
+    "kind": "club"
   },
   {
-    "id": "fly-me-to-the-moon",
-    "name": "Fly Me To The Moon Saloon",
-    "shortName": "Fly Me",
-    "kind": "club",
-    "lat": 37.937,
-    "lng": -107.8113
+    "id": "moon-obannons",
+    "name": "The Moon at O'Bannon's",
+    "shortName": "The Moon",
+    "kind": "club"
   },
   {
-    "id": "conference-center",
-    "name": "Telluride Conference Center",
-    "shortName": "Conference Ctr",
-    "kind": "club",
-    "lat": 37.9367,
-    "lng": -107.8492
+    "id": "elks-lodge",
+    "name": "The Elks / Elks Lodge",
+    "shortName": "The Elks",
+    "kind": "club"
+  },
+  {
+    "id": "liz",
+    "name": "Liz",
+    "shortName": "Liz",
+    "kind": "club"
+  },
+  {
+    "id": "elks-park",
+    "name": "Elks Park",
+    "shortName": "Elks Park",
+    "kind": "other"
+  },
+  {
+    "id": "madeline-hotel",
+    "name": "Madeline Hotel & Residences, Auberge Resorts Collection",
+    "shortName": "Madeline",
+    "kind": "other"
   }
 ]

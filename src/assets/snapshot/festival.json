@@ -1,16 +1,37 @@
 {
-  "_placeholder": true,
   "id": "tbb-2026",
   "name": "Telluride Blues & Brews Festival",
-  "edition": 32,
-  "dates": { "start": "2026-09-18", "end": "2026-09-20" },
+  "edition": "32nd Annual",
+  "dates": {
+    "start": "2026-09-18",
+    "end": "2026-09-20"
+  },
   "timezone": "America/Denver",
-  "venue": { "name": "Telluride Town Park", "lat": 37.9375, "lng": -107.8067 },
-  "theme": { "primary": "#1F3A5F", "accent": "#E8A33D" },
+  "venue": {
+    "name": "Telluride Town Park, Telluride, Colorado",
+    "lat": 37.937,
+    "lng": -107.8073
+  },
+  "theme": {
+    "primary": "#ff3d48",
+    "accent": "#cba020"
+  },
   "links": {
-    "tickets": "https://www.tellurideblues.com/tickets",
     "website": "https://www.tellurideblues.com",
-    "lodging": "https://www.tellurideblues.com/lodging",
-    "volunteer": "https://www.tellurideblues.com/volunteer"
-  }
+    "lineup": "https://www.tellurideblues.com/lineup",
+    "schedule": "https://www.tellurideblues.com/schedule",
+    "tickets": "https://www.tellurideblues.com/tickets",
+    "brewersShowcase": "https://www.tellurideblues.com/brewers-showcase",
+    "lateNightShows": "https://www.tellurideblues.com/late-night-shows",
+    "camping": "https://www.tellurideblues.com/camping",
+    "gettingHere": "https://www.tellurideblues.com/getting-here",
+    "faqs": "https://www.tellurideblues.com/faqs",
+    "kidsArea": "https://www.tellurideblues.com/rainbow-kids-area",
+    "facebook": "https://www.facebook.com/telluride.blues",
+    "reddit": "https://www.reddit.com/user/Telluride-Blues",
+    "email": "mailto:Grant@sbgproductions.com",
+    "phone": "tel:+19707288037"
+  },
+  "_placeholder": false,
+  "_dataNote": "Content sourced from tellurideblues.com (official site) on 2026-09-01, transcribed via a research dossier. SET TIMES MUST BE RE-VERIFIED AGAINST THE OFFICIAL SCHEDULE BEFORE LAUNCH. Known caveats: (1) announcements.json is ILLUSTRATIVE — those five entries were written for this build and are the only category not taken from the site, though each is derived from a real 2026 fact; (2) late-night show end times are not published by the festival — every Juke Joint, Bal De Maison and Fais Do-Do set carries a placeholder 90-minute end time, flagged in its note; (3) brewery city/state is NOT published on the official site — every location in breweries.json is inferred and unverified; (4) beers.json contains only the two beers the site actually names (Sierra Nevada Pale Ale and Hazy Little Thing IPA); their ABV figures are general knowledge, not from the site; (5) vendors.json is empty because no food or craft vendor names are published; (6) no official grounds map exists — places.json x/y coordinates are a reconstruction from confirmed prose relationships (entrance north, Beer Garden between Main and Blues stages, Kids Area northeast, campground east, Medical Tent east edge) and the Truck Stage position is unknown; (7) the venue lat/lng is inferred from the 500 E Colorado Avenue address and has not been surveyed; (8) artist genre tags are an editorial categorisation, not festival-published genres; (9) five non-performer entries in artists.json (brewers-showcase, blisters-brews-5k, yoga-sessions, blues-for-breakfast, blues-challenge-winner-2026) exist only so every published schedule slot has a resolvable artist reference."
 }

@@ -175,12 +175,32 @@ Unit tests must cover a device in a non-Denver zone (set `TZ=Australia/Sydney` i
 `accessibilityLabel` on every icon-only control. `accessibilityRole` on pressables.
 Respect font scaling. Tap targets >= 44pt. Announce live-region changes on the Home screen.
 
-## Mock snapshot rules
+## Content is REAL — not placeholder
 
-Artists, breweries, and beers are FICTIONAL placeholders — the real 2026 lineup is not known
-and licensed assets are not cleared. Every artist gets `photo: undefined` and a generated
-initials avatar. Put a `_placeholder: true` flag in `festival.json` so it is obvious in the UI
-footer that this is not real festival data.
+The snapshot in `src/assets/snapshot/` is being replaced with the **real, published 2026
+festival data** scraped from tellurideblues.com: 34 real artists with real photo URLs and
+links, the complete real set-time grid, real stages, real ticket prices, real info copy.
+The client (SBG Productions) has cleared all assets; this is their own public data.
+
+Consequences you must respect:
+
+- **Never hard-code a stage id, artist slug, or set id in a screen.** The real stages are
+  Main Stage, Blues Stage (indoor, Hanley Pavilion), Campground Stage, Truck Stage, the
+  Beer Garden, and five late-night Juke Joint club venues — and they may still change.
+  Always iterate `getStages()` / `getSetsForDay()` and colour via `stageColor(theme, id)`.
+- **Four concurrent stages** run at once on festival days, so the schedule grid must handle
+  four columns comfortably on a phone. Late-night club sets start after the grounds close.
+- Artists have real remote `photo` URLs (1000x800). Handle load failure by falling back to
+  the `Avatar` initials component — a broken image in front of the client is not acceptable.
+- Some artists play **multiple sets** across days and stages. Do not assume one set each.
+
+## Brand palette is the festival's real identity
+
+Read from their stylesheet: hot red `#FF3D48`, gold `#CBA020`, on white with a neutral grey
+ramp. No blues, no gradients. Note that `#FF3D48` is only 3.1:1 on white, so the theme
+exposes a darkened `accent` for anything readable and keeps the true brand red for fills and
+the night theme. **You do not need to think about this** — just use `theme.colors.*` and
+never introduce a colour of your own. The contrast test enforces it.
 
 ## Definition of done for any agent
 
