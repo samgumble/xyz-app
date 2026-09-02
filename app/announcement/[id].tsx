@@ -1,17 +1,10 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 
-import { Screen } from '@/components';
+import { AnnouncementDetailScreen } from '@/features/announcements';
 
-/** Placeholder. Owned by `src/features/announcements/` — see BUILD-BRIEF.md. */
-export default function AnnouncementScreen(): React.JSX.Element {
+/** Route shell only — the screen lives in `src/features/announcements/`. */
+export default function AnnouncementRoute(): React.JSX.Element {
   const params = useLocalSearchParams<{ id: string }>();
-  const id = params.id ?? '';
-  return (
-    <Screen
-      title="Announcement"
-      subtitle={`Placeholder screen for id "${id}". The announcements feature lands here.`}
-      testID="screen-announcements-detail"
-    />
-  );
+  return <AnnouncementDetailScreen id={params.id ?? ''} />;
 }

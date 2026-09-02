@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Screen } from '@/components';
+import { MoreScreen } from '@/features/settings';
 
-/** Placeholder. Owned by `src/features/more/` — see BUILD-BRIEF.md. */
-export default function MoreScreen(): React.JSX.Element {
-  return <Screen title="More" subtitle="Placeholder screen. The more feature lands here." testID="screen-more" />;
+/** Route shell only — the screen lives in `src/features/settings/`. */
+export default function MoreRoute(): React.JSX.Element {
+  return <MoreScreen />;
 }

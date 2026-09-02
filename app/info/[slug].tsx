@@ -1,17 +1,10 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 
-import { Screen } from '@/components';
+import { InfoPageScreen } from '@/features/info';
 
-/** Placeholder. Owned by `src/features/info/` — see BUILD-BRIEF.md. */
-export default function InfoPageScreen(): React.JSX.Element {
+/** Route shell only — the screen lives in `src/features/info/`. */
+export default function InfoRoute(): React.JSX.Element {
   const params = useLocalSearchParams<{ slug: string }>();
-  const slug = params.slug ?? '';
-  return (
-    <Screen
-      title="Info"
-      subtitle={`Placeholder screen for slug "${slug}". The info feature lands here.`}
-      testID="screen-info-detail"
-    />
-  );
+  return <InfoPageScreen slug={params.slug ?? ''} />;
 }
