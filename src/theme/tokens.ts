@@ -93,6 +93,10 @@ export const palette = {
   stageBluesNight: '#5FC9BF',
   stageShowcaseDay: '#7A5E0A',
   stageShowcaseNight: '#E8A33D',
+  stageCampgroundDay: '#46601A',
+  stageCampgroundNight: '#A8D07A',
+  stageTruckDay: '#8A4213',
+  stageTruckNight: '#E0A06A',
   stageClubDay: '#5C2A62',
   stageClubNight: '#CB9BD4',
 

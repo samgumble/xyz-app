@@ -27,6 +27,8 @@ const FOREGROUNDS = [
   'stageMain',
   'stageBlues',
   'stageShowcase',
+  'stageCampground',
+  'stageTruck',
   'stageClub',
 ] as const;
 
@@ -58,10 +60,21 @@ describe('theme shape', () => {
     expect(Object.keys(themes)).toEqual(['daylight', 'night']);
   });
 
-  it('gives every stage its own colour', () => {
-    const day = ['main', 'blues', 'showcase', 'sheridan-opera-house'].map((id) => stageColor(daylight, id));
-    expect(new Set(day).size).toBe(4);
-    expect(stageColor(daylight, 'the-moon-at-obannons')).toBe(daylight.colors.stageClub);
+  it('tells the concurrent grounds stages apart', () => {
+    // These four run at the same time, so sharing a colour is a legibility bug.
+    const concurrent = ['main', 'blues', 'campground', 'truck'].map((id) => stageColor(daylight, id));
+    expect(new Set(concurrent).size).toBe(4);
+    expect(new Set(['main', 'blues', 'campground', 'truck'].map((id) => stageColor(night, id))).size).toBe(4);
+
+    // The Beer Garden is the Brewers Showcase pour, distinct from all four.
+    expect(new Set([...concurrent, stageColor(daylight, 'beer-garden')]).size).toBe(5);
+    expect(stageColor(daylight, 'showcase')).toBe(stageColor(daylight, 'beer-garden'));
+
+    // Late-night venues never share the screen with each other, so one colour
+    // is fine — but it must not collide with a grounds stage.
+    const club = stageColor(daylight, 'the-moon-at-obannons');
+    expect(stageColor(daylight, 'sheridan-opera-house')).toBe(club);
+    expect(concurrent).not.toContain(club);
   });
 
   it('uses a 4pt spacing scale and a 44pt-safe hit slop', () => {

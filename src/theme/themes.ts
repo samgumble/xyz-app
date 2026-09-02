@@ -20,6 +20,8 @@ export interface ThemeColors {
   stageMain: string;
   stageBlues: string;
   stageShowcase: string;
+  stageCampground: string;
+  stageTruck: string;
   stageClub: string;
   overlay: string;
 }
@@ -57,6 +59,8 @@ export const daylight: Theme = {
     stageMain: palette.stageMainDay,
     stageBlues: palette.stageBluesDay,
     stageShowcase: palette.stageShowcaseDay,
+    stageCampground: palette.stageCampgroundDay,
+    stageTruck: palette.stageTruckDay,
     stageClub: palette.stageClubDay,
     overlay: palette.overlayDay,
   },
@@ -85,6 +89,8 @@ export const night: Theme = {
     stageMain: palette.stageMainNight,
     stageBlues: palette.stageBluesNight,
     stageShowcase: palette.stageShowcaseNight,
+    stageCampground: palette.stageCampgroundNight,
+    stageTruck: palette.stageTruckNight,
     stageClub: palette.stageClubNight,
     overlay: palette.overlayNight,
   },
@@ -97,15 +103,29 @@ export const night: Theme = {
 export const themes: Record<ThemeName, Theme> = { daylight, night };
 
 /** Maps a stage id onto its identity colour. Unknown stages fall back to main. */
+/**
+ * A stage's identity colour.
+ *
+ * The four grounds stages run CONCURRENTLY, so they must be told apart at a
+ * glance in the schedule grid — giving two of them the same colour is a real
+ * legibility bug, not a cosmetic one. The late-night club venues never overlap
+ * with each other on screen, so they can safely share one colour.
+ *
+ * This is the one place in the app allowed to know stage ids. Screens must call
+ * `stageColor()` rather than switching on ids themselves.
+ */
+const STAGE_COLOR_KEYS: Record<string, keyof ThemeColors> = {
+  main: 'stageMain',
+  blues: 'stageBlues',
+  campground: 'stageCampground',
+  truck: 'stageTruck',
+  // The Brewers Showcase pours in the Beer Garden; `showcase` is kept as an
+  // alias so older content that used it still resolves.
+  'beer-garden': 'stageShowcase',
+  showcase: 'stageShowcase',
+};
+
 export function stageColor(theme: Theme, stageId: string): string {
-  switch (stageId) {
-    case 'main':
-      return theme.colors.stageMain;
-    case 'blues':
-      return theme.colors.stageBlues;
-    case 'showcase':
-      return theme.colors.stageShowcase;
-    default:
-      return theme.colors.stageClub;
-  }
+  const key = STAGE_COLOR_KEYS[stageId];
+  return key ? theme.colors[key] : theme.colors.stageClub;
 }
