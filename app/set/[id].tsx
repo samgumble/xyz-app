@@ -1,17 +1,10 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 
-import { Screen } from '@/components';
+import { SetDetailScreen } from '@/features/schedule';
 
-/** Placeholder. Owned by `src/features/schedule/` — see BUILD-BRIEF.md. */
-export default function SetScreen(): React.JSX.Element {
+/** Route only. Everything lives in `src/features/schedule/`. */
+export default function SetRoute(): React.JSX.Element {
   const params = useLocalSearchParams<{ id: string }>();
-  const id = params.id ?? '';
-  return (
-    <Screen
-      title="Set"
-      subtitle={`Placeholder screen for id "${id}". The schedule feature lands here.`}
-      testID="screen-schedule-detail"
-    />
-  );
+  return <SetDetailScreen setId={params.id ?? ''} />;
 }

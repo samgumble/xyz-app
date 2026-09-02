@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Screen } from '@/components';
+import { ScheduleScreen } from '@/features/schedule';
 
-/** Placeholder. Owned by `src/features/schedule/` — see BUILD-BRIEF.md. */
-export default function ScheduleScreen(): React.JSX.Element {
-  return <Screen title="Schedule" subtitle="Placeholder screen. The schedule feature lands here." testID="screen-schedule" />;
+/** Route only. Everything lives in `src/features/schedule/`. */
+export default function ScheduleRoute(): React.JSX.Element {
+  return <ScheduleScreen />;
 }

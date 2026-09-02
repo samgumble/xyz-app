@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Screen } from '@/components';
+import { LineupScreen } from '@/features/lineup';
 
-/** Placeholder. Owned by `src/features/lineup/` — see BUILD-BRIEF.md. */
-export default function LineupScreen(): React.JSX.Element {
-  return <Screen title="Lineup" subtitle="Placeholder screen. The lineup feature lands here." testID="screen-lineup" />;
+/** Route only. Everything lives in `src/features/lineup/`. */
+export default function LineupRoute(): React.JSX.Element {
+  return <LineupScreen />;
 }
