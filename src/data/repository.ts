@@ -74,15 +74,25 @@ export function getSetsForStage(id: StageId): FestivalSet[] {
 /** `['2026-09-18', '2026-09-19', '2026-09-20']`, from `festival.dates`. */
 export function getFestivalDays(): string[] {
   const { start, end } = getFestival().dates;
+  const days = new Set<string>();
+
+  // The advertised window, so a day with nothing scheduled yet still gets a tab.
   const first = Date.parse(`${start.slice(0, 10)}T00:00:00Z`);
   const last = Date.parse(`${end.slice(0, 10)}T00:00:00Z`);
-  if (Number.isNaN(first) || Number.isNaN(last) || last < first) return [];
-  const days: string[] = [];
-  const DAY_MS = 86_400_000;
-  for (let t = first; t <= last; t += DAY_MS) {
-    days.push(new Date(t).toISOString().slice(0, 10));
+  if (!Number.isNaN(first) && !Number.isNaN(last) && last >= first) {
+    const DAY_MS = 86_400_000;
+    for (let t = first; t <= last; t += DAY_MS) {
+      days.add(new Date(t).toISOString().slice(0, 10));
+    }
   }
-  return days;
+
+  // Plus any day that actually has programming. The festival advertises
+  // Fri-Sun but sells Thursday pre-festival shows (Bal De Maison at the
+  // Sheridan, the Madeline dinner set); deriving days from the advertised
+  // window alone silently hides them.
+  for (const set of getSets()) days.add(toFestivalDay(set.start));
+
+  return [...days].sort();
 }
 
 /**

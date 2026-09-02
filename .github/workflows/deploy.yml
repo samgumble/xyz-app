@@ -1,0 +1,67 @@
+name: Build and deploy preview
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Quality gates. A preview the client is reviewing should not ship red.
+      - run: npx tsc --noEmit
+      - run: npm test -- --ci
+
+      # Base path comes from expo.experiments.baseUrl in app.json (/xyz-app),
+      # because Pages serves this repo from a subdirectory, not the root.
+      - run: npx expo export --platform web
+
+      - name: Prepare dist for GitHub Pages
+        run: |
+          # Pages runs Jekyll by default, which drops directories starting with
+          # an underscore — that would delete the entire _expo bundle.
+          touch dist/.nojekyll
+
+          # Keep the preview out of search results while it is still a draft.
+          printf 'User-agent: *\nDisallow: /\n' > dist/robots.txt
+          find dist -name '*.html' -print0 | xargs -0 sed -i \
+            's|<head>|<head><meta name="robots" content="noindex, nofollow">|'
+
+          # Expo Router client-side routes 404 on a static host without this.
+          cp dist/index.html dist/404.html
+
+          echo "--- deployed files ---"
+          find dist -maxdepth 2 -name '*.html' | sort
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -128,7 +128,9 @@ export function validateSnapshot(candidate: ContentSnapshot): string[] {
   checkArray(issues, 'stages', candidate.stages, ['id', 'name', 'shortName', 'kind']);
   checkArray(issues, 'artists', candidate.artists, ['slug', 'name', 'bio']);
   checkArray(issues, 'schedule', candidate.schedule, ['id', 'artist', 'stage', 'start', 'end', 'type']);
-  checkArray(issues, 'breweries', candidate.breweries, ['id', 'name', 'city']);
+  // `city` is deliberately absent: the festival does not publish brewery
+  // locations, so a missing city is real data, not a broken publish.
+  checkArray(issues, 'breweries', candidate.breweries, ['id', 'name']);
   checkArray(issues, 'beers', candidate.beers, ['id', 'brewery', 'name', 'style']);
   checkArray(issues, 'sessions', candidate.sessions, ['id', 'name', 'day', 'start', 'end']);
   checkArray(issues, 'places', candidate.places, ['id', 'name', 'kind']);

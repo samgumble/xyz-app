@@ -1,6 +1,6 @@
 import type { Announcement } from '@/types/content';
 
-import { getSnapshot, resetSnapshot } from '../snapshot';
+import { bundledSnapshot, getSnapshot, resetSnapshot } from '../snapshot';
 import {
   BASE_URL,
   configureSync,
@@ -182,8 +182,13 @@ describe('hash diff', () => {
     expect(result.version).toBe('2026.09.05-1412');
     expect(calls).toEqual([`${TEST_BASE}/manifest.json`, `${TEST_BASE}/announcements.json`]);
     expect(getSnapshot().announcements).toEqual(freshAnnouncements);
-    // Untouched files are still the bundled ones.
-    expect(getSnapshot().schedule.length).toBeGreaterThan(50);
+    // Untouched files are not merely equal to the bundled ones, they ARE the
+    // bundled ones — a partial publish must never re-parse or re-copy content
+    // it did not fetch.
+    expect(getSnapshot().schedule).toBe(bundledSnapshot.schedule);
+    expect(getSnapshot().artists).toBe(bundledSnapshot.artists);
+    expect(getSnapshot().festival).toBe(bundledSnapshot.festival);
+    expect(getSnapshot().announcements).not.toBe(bundledSnapshot.announcements);
     expect(getLastUpdatedAt()?.toISOString()).toBe('2026-09-19T21:11:00.000Z');
   });
 
@@ -236,7 +241,7 @@ describe('bad publishes', () => {
       [`${TEST_BASE}/schedule.json`]: {
         body: [
           {
-            id: 'fri-main-1200',
+            id: 'a-set-from-a-bad-publish',
             artist: 'an-artist-who-does-not-exist',
             stage: 'main',
             start: '2026-09-18T12:00:00-06:00',

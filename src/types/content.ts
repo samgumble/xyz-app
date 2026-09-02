@@ -78,7 +78,11 @@ export interface FestivalSet {
 export interface Brewery {
   id: string;
   name: string;
-  city: string;
+  /**
+   * Optional: the festival does not publish brewery locations, so a real
+   * snapshot legitimately carries breweries with no city. Render defensively.
+   */
+  city?: string;
   state?: string;
   logo?: string;
 }
