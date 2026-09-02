@@ -1,0 +1,98 @@
+[
+  {
+    "id": "switchback-pass",
+    "name": "Switchback Pass Brewing",
+    "city": "Ouray",
+    "state": "CO"
+  },
+  {
+    "id": "high-line-ditch",
+    "name": "High Line Ditch Brewery",
+    "city": "Grand Junction",
+    "state": "CO"
+  },
+  {
+    "id": "copper-kettle-co",
+    "name": "Copper Kettle & Co.",
+    "city": "Durango",
+    "state": "CO"
+  },
+  {
+    "id": "red-mountain-malt",
+    "name": "Red Mountain Malthouse",
+    "city": "Silverton",
+    "state": "CO"
+  },
+  {
+    "id": "tin-cup-fermentory",
+    "name": "Tin Cup Fermentory",
+    "city": "Salida",
+    "state": "CO"
+  },
+  {
+    "id": "wildcat-basin",
+    "name": "Wildcat Basin Brewing",
+    "city": "Telluride",
+    "state": "CO"
+  },
+  {
+    "id": "sagebrush-union",
+    "name": "Sagebrush Union Beer Co.",
+    "city": "Moab",
+    "state": "UT"
+  },
+  {
+    "id": "quaking-aspen",
+    "name": "Quaking Aspen Ales",
+    "city": "Crested Butte",
+    "state": "CO"
+  },
+  {
+    "id": "front-range-forge",
+    "name": "Front Range Forge Brewing",
+    "city": "Longmont",
+    "state": "CO"
+  },
+  {
+    "id": "cinder-cone",
+    "name": "Cinder Cone Brewery",
+    "city": "Flagstaff",
+    "state": "AZ"
+  },
+  {
+    "id": "dolores-river",
+    "name": "Dolores River Brewworks",
+    "city": "Dolores",
+    "state": "CO"
+  },
+  {
+    "id": "north-fork-common",
+    "name": "North Fork Common House",
+    "city": "Paonia",
+    "state": "CO"
+  },
+  {
+    "id": "jackrabbit-creek",
+    "name": "Jackrabbit Creek Brewing",
+    "city": "Santa Fe",
+    "state": "NM"
+  },
+  {
+    "id": "old-lift-line",
+    "name": "Old Lift Line Brewery",
+    "city": "Ridgway",
+    "state": "CO"
+  },
+  {
+    "id": "black-canyon-barrel",
+    "name": "Black Canyon Barrel Works",
+    "city": "Montrose",
+    "state": "CO"
+  },
+  {
+    "id": "two-dollar-bridge",
+    "name": "Two Dollar Bridge Brewing",
+    "city": "Bozeman",
+    "state": "MT"
+  }
+]

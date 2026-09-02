@@ -1,0 +1,16 @@
+{
+  "_placeholder": true,
+  "id": "tbb-2026",
+  "name": "Telluride Blues & Brews Festival",
+  "edition": 32,
+  "dates": { "start": "2026-09-18", "end": "2026-09-20" },
+  "timezone": "America/Denver",
+  "venue": { "name": "Telluride Town Park", "lat": 37.9375, "lng": -107.8067 },
+  "theme": { "primary": "#1F3A5F", "accent": "#E8A33D" },
+  "links": {
+    "tickets": "https://www.tellurideblues.com/tickets",
+    "website": "https://www.tellurideblues.com",
+    "lodging": "https://www.tellurideblues.com/lodging",
+    "volunteer": "https://www.tellurideblues.com/volunteer"
+  }
+}

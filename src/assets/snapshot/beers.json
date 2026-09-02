@@ -1,0 +1,485 @@
+[
+  {
+    "id": "switchback-pass-01",
+    "brewery": "switchback-pass",
+    "name": "Nineteen Switchbacks",
+    "style": "West Coast IPA",
+    "abv": 6.8,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "switchback-pass-02",
+    "brewery": "switchback-pass",
+    "name": "Box Canyon Pils",
+    "style": "German Pilsner",
+    "abv": 4.9,
+    "sessions": [
+      "sat-showcase-1",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "switchback-pass-03",
+    "brewery": "switchback-pass",
+    "name": "Ice Park Stout",
+    "style": "Oatmeal Stout",
+    "abv": 5.6,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "high-line-ditch-04",
+    "brewery": "high-line-ditch",
+    "name": "Headgate Hazy",
+    "style": "Hazy IPA",
+    "abv": 6.4,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "high-line-ditch-05",
+    "brewery": "high-line-ditch",
+    "name": "Ditch Rider Amber",
+    "style": "American Amber Ale",
+    "abv": 5.2,
+    "sessions": [
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "high-line-ditch-06",
+    "brewery": "high-line-ditch",
+    "name": "Peach Orchard Sour",
+    "style": "Fruited Kettle Sour",
+    "abv": 4.5,
+    "sessions": [
+      "sat-showcase-2",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "copper-kettle-co-07",
+    "brewery": "copper-kettle-co",
+    "name": "Animas Crossing",
+    "style": "American Pale Ale",
+    "abv": 5.4,
+    "sessions": [
+      "fri-showcase",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "copper-kettle-co-08",
+    "brewery": "copper-kettle-co",
+    "name": "Narrow Gauge Dunkel",
+    "style": "Munich Dunkel",
+    "abv": 5,
+    "sessions": [
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "copper-kettle-co-09",
+    "brewery": "copper-kettle-co",
+    "name": "Smelter Barleywine",
+    "style": "English Barleywine",
+    "abv": 10.2,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "red-mountain-malt-10",
+    "brewery": "red-mountain-malt",
+    "name": "Tailings Porter",
+    "style": "Robust Porter",
+    "abv": 6.1,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "red-mountain-malt-11",
+    "brewery": "red-mountain-malt",
+    "name": "Blair Street Blonde",
+    "style": "Blonde Ale",
+    "abv": 4.7,
+    "sessions": [
+      "sat-showcase-1",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "tin-cup-fermentory-12",
+    "brewery": "tin-cup-fermentory",
+    "name": "Arkansas Riffle",
+    "style": "Session IPA",
+    "abv": 4.4,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "tin-cup-fermentory-13",
+    "brewery": "tin-cup-fermentory",
+    "name": "Monarch Saison",
+    "style": "Farmhouse Saison",
+    "abv": 6,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "tin-cup-fermentory-14",
+    "brewery": "tin-cup-fermentory",
+    "name": "Frost Line Doppelbock",
+    "style": "Doppelbock",
+    "abv": 8.1,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "wildcat-basin-15",
+    "brewery": "wildcat-basin",
+    "name": "Bear Creek Cold IPA",
+    "style": "Cold IPA",
+    "abv": 6.6,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "wildcat-basin-16",
+    "brewery": "wildcat-basin",
+    "name": "Gondola Line Lager",
+    "style": "Helles Lager",
+    "abv": 4.8,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "wildcat-basin-17",
+    "brewery": "wildcat-basin",
+    "name": "Bridal Veil Wit",
+    "style": "Belgian Witbier",
+    "abv": 5.1,
+    "sessions": [
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "wildcat-basin-18",
+    "brewery": "wildcat-basin",
+    "name": "Last Chair Coffee Stout",
+    "style": "Coffee Stout",
+    "abv": 6.9,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "sagebrush-union-19",
+    "brewery": "sagebrush-union",
+    "name": "Slickrock Red",
+    "style": "Irish Red Ale",
+    "abv": 5.3,
+    "sessions": [
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "sagebrush-union-20",
+    "brewery": "sagebrush-union",
+    "name": "Desert Varnish",
+    "style": "Brut IPA",
+    "abv": 7.1,
+    "sessions": [
+      "sat-showcase-2",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "sagebrush-union-21",
+    "brewery": "sagebrush-union",
+    "name": "Potash Gose",
+    "style": "Gose",
+    "abv": 4.2,
+    "sessions": [
+      "fri-showcase"
+    ]
+  },
+  {
+    "id": "quaking-aspen-22",
+    "brewery": "quaking-aspen",
+    "name": "Golden Leaf Kolsch",
+    "style": "Kolsch",
+    "abv": 4.9,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "quaking-aspen-23",
+    "brewery": "quaking-aspen",
+    "name": "Elk Avenue ESB",
+    "style": "Extra Special Bitter",
+    "abv": 5.5,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "quaking-aspen-24",
+    "brewery": "quaking-aspen",
+    "name": "Paradise Divide DIPA",
+    "style": "Double IPA",
+    "abv": 8.4,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "front-range-forge-25",
+    "brewery": "front-range-forge",
+    "name": "Anvil Brown",
+    "style": "American Brown Ale",
+    "abv": 5.7,
+    "sessions": [
+      "fri-showcase"
+    ]
+  },
+  {
+    "id": "front-range-forge-26",
+    "brewery": "front-range-forge",
+    "name": "Quench Tank Pale",
+    "style": "Dry-Hopped Pale Ale",
+    "abv": 5.2,
+    "sessions": [
+      "sat-showcase-1",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "front-range-forge-27",
+    "brewery": "front-range-forge",
+    "name": "Bellows Baltic Porter",
+    "style": "Baltic Porter",
+    "abv": 8,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "cinder-cone-28",
+    "brewery": "cinder-cone",
+    "name": "Ponderosa Pale",
+    "style": "American Pale Ale",
+    "abv": 5,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "cinder-cone-29",
+    "brewery": "cinder-cone",
+    "name": "Lava Field Black Lager",
+    "style": "Schwarzbier",
+    "abv": 5.4,
+    "sessions": [
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "cinder-cone-30",
+    "brewery": "cinder-cone",
+    "name": "Route Sixty-Six Hazy",
+    "style": "Hazy Pale Ale",
+    "abv": 5.8,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "dolores-river-31",
+    "brewery": "dolores-river",
+    "name": "Riverwalk Wheat",
+    "style": "American Wheat",
+    "abv": 4.6,
+    "sessions": [
+      "fri-showcase",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "dolores-river-32",
+    "brewery": "dolores-river",
+    "name": "McPhee Cream Ale",
+    "style": "Cream Ale",
+    "abv": 5.1,
+    "sessions": [
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "dolores-river-33",
+    "brewery": "dolores-river",
+    "name": "Ponderosa Sour Cherry",
+    "style": "Sour Cherry Ale",
+    "abv": 6.2,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "north-fork-common-34",
+    "brewery": "north-fork-common",
+    "name": "Orchard Mesa Cider Ale",
+    "style": "Apple Saison",
+    "abv": 6.5,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "north-fork-common-35",
+    "brewery": "north-fork-common",
+    "name": "Coal Basin Dark Mild",
+    "style": "English Dark Mild",
+    "abv": 3.8,
+    "sessions": [
+      "sat-showcase-1",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "jackrabbit-creek-36",
+    "brewery": "jackrabbit-creek",
+    "name": "Green Chile Lager",
+    "style": "Chile Lager",
+    "abv": 5,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "jackrabbit-creek-37",
+    "brewery": "jackrabbit-creek",
+    "name": "High Desert Pilsner",
+    "style": "Czech Pilsner",
+    "abv": 4.8,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "jackrabbit-creek-38",
+    "brewery": "jackrabbit-creek",
+    "name": "Piñon Smoked Ale",
+    "style": "Smoked Ale",
+    "abv": 6.3,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "old-lift-line-39",
+    "brewery": "old-lift-line",
+    "name": "T-Bar Table Beer",
+    "style": "Belgian Table Beer",
+    "abv": 3.5,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "old-lift-line-40",
+    "brewery": "old-lift-line",
+    "name": "Poma Lift Pale",
+    "style": "English Pale Ale",
+    "abv": 5,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "old-lift-line-41",
+    "brewery": "old-lift-line",
+    "name": "Ridgway Rye",
+    "style": "Rye IPA",
+    "abv": 6.7,
+    "sessions": [
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "black-canyon-barrel-42",
+    "brewery": "black-canyon-barrel",
+    "name": "Gunnison Gorge Foeder Ale",
+    "style": "Foeder-Aged Golden Sour",
+    "abv": 6.8,
+    "sessions": [
+      "sat-showcase-2",
+      "sun-showcase"
+    ]
+  },
+  {
+    "id": "black-canyon-barrel-43",
+    "brewery": "black-canyon-barrel",
+    "name": "Painted Wall Barrel Stout",
+    "style": "Bourbon Barrel Stout",
+    "abv": 11.4,
+    "sessions": [
+      "sat-showcase-2"
+    ]
+  },
+  {
+    "id": "black-canyon-barrel-44",
+    "brewery": "black-canyon-barrel",
+    "name": "Chasm View Brett Saison",
+    "style": "Brett Saison",
+    "abv": 6,
+    "sessions": [
+      "fri-showcase"
+    ]
+  },
+  {
+    "id": "two-dollar-bridge-45",
+    "brewery": "two-dollar-bridge",
+    "name": "Gallatin Gateway IPA",
+    "style": "American IPA",
+    "abv": 6.9,
+    "sessions": [
+      "fri-showcase",
+      "sat-showcase-1"
+    ]
+  },
+  {
+    "id": "two-dollar-bridge-46",
+    "brewery": "two-dollar-bridge",
+    "name": "Bridger Bowl Bock",
+    "style": "Traditional Bock",
+    "abv": 6.6,
+    "sessions": [
+      "sat-showcase-2",
+      "sun-showcase"
+    ]
+  }
+]

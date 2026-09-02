@@ -1,0 +1,50 @@
+[
+  {
+    "id": "main",
+    "name": "Main Stage",
+    "shortName": "Main",
+    "kind": "main",
+    "lat": 37.9372,
+    "lng": -107.8055
+  },
+  {
+    "id": "blues",
+    "name": "Blues Stage",
+    "shortName": "Blues",
+    "kind": "main",
+    "lat": 37.9379,
+    "lng": -107.8072
+  },
+  {
+    "id": "showcase",
+    "name": "Brewers Showcase Tent",
+    "shortName": "Showcase",
+    "kind": "tent",
+    "lat": 37.9377,
+    "lng": -107.8062
+  },
+  {
+    "id": "opera-house",
+    "name": "Sheridan Opera House",
+    "shortName": "Opera House",
+    "kind": "club",
+    "lat": 37.9376,
+    "lng": -107.8125
+  },
+  {
+    "id": "fly-me-to-the-moon",
+    "name": "Fly Me To The Moon Saloon",
+    "shortName": "Fly Me",
+    "kind": "club",
+    "lat": 37.937,
+    "lng": -107.8113
+  },
+  {
+    "id": "conference-center",
+    "name": "Telluride Conference Center",
+    "shortName": "Conference Ctr",
+    "kind": "club",
+    "lat": 37.9367,
+    "lng": -107.8492
+  }
+]

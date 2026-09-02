@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fri-showcase",
+    "name": "Friday Brewers Showcase",
+    "day": "2026-09-18",
+    "start": "2026-09-18T13:00:00-06:00",
+    "end": "2026-09-18T16:00:00-06:00"
+  },
+  {
+    "id": "sat-showcase-1",
+    "name": "Saturday Grand Tasting — First Pour",
+    "day": "2026-09-19",
+    "start": "2026-09-19T12:00:00-06:00",
+    "end": "2026-09-19T14:00:00-06:00"
+  },
+  {
+    "id": "sat-showcase-2",
+    "name": "Saturday Grand Tasting — Second Pour",
+    "day": "2026-09-19",
+    "start": "2026-09-19T14:30:00-06:00",
+    "end": "2026-09-19T16:30:00-06:00"
+  },
+  {
+    "id": "sun-showcase",
+    "name": "Sunday Brewers Showcase",
+    "day": "2026-09-20",
+    "start": "2026-09-20T13:00:00-06:00",
+    "end": "2026-09-20T16:00:00-06:00"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-06-10-volunteer-applications",
+    "publishedAt": "2026-06-10T09:00:00-06:00",
+    "title": "Volunteer applications are open",
+    "body": "We take about 400 volunteers each year across gates, recycling, hospitality, and the Brewers Showcase. Four shifts earns you a festival pass. Applications close August 15 and we fill up early — apply at tellurideblues.com/volunteer.",
+    "priority": "info",
+    "push": false,
+    "audience": "all",
+    "expiresAt": "2026-08-15T23:59:00-06:00"
+  },
+  {
+    "id": "2026-08-25-single-day-tickets",
+    "publishedAt": "2026-08-25T10:00:00-06:00",
+    "title": "Single-day tickets released",
+    "body": "A limited block of Friday, Saturday, and Sunday single-day tickets is now available. Three-day passes are still the better value if you are coming for the weekend, and they are the only ticket that includes campground eligibility.",
+    "priority": "info",
+    "push": false,
+    "audience": "all"
+  },
+  {
+    "id": "2026-08-28-schedule-is-live",
+    "publishedAt": "2026-08-28T12:00:00-06:00",
+    "title": "Set times are live",
+    "body": "The full three-day schedule is in the app, including Brewers Showcase sessions and the late-night club shows. Save what you want to see and the app will flag any overlaps for you. Set times can still move — the app updates itself whenever we publish a change.",
+    "priority": "important",
+    "push": true,
+    "audience": "all"
+  },
+  {
+    "id": "2026-08-31-campground-wristbands",
+    "publishedAt": "2026-08-31T16:30:00-06:00",
+    "title": "Campground wristband pickup has moved",
+    "body": "Town Park Campground wristbands are no longer issued at the East Gate. Pick them up at the Box Office on the west side of the park, 10:00 AM to 8:00 PM Thursday and Friday. Bring photo ID and your confirmation. If you arrive after 8:00 PM Friday, check in at the Info Booth instead.",
+    "priority": "urgent",
+    "push": true,
+    "audience": "all",
+    "expiresAt": "2026-09-21T12:00:00-06:00"
+  },
+  {
+    "id": "2026-09-18-gondola-late-service",
+    "publishedAt": "2026-09-18T09:00:00-06:00",
+    "title": "Gondola running late all three nights",
+    "body": "The gondola between Telluride and Mountain Village will run until 2:00 AM Friday, Saturday, and Sunday nights so the late-night club crowd can get back. Last car up from Station Telluride leaves at 1:45 AM. It is free, as always.",
+    "priority": "important",
+    "push": true,
+    "audience": "all",
+    "expiresAt": "2026-09-21T06:00:00-06:00"
+  }
+]

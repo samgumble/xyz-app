@@ -1,0 +1,443 @@
+[
+  {
+    "slug": "delta-vaudeville",
+    "name": "Delta Vaudeville",
+    "bio": "A seven-piece out of Memphis that plays the blues like a travelling medicine show: two horns, a Hammond organ, and a frontwoman who works a field like a tent revival. Their third record turned a reliable bar band into a festival act more or less overnight. Live, they stretch the songs until the horn section starts arguing with itself.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Delta%20Vaudeville",
+      "apple": "https://music.apple.com/us/search?term=Delta%20Vaudeville",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Delta%20Vaudeville",
+      "website": "https://duckduckgo.com/?q=Delta%20Vaudeville%20band"
+    },
+    "tags": [
+      "blues",
+      "soul",
+      "rock"
+    ],
+    "headliner": true
+  },
+  {
+    "slug": "the-copperline-revue",
+    "name": "The Copperline Revue",
+    "bio": "Nine musicians, three singers, and a horn chart for absolutely everything. The Copperline Revue is a Muscle Shoals soul band that flatly refuses to be a nostalgia act, opening with a slow burner and finishing somewhere in the neighborhood of gospel. This is their first tour with the full string section, so the ballads land differently than they used to.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Copperline%20Revue",
+      "apple": "https://music.apple.com/us/search?term=The%20Copperline%20Revue",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Copperline%20Revue",
+      "website": "https://duckduckgo.com/?q=The%20Copperline%20Revue%20band"
+    },
+    "tags": [
+      "soul",
+      "funk",
+      "r&b"
+    ],
+    "headliner": true
+  },
+  {
+    "slug": "mercy-lowdown",
+    "name": "Mercy Lowdown",
+    "bio": "Mercy Lowdown sings like she has somewhere to be and the song is in the way. She spent a decade as a session vocalist before anyone put her name on the front of a record, and that apprenticeship shows up in the writing. Her band is deliberately small — bass, drums, one guitar — which leaves a great deal of room for her to use.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Mercy%20Lowdown",
+      "apple": "https://music.apple.com/us/search?term=Mercy%20Lowdown",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Mercy%20Lowdown",
+      "website": "https://duckduckgo.com/?q=Mercy%20Lowdown%20band"
+    },
+    "tags": [
+      "soul",
+      "blues",
+      "r&b"
+    ],
+    "headliner": true
+  },
+  {
+    "slug": "ruby-slate",
+    "name": "Ruby Slate",
+    "bio": "Ruby Slate came up playing Tuesday nights in Kansas City clubs and still tunes her Telecaster by ear between songs. She writes short, mean, funny songs about landlords and long drives, and she plays every solo herself. Her band has not changed personnel in nine years, and you can hear it in how little anyone has to look up.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Ruby%20Slate",
+      "apple": "https://music.apple.com/us/search?term=Ruby%20Slate",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Ruby%20Slate",
+      "website": "https://duckduckgo.com/?q=Ruby%20Slate%20band"
+    },
+    "tags": [
+      "blues",
+      "guitar",
+      "rock"
+    ]
+  },
+  {
+    "slug": "hoodoo-mercantile",
+    "name": "Hoodoo Mercantile",
+    "bio": "Swamp blues built on a baritone guitar and a drummer who plays behind the beat on purpose. Hoodoo Mercantile records live to tape in a converted feed store outside Lafayette and has never punched in a fix. Their sets start quiet enough to make you lean in and end with the whole field shouting the chorus back.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Hoodoo%20Mercantile",
+      "apple": "https://music.apple.com/us/search?term=Hoodoo%20Mercantile",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Hoodoo%20Mercantile",
+      "website": "https://duckduckgo.com/?q=Hoodoo%20Mercantile%20band"
+    },
+    "tags": [
+      "blues",
+      "swamp",
+      "roots"
+    ]
+  },
+  {
+    "slug": "sable-mountain-choir",
+    "name": "Sable Mountain Choir",
+    "bio": "A twelve-voice gospel ensemble that has been singing together in one form or another since 2009. They arrange everything themselves and travel with only a drummer and an organist, which is all they have ever needed. Their Sunday morning sets have been known to make people quietly put their beer down.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Sable%20Mountain%20Choir",
+      "apple": "https://music.apple.com/us/search?term=Sable%20Mountain%20Choir",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Sable%20Mountain%20Choir",
+      "website": "https://duckduckgo.com/?q=Sable%20Mountain%20Choir%20band"
+    },
+    "tags": [
+      "gospel",
+      "soul"
+    ]
+  },
+  {
+    "slug": "junction-blue",
+    "name": "Junction Blue",
+    "bio": "A Denver four-piece with a Front Range take on Chicago blues: loud, tight, and a little impatient. They cut their teeth opening for touring acts on Colfax and now sell out their own nights. Expect two guitars trading fours for considerably longer than is strictly reasonable.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Junction%20Blue",
+      "apple": "https://music.apple.com/us/search?term=Junction%20Blue",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Junction%20Blue",
+      "website": "https://duckduckgo.com/?q=Junction%20Blue%20band"
+    },
+    "tags": [
+      "blues",
+      "rock"
+    ]
+  },
+  {
+    "slug": "the-tin-roof-preachers",
+    "name": "The Tin Roof Preachers",
+    "bio": "Roots music with a pulpit streak — mandolin, resonator, upright bass, and four voices that mostly stay in tune. The Tin Roof Preachers write about weather, debt, and the highway, in roughly that order. They have played every kind of room and seem to prefer the outdoor ones.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Tin%20Roof%20Preachers",
+      "apple": "https://music.apple.com/us/search?term=The%20Tin%20Roof%20Preachers",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Tin%20Roof%20Preachers",
+      "website": "https://duckduckgo.com/?q=The%20Tin%20Roof%20Preachers%20band"
+    },
+    "tags": [
+      "roots",
+      "americana",
+      "blues"
+    ]
+  },
+  {
+    "slug": "cricket-fontaine",
+    "name": "Cricket Fontaine",
+    "bio": "A New Orleans piano player who learned the barrelhouse repertoire from a neighbor and then spent twenty years making it hers. Cricket Fontaine plays left-hand-heavy, sings in a low conversational register, and tells long stories between songs that are usually worth the wait. She has never once played the same set list twice.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Cricket%20Fontaine",
+      "apple": "https://music.apple.com/us/search?term=Cricket%20Fontaine",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Cricket%20Fontaine",
+      "website": "https://duckduckgo.com/?q=Cricket%20Fontaine%20band"
+    },
+    "tags": [
+      "blues",
+      "piano",
+      "new orleans"
+    ]
+  },
+  {
+    "slug": "brass-hollow",
+    "name": "Brass Hollow",
+    "bio": "Eight horns and a sousaphone doing the work of a rhythm section. Brass Hollow started as a second-line street band and grew into something closer to a funk orchestra without ever losing the parade tempo. They are famously difficult to keep on stage — expect them in the crowd by the third song.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Brass%20Hollow",
+      "apple": "https://music.apple.com/us/search?term=Brass%20Hollow",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Brass%20Hollow",
+      "website": "https://duckduckgo.com/?q=Brass%20Hollow%20band"
+    },
+    "tags": [
+      "funk",
+      "brass"
+    ]
+  },
+  {
+    "slug": "the-yellow-dog-transit",
+    "name": "The Yellow Dog Transit",
+    "bio": "Boogie blues played fast and without much sentiment. The Yellow Dog Transit is a trio that has driven a great deal of the country in a van with a name painted on the side, and the songs are mostly about that. Their shows run about ninety minutes with no gaps.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Yellow%20Dog%20Transit",
+      "apple": "https://music.apple.com/us/search?term=The%20Yellow%20Dog%20Transit",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Yellow%20Dog%20Transit",
+      "website": "https://duckduckgo.com/?q=The%20Yellow%20Dog%20Transit%20band"
+    },
+    "tags": [
+      "blues",
+      "boogie",
+      "rock"
+    ]
+  },
+  {
+    "slug": "odessa-pike",
+    "name": "Odessa Pike",
+    "bio": "Odessa Pike writes the kind of songs that sound like they have been around longer than she has. Guitar, fiddle, and a voice that sits somewhere between a hymn and a complaint. She spent three winters playing ski-town bars in Colorado, so the altitude will not bother her.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Odessa%20Pike",
+      "apple": "https://music.apple.com/us/search?term=Odessa%20Pike",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Odessa%20Pike",
+      "website": "https://duckduckgo.com/?q=Odessa%20Pike%20band"
+    },
+    "tags": [
+      "americana",
+      "roots",
+      "folk"
+    ]
+  },
+  {
+    "slug": "saltwater-baptist",
+    "name": "Saltwater Baptist",
+    "bio": "Coastal gospel blues from a band that treats a slide guitar as a second voice. Saltwater Baptist has a rotating cast around a fixed core of two brothers and a drummer they met in a church basement. Their records are short and their sets are not.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Saltwater%20Baptist",
+      "apple": "https://music.apple.com/us/search?term=Saltwater%20Baptist",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Saltwater%20Baptist",
+      "website": "https://duckduckgo.com/?q=Saltwater%20Baptist%20band"
+    },
+    "tags": [
+      "gospel",
+      "blues",
+      "slide"
+    ]
+  },
+  {
+    "slug": "the-gravel-choir",
+    "name": "The Gravel Choir",
+    "bio": "Four singers, one guitar, and no monitors if they can help it. The Gravel Choir builds arrangements out of close harmony and long silences, which is a risky thing to do at a festival and works anyway. They are best heard from close to the rail.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Gravel%20Choir",
+      "apple": "https://music.apple.com/us/search?term=The%20Gravel%20Choir",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Gravel%20Choir",
+      "website": "https://duckduckgo.com/?q=The%20Gravel%20Choir%20band"
+    },
+    "tags": [
+      "roots",
+      "folk",
+      "harmony"
+    ]
+  },
+  {
+    "slug": "lantern-city-horns",
+    "name": "Lantern City Horns",
+    "bio": "A horn-forward soul revue assembled out of the session scene, playing original material that could pass for lost sides from 1968. Lantern City Horns rehearses more than most bands tour. The arrangements are airtight; the between-song patter is not, and that is part of the appeal.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Lantern%20City%20Horns",
+      "apple": "https://music.apple.com/us/search?term=Lantern%20City%20Horns",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Lantern%20City%20Horns",
+      "website": "https://duckduckgo.com/?q=Lantern%20City%20Horns%20band"
+    },
+    "tags": [
+      "funk",
+      "brass",
+      "soul"
+    ]
+  },
+  {
+    "slug": "bitterroot-mabel",
+    "name": "Bitterroot Mabel",
+    "bio": "Bitterroot Mabel plays slide guitar in open D and sings about the mountain West without romanticizing much of it. She came out of Missoula, recorded her first album in a rented cabin, and has been touring on it ever since. Her sets get louder as they go.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Bitterroot%20Mabel",
+      "apple": "https://music.apple.com/us/search?term=Bitterroot%20Mabel",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Bitterroot%20Mabel",
+      "website": "https://duckduckgo.com/?q=Bitterroot%20Mabel%20band"
+    },
+    "tags": [
+      "blues",
+      "slide",
+      "americana"
+    ]
+  },
+  {
+    "slug": "quicksilver-junction",
+    "name": "Quicksilver Junction",
+    "bio": "A jam-leaning rock five-piece that grew out of a college basement and never quite left the format. Quicksilver Junction improvises across song boundaries and rarely lands where the set list said it would. They are the reason the schedule has a buffer after their slot.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Quicksilver%20Junction",
+      "apple": "https://music.apple.com/us/search?term=Quicksilver%20Junction",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Quicksilver%20Junction",
+      "website": "https://duckduckgo.com/?q=Quicksilver%20Junction%20band"
+    },
+    "tags": [
+      "rock",
+      "jam"
+    ]
+  },
+  {
+    "slug": "purefoy-and-the-mule",
+    "name": "Purefoy & the Mule",
+    "bio": "A guitar-and-drums duo that makes an unreasonable amount of noise for two people. Purefoy plays a hollow-body through a broken amp on purpose; the Mule hits things. Twenty-five minutes into a set it stops sounding like a novelty and starts sounding like a plan.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Purefoy%20%26%20the%20Mule",
+      "apple": "https://music.apple.com/us/search?term=Purefoy%20%26%20the%20Mule",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Purefoy%20%26%20the%20Mule",
+      "website": "https://duckduckgo.com/?q=Purefoy%20%26%20the%20Mule%20band"
+    },
+    "tags": [
+      "blues",
+      "garage",
+      "duo"
+    ]
+  },
+  {
+    "slug": "wildwood-telegraph",
+    "name": "Wildwood Telegraph",
+    "bio": "Americana with a pedal steel player who is clearly the best musician on stage and knows better than to act like it. Wildwood Telegraph writes narrative songs with actual endings. They have a reputation for winning over crowds who came for something louder.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Wildwood%20Telegraph",
+      "apple": "https://music.apple.com/us/search?term=Wildwood%20Telegraph",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Wildwood%20Telegraph",
+      "website": "https://duckduckgo.com/?q=Wildwood%20Telegraph%20band"
+    },
+    "tags": [
+      "americana",
+      "roots",
+      "country"
+    ]
+  },
+  {
+    "slug": "the-tallow-sisters",
+    "name": "The Tallow Sisters",
+    "bio": "Three-part harmony soul from siblings who have been singing together since before any of them chose it. The Tallow Sisters arrange in the car and rehearse in hotel hallways. Their ballads are the quietest thing on this bill and reliably the most requested.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Tallow%20Sisters",
+      "apple": "https://music.apple.com/us/search?term=The%20Tallow%20Sisters",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Tallow%20Sisters",
+      "website": "https://duckduckgo.com/?q=The%20Tallow%20Sisters%20band"
+    },
+    "tags": [
+      "soul",
+      "harmony",
+      "r&b"
+    ]
+  },
+  {
+    "slug": "eight-mile-ferry",
+    "name": "Eight Mile Ferry",
+    "bio": "Blues rock built around a bass player who writes the songs, which explains why they move the way they do. Eight Mile Ferry spent four years as a house band before releasing anything and it left them impossible to rattle. They will play through weather.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Eight%20Mile%20Ferry",
+      "apple": "https://music.apple.com/us/search?term=Eight%20Mile%20Ferry",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Eight%20Mile%20Ferry",
+      "website": "https://duckduckgo.com/?q=Eight%20Mile%20Ferry%20band"
+    },
+    "tags": [
+      "blues",
+      "rock"
+    ]
+  },
+  {
+    "slug": "cotton-gin-social-club",
+    "name": "Cotton Gin Social Club",
+    "bio": "A funk collective with a loose membership and a strict rhythm section. Cotton Gin Social Club runs long grooves under rotating singers and horn players, which makes every show slightly different. The last thirty minutes are usually the point.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Cotton%20Gin%20Social%20Club",
+      "apple": "https://music.apple.com/us/search?term=Cotton%20Gin%20Social%20Club",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Cotton%20Gin%20Social%20Club",
+      "website": "https://duckduckgo.com/?q=Cotton%20Gin%20Social%20Club%20band"
+    },
+    "tags": [
+      "funk",
+      "soul"
+    ]
+  },
+  {
+    "slug": "the-blue-dram",
+    "name": "The Blue Dram",
+    "bio": "Jazz-inflected blues from a quartet led by a tenor saxophonist who spent years in big bands and clearly missed the small rooms. The Blue Dram plays standards nobody else bothers with and originals that sound like them. Best experienced late, indoors.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Blue%20Dram",
+      "apple": "https://music.apple.com/us/search?term=The%20Blue%20Dram",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Blue%20Dram",
+      "website": "https://duckduckgo.com/?q=The%20Blue%20Dram%20band"
+    },
+    "tags": [
+      "blues",
+      "jazz"
+    ]
+  },
+  {
+    "slug": "marigold-and-the-thieves",
+    "name": "Marigold & the Thieves",
+    "bio": "A soul-rock band with a frontwoman who treats the stage as a much smaller room than it is. Marigold & the Thieves write hooks and then bury them under two guitars, which somehow works. Their live album was recorded in a venue that has since closed.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Marigold%20%26%20the%20Thieves",
+      "apple": "https://music.apple.com/us/search?term=Marigold%20%26%20the%20Thieves",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Marigold%20%26%20the%20Thieves",
+      "website": "https://duckduckgo.com/?q=Marigold%20%26%20the%20Thieves%20band"
+    },
+    "tags": [
+      "rock",
+      "soul"
+    ]
+  },
+  {
+    "slug": "panhandle-electric",
+    "name": "Panhandle Electric",
+    "bio": "West Texas blues rock, played loud and dry. Panhandle Electric has a guitarist who bends notes further than seems advisable and a drummer who never fills. The songs are about distance, mostly.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Panhandle%20Electric",
+      "apple": "https://music.apple.com/us/search?term=Panhandle%20Electric",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Panhandle%20Electric",
+      "website": "https://duckduckgo.com/?q=Panhandle%20Electric%20band"
+    },
+    "tags": [
+      "blues",
+      "rock",
+      "texas"
+    ]
+  },
+  {
+    "slug": "sister-ida-bloom",
+    "name": "Sister Ida Bloom",
+    "bio": "Sister Ida Bloom sings gospel-soul with an organ, a bass, and a great deal of patience. She came to touring late, after twenty-two years of Sunday services, and treats a festival crowd exactly the way she treated a congregation. It works better than you would expect.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Sister%20Ida%20Bloom",
+      "apple": "https://music.apple.com/us/search?term=Sister%20Ida%20Bloom",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Sister%20Ida%20Bloom",
+      "website": "https://duckduckgo.com/?q=Sister%20Ida%20Bloom%20band"
+    },
+    "tags": [
+      "gospel",
+      "soul"
+    ]
+  },
+  {
+    "slug": "the-rambler-nine",
+    "name": "The Rambler Nine",
+    "bio": "Nine players, one groove, very few chord changes. The Rambler Nine is a jam-funk outfit that thinks of a set as a single piece of music with movements. They have opened for almost everyone and headlined enough to know how to close.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/The%20Rambler%20Nine",
+      "apple": "https://music.apple.com/us/search?term=The%20Rambler%20Nine",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=The%20Rambler%20Nine",
+      "website": "https://duckduckgo.com/?q=The%20Rambler%20Nine%20band"
+    },
+    "tags": [
+      "jam",
+      "funk"
+    ]
+  },
+  {
+    "slug": "low-country-static",
+    "name": "Low Country Static",
+    "bio": "Garage blues recorded and performed with the treble left all the way up. Low Country Static is three people, two of whom sing, none of whom tune between songs. Their shows are short, fast, and hard to follow.",
+    "links": {
+      "spotify": "https://open.spotify.com/search/Low%20Country%20Static",
+      "apple": "https://music.apple.com/us/search?term=Low%20Country%20Static",
+      "instagram": "https://www.instagram.com/explore/search/keyword/?q=Low%20Country%20Static",
+      "website": "https://duckduckgo.com/?q=Low%20Country%20Static%20band"
+    },
+    "tags": [
+      "blues",
+      "garage",
+      "rock"
+    ]
+  }
+]
