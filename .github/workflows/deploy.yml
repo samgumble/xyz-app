@@ -52,6 +52,51 @@ jobs:
           echo "--- deployed files ---"
           find dist -maxdepth 2 -name '*.html' | sort
 
+      # Runs LAST, after every other rewrite of dist/, for two reasons: the
+      # service worker's precache hash has to cover the bytes that are actually
+      # served (including the noindex meta injected above), and 404.html must
+      # already exist so it gets the manifest link and the SW registration too.
+      - name: Add PWA manifest, icons and service worker
+        run: npm run pwa
+
+      - name: Verify the PWA output
+        run: |
+          set -euo pipefail
+          test -f dist/manifest.webmanifest
+          test -f dist/sw.js
+          test -f dist/register-sw.js
+          test -f dist/icons/icon-192.png
+          test -f dist/icons/icon-512.png
+          test -f dist/icons/icon-maskable-512.png
+
+          # A leftover placeholder means the substitution missed and the worker
+          # would cache nothing. Fail the deploy rather than ship that.
+          ! grep -q '__[A-Z]\+__' dist/sw.js
+
+          # Every URL the worker and the manifest hand out must carry the
+          # /xyz-app/ sub-path. Serving from the origin root is the single most
+          # likely way this breaks in production.
+          node -e "
+            const fs = require('fs');
+            const raw = JSON.parse(fs.readFileSync('app.json','utf8')).expo.experiments.baseUrl || '';
+            const trimmed = raw.replace(/^\/+/, '').replace(/\/+\$/, '');
+            const base = trimmed ? '/' + trimmed + '/' : '/';
+            const m = JSON.parse(fs.readFileSync('dist/manifest.webmanifest','utf8'));
+            const urls = [m.start_url, m.scope, m.id, ...m.icons.map(i => i.src)];
+            const bad = urls.filter(u => !u.startsWith(base));
+            if (bad.length) { console.error('not sub-path scoped:', bad); process.exit(1); }
+            if (!m.icons.some(i => i.purpose === 'maskable')) {
+              console.error('manifest has no maskable icon'); process.exit(1);
+            }
+            const sw = fs.readFileSync('dist/sw.js','utf8');
+            if (!sw.includes(\"const BASE = '\" + base + \"'\")) {
+              console.error('sw.js BASE is not ' + base); process.exit(1);
+            }
+            console.log('sub-path scoping OK for ' + base);
+          "
+          echo "--- pwa files ---"
+          ls -la dist/manifest.webmanifest dist/sw.js dist/register-sw.js dist/icons
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -11,7 +11,10 @@
     "test": "TZ=Australia/Sydney jest",
     "typecheck": "tsc --noEmit",
     "build:web": "expo export --platform web",
-    "test:watch": "TZ=Australia/Sydney jest --watch"
+    "images:fetch": "node scripts/fetch-images.ts",
+    "test:watch": "TZ=Australia/Sydney jest --watch",
+    "pwa": "node scripts/build-pwa.mjs",
+    "pwa:icons": "./scripts/gen-pwa-icons.sh"
   },
   "dependencies": {
     "@date-fns/tz": "^1.5.0",
@@ -20,6 +23,7 @@
     "expo": "~54.0.36",
     "expo-constants": "~18.0.14",
     "expo-linking": "~8.0.12",
+    "expo-notifications": "~0.32.17",
     "expo-router": "~6.0.24",
     "expo-splash-screen": "~31.0.13",
     "expo-status-bar": "~3.0.9",

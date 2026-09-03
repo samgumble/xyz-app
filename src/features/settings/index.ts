@@ -8,3 +8,6 @@ export { SegmentedControl } from './SegmentedControl';
 export type { SegmentedControlProps, SegmentedOption } from './SegmentedControl';
 export { SwitchRow } from './SwitchRow';
 export type { SwitchRowProps } from './SwitchRow';
+export { RemindersSection } from './RemindersSection';
+export type { RemindersSectionProps } from './RemindersSection';
+export { InstallSection } from './InstallSection';

@@ -9,13 +9,14 @@ import { useNow } from '@/features/home/useNow';
 import { NavRow, RowGroup } from '@/features/info';
 import {
   useAppStore,
-  type ReminderLeadMinutes,
   type ThemePreference,
 } from '@/store/useAppStore';
 import { borderWidth, useTheme } from '@/theme';
 
 import { CreditsSection } from './CreditsSection';
 import { ResetDataSection } from './ResetDataSection';
+import { InstallSection } from './InstallSection';
+import { RemindersSection } from './RemindersSection';
 import { SegmentedControl, type SegmentedOption } from './SegmentedControl';
 import { SwitchRow } from './SwitchRow';
 
@@ -23,13 +24,6 @@ const THEME_OPTIONS: SegmentedOption<ThemePreference>[] = [
   { value: 'daylight', label: 'Daylight' },
   { value: 'night', label: 'Night' },
   { value: 'system', label: 'System' },
-];
-
-const REMINDER_OPTIONS: SegmentedOption<ReminderLeadMinutes>[] = [
-  { value: 5, label: '5 min' },
-  { value: 10, label: '10 min' },
-  { value: 15, label: '15 min' },
-  { value: 30, label: '30 min' },
 ];
 
 export interface MoreScreenProps {
@@ -56,13 +50,6 @@ export function MoreScreen({ at }: MoreScreenProps): React.JSX.Element {
   const setTheme = useCallback(
     (value: ThemePreference) => {
       updateSettings({ theme: value });
-    },
-    [updateSettings],
-  );
-
-  const setReminder = useCallback(
-    (value: ReminderLeadMinutes) => {
-      updateSettings({ reminderLeadMinutes: value });
     },
     [updateSettings],
   );
@@ -112,6 +99,8 @@ export function MoreScreen({ at }: MoreScreenProps): React.JSX.Element {
         />
       </RowGroup>
 
+      <InstallSection testID="more-install" />
+
       <SectionHeader title="Settings" subtitle="Stored on this device only." />
       <View
         style={{
@@ -135,17 +124,6 @@ export function MoreScreen({ at }: MoreScreenProps): React.JSX.Element {
           testID="settings-theme"
         />
 
-        <View style={{ height: borderWidth.hairline, backgroundColor: theme.colors.border }} />
-
-        <SegmentedControl
-          label="Remind me before a saved set"
-          description="How much warning you want to walk between stages."
-          options={REMINDER_OPTIONS}
-          value={settings.reminderLeadMinutes}
-          onChange={setReminder}
-          testID="settings-reminder"
-        />
-
         <SwitchRow
           label="Larger text"
           description="Scales every text size in the app."
@@ -154,6 +132,9 @@ export function MoreScreen({ at }: MoreScreenProps): React.JSX.Element {
           testID="settings-large-text"
         />
       </View>
+
+      <SectionHeader title="Reminders" subtitle="Scheduled on this device. Nothing is sent anywhere." />
+      <RemindersSection testID="more-reminders" />
 
       <SectionHeader title="Data" />
       <ResetDataSection testID="settings-reset" />
