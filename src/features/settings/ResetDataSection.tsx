@@ -2,6 +2,7 @@ import React, { useCallback, useState } from 'react';
 import { Text, View } from 'react-native';
 
 import { Button } from '@/components';
+import { useReminderPrefs } from '@/notifications';
 import { useAppStore } from '@/store/useAppStore';
 import { borderWidth, useTheme } from '@/theme';
 
@@ -20,6 +21,7 @@ export interface ResetDataSectionProps {
 export function ResetDataSection({ testID }: ResetDataSectionProps): React.JSX.Element {
   const { theme } = useTheme();
   const resetAll = useAppStore((s) => s.resetAll);
+  const resetPrefs = useReminderPrefs((s) => s.resetPrefs);
   const favourites = useAppStore((s) => s.favorites.length);
   const tastingCount = useAppStore((s) => Object.keys(s.tasting).length);
   const dismissedCount = useAppStore((s) => s.dismissedAnnouncements.length);
@@ -38,9 +40,11 @@ export function ResetDataSection({ testID }: ResetDataSectionProps): React.JSX.E
 
   const confirm = useCallback(() => {
     resetAll();
+    // Reminder opt-outs live in their own slice, so resetAll() cannot see them.
+    resetPrefs();
     setConfirming(false);
     setDone(true);
-  }, [resetAll]);
+  }, [resetAll, resetPrefs]);
 
   const summary = `${favourites} saved ${favourites === 1 ? 'set' : 'sets'}, ${tastingCount} tasting ${tastingCount === 1 ? 'note' : 'notes'} and ${dismissedCount} dismissed ${dismissedCount === 1 ? 'announcement' : 'announcements'}`;
 

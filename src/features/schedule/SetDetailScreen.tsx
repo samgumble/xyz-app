@@ -1,6 +1,6 @@
 import { Stack, useRouter } from 'expo-router';
 import { ChevronRight, Clock, MapPin, TriangleAlert } from 'lucide-react-native';
-import React, { useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import { Text, View } from 'react-native';
 
 import { Badge, Button, Card, Divider, EmptyState, Screen, SectionHeader } from '@/components';
@@ -13,12 +13,14 @@ import {
   isLive,
   minutesUntil,
 } from '@/data/time';
+import { useRequestPermissionOnSave } from '@/notifications';
 import { useAppStore } from '@/store/useAppStore';
 import { minTouchTarget, useTheme } from '@/theme';
 
 import { conflictsForEntry } from './conflicts';
 import { useEntryFavorite, useNow } from './hooks';
 import { entryForSet, setTypeLabel } from './model';
+import { SetReminderRow } from './SetReminderRow';
 import { buildStagePalette } from './stagePalette';
 
 /** Past this, a countdown stops being useful and the date says it better. */
@@ -97,8 +99,9 @@ export function SetDetailScreen({ setId }: SetDetailScreenProps): React.JSX.Elem
         ) : null}
       </Card>
 
-      <View style={{ marginTop: theme.space.lg }}>
+      <View style={{ marginTop: theme.space.lg, gap: theme.space.md }}>
         <SaveButton entry={entry} />
+        <SetReminderRow entry={entry} testID="set-reminder" />
       </View>
 
       {entry.notes.length > 0 ? (
@@ -182,10 +185,21 @@ export function SetDetailScreen({ setId }: SetDetailScreenProps): React.JSX.Elem
 
 function SaveButton({ entry }: { entry: NonNullable<ReturnType<typeof entryForSet>> }): React.JSX.Element {
   const { saved, toggle } = useEntryFavorite(entry);
+  const askOnSave = useRequestPermissionOnSave();
+
+  const onPress = useCallback(() => {
+    toggle();
+    // Plan 06 §4 and CLAUDE.md both put the notification prompt here: the
+    // first time someone saves a set is when they have shown they want to be
+    // told about one. Never on launch, and never before the save itself has
+    // happened — the app does what they tapped for either way.
+    askOnSave(!saved);
+  }, [askOnSave, saved, toggle]);
+
   return (
     <Button
       label={saved ? 'Remove from My Weekend' : 'Add to My Weekend'}
-      onPress={toggle}
+      onPress={onPress}
       variant={saved ? 'secondary' : 'primary'}
       fullWidth
       accessibilityHint={

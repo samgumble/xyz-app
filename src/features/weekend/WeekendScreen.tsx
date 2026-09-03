@@ -8,6 +8,7 @@ import { EmptyState } from '@/components';
 import { getStages } from '@/data/repository';
 import { formatDayLabel, formatTimeRange } from '@/data/time';
 import { buildStagePalette, SetRow, useNow } from '@/features/schedule';
+import { useReminderSync } from '@/notifications';
 import { useAppStore } from '@/store/useAppStore';
 import { useTheme } from '@/theme';
 
@@ -22,6 +23,11 @@ export function WeekendScreen(): React.JSX.Element {
   const router = useRouter();
   const now = useNow();
   const favorites = useAppStore((s) => s.favorites);
+
+  // My Weekend is the screen where a stale reminder would be most obvious, so
+  // it is one of the places that keeps the schedule converged: mounting it
+  // runs a reconciliation pass, and any change made from here triggers another.
+  useReminderSync();
 
   const plan = useMemo(() => buildWeekendPlan(favorites), [favorites]);
   const palette = useMemo(() => buildStagePalette(theme, getStages()), [theme]);

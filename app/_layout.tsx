@@ -4,6 +4,7 @@ import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { LoadingState } from '@/components';
+import { useReminderSync } from '@/notifications';
 import { useAppStore } from '@/store/useAppStore';
 import { ThemeProvider, useTheme } from '@/theme';
 
@@ -24,6 +25,11 @@ export default function RootLayout(): React.JSX.Element {
 function RootStack(): React.JSX.Element {
   const hydrated = useAppStore((s) => s.hydrated);
   const { theme, name } = useTheme();
+
+  // Reconcile scheduled reminders app-wide rather than only on the screens
+  // that happen to mount it. This never requests permission, so it is safe
+  // at the root; nothing is scheduled until the OS has actually granted it.
+  useReminderSync();
 
   if (!hydrated) {
     return <LoadingState fullscreen label="Loading the festival" />;
