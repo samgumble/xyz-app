@@ -99,9 +99,9 @@ export function ScheduleScreen(): React.JSX.Element {
           />
           <View style={{ flex: 1 }} />
           <Pressable
-            onPress={() => router.push('/weekend')}
+            onPress={() => router.push('/my-schedule')}
             accessibilityRole="link"
-            accessibilityLabel={`My Weekend, ${favorites.size} saved ${
+            accessibilityLabel={`My Schedule, ${favorites.size} saved ${
               favorites.size === 1 ? 'set' : 'sets'
             }`}
             hitSlop={theme.hitSlop}
@@ -301,7 +301,7 @@ function FilterPanel({
 
       <FilterGroup label="Saved">
         <Chip
-          label="My Weekend only"
+          label="My Schedule only"
           selected={filters.favoritesOnly}
           onPress={() => setFilters((f) => ({ ...f, favoritesOnly: !f.favoritesOnly }))}
         />

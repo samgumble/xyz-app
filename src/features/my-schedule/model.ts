@@ -7,14 +7,14 @@ import { entryConflicts, type EntryConflict } from '@/features/schedule/conflict
 import { buildEntries, type ScheduleEntry } from '@/features/schedule/model';
 import type { FestivalSet } from '@/types/content';
 
-export interface WeekendDay {
+export interface MyScheduleDay {
   /** Festival-local `YYYY-MM-DD`. */
   day: string;
   entries: ScheduleEntry[];
 }
 
-export interface WeekendPlan {
-  days: WeekendDay[];
+export interface MySchedulePlan {
+  days: MyScheduleDay[];
   entries: ScheduleEntry[];
   conflicts: EntryConflict[];
   /** Total minutes of music saved — the summary line's headline number. */
@@ -30,7 +30,7 @@ export interface WeekendPlan {
  * outlive a schedule change, and the right behaviour is to quietly forget it,
  * not to break the screen.
  */
-export function buildWeekendPlan(favoriteIds: string[]): WeekendPlan {
+export function buildMySchedule(favoriteIds: string[]): MySchedulePlan {
   const sets = favoriteIds
     .map((id) => getSet(id))
     .filter((set): set is FestivalSet => set !== undefined);
@@ -45,7 +45,7 @@ export function buildWeekendPlan(favoriteIds: string[]): WeekendPlan {
     else byDay.set(day, [entry]);
   }
 
-  const days: WeekendDay[] = [...byDay.entries()]
+  const days: MyScheduleDay[] = [...byDay.entries()]
     .map(([day, dayEntries]) => ({
       day,
       entries: [...dayEntries].sort((a, b) => a.startMs - b.startMs || a.stage.id.localeCompare(b.stage.id)),
@@ -74,6 +74,6 @@ export function formatDuration(minutes: number): string {
 }
 
 /** True when this entry is one side of at least one clash. */
-export function conflictsFor(plan: WeekendPlan, entryId: string): EntryConflict[] {
+export function conflictsFor(plan: MySchedulePlan, entryId: string): EntryConflict[] {
   return plan.conflicts.filter((c) => c.a.id === entryId || c.b.id === entryId);
 }

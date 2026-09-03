@@ -21,7 +21,7 @@ export interface SetRowProps {
 }
 
 /**
- * One set in a chronological list — the schedule's list mode, My Weekend, and
+ * One set in a chronological list — the schedule's list mode, My Schedule, and
  * the artist page all render this, so a set looks the same everywhere.
  */
 export function SetRow({

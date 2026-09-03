@@ -73,7 +73,7 @@ export interface EntryFavorite {
  * Favouriting an *entry*, not a set.
  *
  * A combined comedy bill is four set ids behind one card; saving it has to save
- * all four, or My Weekend would show one comedian from a four-hander. Saved
+ * all four, or My Schedule would show one comedian from a four-hander. Saved
  * means "any member saved" so a set favourited from an artist page still lights
  * the schedule card up.
  */

@@ -15,7 +15,7 @@ export interface FavoriteButtonProps {
 }
 
 /**
- * The one add/remove-from-My-Weekend control. Icon only, so it carries a label
+ * The one add/remove-from-My-Schedule control. Icon only, so it carries a label
  * that names the act; the fill state is also announced via `selected`.
  */
 export function FavoriteButton({ entry, compact = false, testID }: FavoriteButtonProps): React.JSX.Element {
@@ -32,7 +32,7 @@ export function FavoriteButton({ entry, compact = false, testID }: FavoriteButto
       accessibilityRole="button"
       accessibilityState={{ selected: saved }}
       accessibilityLabel={
-        saved ? `Remove ${entry.title} from My Weekend` : `Add ${entry.title} to My Weekend`
+        saved ? `Remove ${entry.title} from My Schedule` : `Add ${entry.title} to My Schedule`
       }
       // Expands the touch area past the drawn box so even the compact grid
       // control clears the 44pt minimum.

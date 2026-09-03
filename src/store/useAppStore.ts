@@ -16,7 +16,6 @@ export interface AppSettings {
   theme: ThemePreference;
   reminderLeadMinutes: ReminderLeadMinutes;
   largeText: boolean;
-  ageAcknowledged: boolean;
 }
 
 export interface AppState {
@@ -41,7 +40,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   theme: 'daylight',
   reminderLeadMinutes: 15,
   largeText: false,
-  ageAcknowledged: false,
 };
 
 type PersistedState = Pick<AppState, 'favorites' | 'tasting' | 'dismissedAnnouncements' | 'settings'>;

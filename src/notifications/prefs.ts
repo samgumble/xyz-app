@@ -35,7 +35,7 @@ export interface ReminderPrefsState {
   isMuted(key: string): boolean;
   /**
    * Forget opt-outs for slots that are no longer saved. Unsaving and re-saving
-   * a set brings its reminder back, which is what "remove it from my weekend"
+   * a set brings its reminder back, which is what "remove it from my schedule"
    * should mean — and it stops the list growing without bound.
    */
   pruneMuted(liveKeys: readonly string[]): void;

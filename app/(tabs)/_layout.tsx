@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Beer, CalendarDays, Home, Map, Music, Menu } from 'lucide-react-native';
+import { CalendarDays, CalendarHeart, Home, Music, Menu } from 'lucide-react-native';
 import React from 'react';
 
 import { useTheme } from '@/theme';
@@ -58,19 +58,17 @@ export default function TabsLayout(): React.JSX.Element {
         }}
       />
       <Tabs.Screen
-        name="map"
+        name="my-schedule"
         options={{
-          title: 'Map',
-          tabBarAccessibilityLabel: 'Map. Town Park and the venues.',
-          tabBarIcon: ({ color }) => <Map color={color} size={ICON_SIZE} accessibilityLabel="Map" />,
-        }}
-      />
-      <Tabs.Screen
-        name="brews"
-        options={{
-          title: 'Brews',
-          tabBarAccessibilityLabel: 'Brews. Brewers Showcase and your tasting log.',
-          tabBarIcon: ({ color }) => <Beer color={color} size={ICON_SIZE} accessibilityLabel="Brews" />,
+          title: 'My Schedule',
+          // Five tabs leave ~75pt each, and "My Schedule" truncates to "My Sch".
+          // The tab bar gets the short form; the header and the screen reader
+          // still say the full name.
+          tabBarLabel: 'My Sets',
+          tabBarAccessibilityLabel: 'My Schedule. Your saved sets and any clashes between them.',
+          tabBarIcon: ({ color }) => (
+            <CalendarHeart color={color} size={ICON_SIZE} accessibilityLabel="My Schedule" />
+          ),
         }}
       />
       <Tabs.Screen

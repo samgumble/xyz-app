@@ -198,7 +198,7 @@ function SaveButton({ entry }: { entry: NonNullable<ReturnType<typeof entryForSe
 
   return (
     <Button
-      label={saved ? 'Remove from My Weekend' : 'Add to My Weekend'}
+      label={saved ? 'Remove from My Schedule' : 'Add to My Schedule'}
       onPress={onPress}
       variant={saved ? 'secondary' : 'primary'}
       fullWidth

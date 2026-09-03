@@ -305,8 +305,8 @@ function GridCard({ block, palette, columnWidth, now }: GridCardProps): React.JS
         accessibilityRole="button"
         accessibilityLabel={`${entry.title}, ${entry.stage.name}, ${formatTime(entry.start)} to ${formatTime(
           entry.end,
-        )}${live ? ', playing now' : ''}${saved ? ', in My Weekend' : ''}`}
-        accessibilityHint="Opens set details. Long press to add or remove from My Weekend."
+        )}${live ? ', playing now' : ''}${saved ? ', in My Schedule' : ''}`}
+        accessibilityHint="Opens set details. Long press to add or remove from My Schedule."
         style={({ pressed }) => ({
           flex: 1,
           backgroundColor: theme.colors.surface,
@@ -353,7 +353,7 @@ function GridCard({ block, palette, columnWidth, now }: GridCardProps): React.JS
           accessibilityRole="button"
           accessibilityState={{ selected: saved }}
           accessibilityLabel={
-            saved ? `Remove ${entry.title} from My Weekend` : `Add ${entry.title} to My Weekend`
+            saved ? `Remove ${entry.title} from My Schedule` : `Add ${entry.title} to My Schedule`
           }
           hitSlop={theme.hitSlop}
           // A full 44pt box, not just the 16pt glyph: `hitSlop` is honoured on

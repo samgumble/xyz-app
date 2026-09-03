@@ -1,11 +1,11 @@
 import { getSets } from '@/data/repository';
 import { toFestivalDay } from '@/data/time';
 
-import { buildWeekendPlan, conflictsFor, formatDuration } from '../model';
+import { buildMySchedule, conflictsFor, formatDuration } from '../model';
 
-describe('buildWeekendPlan', () => {
+describe('buildMySchedule', () => {
   it('is empty, not broken, with nothing saved', () => {
-    const plan = buildWeekendPlan([]);
+    const plan = buildMySchedule([]);
     expect(plan.days).toHaveLength(0);
     expect(plan.entries).toHaveLength(0);
     expect(plan.conflicts).toHaveLength(0);
@@ -14,12 +14,12 @@ describe('buildWeekendPlan', () => {
 
   it('ignores a saved id that is no longer in the schedule', () => {
     const real = getSets()[0];
-    const plan = buildWeekendPlan([real?.id ?? '', 'a-set-that-was-cancelled']);
+    const plan = buildMySchedule([real?.id ?? '', 'a-set-that-was-cancelled']);
     expect(plan.entries).toHaveLength(1);
   });
 
   it('groups by festival day, in day and then time order', () => {
-    const plan = buildWeekendPlan(getSets().map((s) => s.id));
+    const plan = buildMySchedule(getSets().map((s) => s.id));
     expect(plan.days.map((d) => d.day)).toEqual([...plan.days.map((d) => d.day)].sort());
     for (const day of plan.days) {
       for (const entry of day.entries) expect(toFestivalDay(entry.start)).toBe(day.day);
@@ -29,7 +29,7 @@ describe('buildWeekendPlan', () => {
   });
 
   it('reports one clash per pair of acts, not one per performer', () => {
-    const plan = buildWeekendPlan(getSets().map((s) => s.id));
+    const plan = buildMySchedule(getSets().map((s) => s.id));
     const keys = plan.conflicts.map((c) => [c.a.id, c.b.id].sort().join('|'));
     expect(new Set(keys).size).toBe(keys.length);
 
@@ -42,7 +42,7 @@ describe('buildWeekendPlan', () => {
   });
 
   it('finds each entry its own clashes', () => {
-    const plan = buildWeekendPlan(getSets().map((s) => s.id));
+    const plan = buildMySchedule(getSets().map((s) => s.id));
     const clashing = plan.conflicts[0];
     expect(clashing).toBeDefined();
     const found = conflictsFor(plan, clashing?.a.id ?? '');
@@ -50,7 +50,7 @@ describe('buildWeekendPlan', () => {
   });
 
   it('counts distinct artists and stages, not rows', () => {
-    const plan = buildWeekendPlan(getSets().map((s) => s.id));
+    const plan = buildMySchedule(getSets().map((s) => s.id));
     expect(plan.stageCount).toBe(new Set(getSets().map((s) => s.stage)).size);
     expect(plan.artistCount).toBe(new Set(getSets().map((s) => s.artist)).size);
   });

@@ -47,7 +47,8 @@ function RootStack(): React.JSX.Element {
         }}
       >
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="weekend" options={{ title: 'My Weekend' }} />
+        {/* Redirect only — see app/weekend.tsx. */}
+        <Stack.Screen name="weekend" options={{ headerShown: false }} />
         <Stack.Screen name="artist/[slug]" options={{ title: 'Artist' }} />
         <Stack.Screen name="set/[id]" options={{ title: 'Set' }} />
         <Stack.Screen name="announcement/[id]" options={{ title: 'Announcement' }} />

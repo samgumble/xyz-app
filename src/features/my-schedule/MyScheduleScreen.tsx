@@ -12,29 +12,29 @@ import { useReminderSync } from '@/notifications';
 import { useAppStore } from '@/store/useAppStore';
 import { useTheme } from '@/theme';
 
-import { buildWeekendPlan, conflictsFor, formatDuration } from './model';
+import { buildMySchedule, conflictsFor, formatDuration } from './model';
 
 /**
- * My Weekend: everything saved, grouped by festival day in time order, with
+ * My Schedule: everything saved, grouped by festival day in time order, with
  * clashes called out at the top and again on the sets involved.
  */
-export function WeekendScreen(): React.JSX.Element {
+export function MyScheduleScreen(): React.JSX.Element {
   const { theme } = useTheme();
   const router = useRouter();
   const now = useNow();
   const favorites = useAppStore((s) => s.favorites);
 
-  // My Weekend is the screen where a stale reminder would be most obvious, so
+  // My Schedule is the screen where a stale reminder would be most obvious, so
   // it is one of the places that keeps the schedule converged: mounting it
   // runs a reconciliation pass, and any change made from here triggers another.
   useReminderSync();
 
-  const plan = useMemo(() => buildWeekendPlan(favorites), [favorites]);
+  const plan = useMemo(() => buildMySchedule(favorites), [favorites]);
   const palette = useMemo(() => buildStagePalette(theme, getStages()), [theme]);
 
   if (plan.entries.length === 0) {
     return (
-      <Screen testID="screen-weekend">
+      <Screen testID="screen-my-schedule">
         <EmptyState
           icon={<CalendarHeart size={theme.space.xxl} color={theme.colors.accent} />}
           title="Nothing saved yet"
@@ -54,8 +54,8 @@ export function WeekendScreen(): React.JSX.Element {
   } · ${plan.days.length} ${dayWord} · ${formatDuration(plan.totalMinutes)} of music`;
 
   return (
-    <Screen testID="screen-weekend">
-      {/* The stack header already says "My Weekend"; this is the summary line. */}
+    <Screen testID="screen-my-schedule">
+      {/* The tab header already says "My Schedule"; this is the summary line. */}
       <Text
         accessibilityLiveRegion="polite"
         style={[theme.type.body, { color: theme.colors.textMuted }]}

@@ -23,7 +23,6 @@ export function ResetDataSection({ testID }: ResetDataSectionProps): React.JSX.E
   const resetAll = useAppStore((s) => s.resetAll);
   const resetPrefs = useReminderPrefs((s) => s.resetPrefs);
   const favourites = useAppStore((s) => s.favorites.length);
-  const tastingCount = useAppStore((s) => Object.keys(s.tasting).length);
   const dismissedCount = useAppStore((s) => s.dismissedAnnouncements.length);
 
   const [confirming, setConfirming] = useState(false);
@@ -46,7 +45,7 @@ export function ResetDataSection({ testID }: ResetDataSectionProps): React.JSX.E
     setDone(true);
   }, [resetAll, resetPrefs]);
 
-  const summary = `${favourites} saved ${favourites === 1 ? 'set' : 'sets'}, ${tastingCount} tasting ${tastingCount === 1 ? 'note' : 'notes'} and ${dismissedCount} dismissed ${dismissedCount === 1 ? 'announcement' : 'announcements'}`;
+  const summary = `${favourites} saved ${favourites === 1 ? 'set' : 'sets'} and ${dismissedCount} dismissed ${dismissedCount === 1 ? 'announcement' : 'announcements'}`;
 
   return (
     <View
@@ -86,7 +85,7 @@ export function ResetDataSection({ testID }: ResetDataSectionProps): React.JSX.E
               label="Yes, reset everything"
               variant="danger"
               onPress={confirm}
-              accessibilityHint="Deletes your saved sets, tasting notes and settings"
+              accessibilityHint="Deletes your saved sets, reminders and settings"
               testID="reset-confirm"
             />
             <Button label="Cancel" variant="secondary" onPress={cancel} testID="reset-cancel" />

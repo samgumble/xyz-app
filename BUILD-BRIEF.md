@@ -27,17 +27,16 @@ Dependency licenses must be MIT / Apache-2.0 / BSD / ISC.
 ```
 app/                          Expo Router routes ONLY — no business logic, no data access
   _layout.tsx                 ThemeProvider + Stack, boots the store
-  (tabs)/_layout.tsx          bottom tabs: index, schedule, lineup, map, brews, more
+  (tabs)/_layout.tsx          bottom tabs: index, schedule, lineup, my-schedule, more
   (tabs)/index.tsx            Home (Now/Next)
   (tabs)/schedule.tsx
   (tabs)/lineup.tsx
-  (tabs)/map.tsx
-  (tabs)/brews.tsx
+  (tabs)/my-schedule.tsx      My Schedule (saved sets)
   (tabs)/more.tsx
   artist/[slug].tsx
   set/[id].tsx
   announcement/[id].tsx
-  weekend.tsx                 My Weekend
+  weekend.tsx                 redirect to /my-schedule (the old My Weekend URL)
   info/[slug].tsx
 src/
   types/content.ts            hand-written for the prototype; mirrors tbb-content/schema
@@ -56,7 +55,7 @@ src/
     typography.ts
   components/                 shared UI (Screen, Card, Chip, Badge, EmptyState, SectionHeader…)
   features/<name>/            one folder per feature; components + logic used by routes
-    home/ schedule/ lineup/ weekend/ map/ brews/ announcements/ info/ settings/
+    home/ schedule/ lineup/ my-schedule/ announcements/ info/ settings/
   assets/snapshot/            *.json mock content
 scripts/
 ```
@@ -124,6 +123,11 @@ getInfoPage(slug: string): InfoPage | undefined
 findConflicts(setIds: string[]): { a: string; b: string; overlapMinutes: number }[]
 ```
 
+`getPlaces`, `getVendors`, `getVendorsForPlace`, `getBreweries`, `getBeers`, `getBeersForBrewery`
+and `getSessions` currently have no UI caller: the Map and Brews screens were removed, but the
+researched content and these queries stay so the features can return without redoing the work.
+Do not delete them or the snapshot JSON they read.
+
 ## Store contract — `src/store/useAppStore.ts`
 
 ```ts
@@ -132,7 +136,7 @@ interface AppState {
   tasting: Record<string, { tried: boolean; rating?: number; note?: string }>;  // keyed by Beer.id
   dismissedAnnouncements: string[];
   settings: { theme: 'daylight' | 'night' | 'system'; reminderLeadMinutes: 5|10|15|30;
-              largeText: boolean; ageAcknowledged: boolean };
+              largeText: boolean };
   hydrated: boolean;
   toggleFavorite(setId: string): void;
   isFavorite(setId: string): boolean;

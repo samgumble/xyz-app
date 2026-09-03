@@ -32,8 +32,8 @@ export interface MoreScreenProps {
 }
 
 /**
- * The hub: every published info page, the announcements feed, My Weekend,
- * settings, and an honest account of where the content came from.
+ * The hub: every published info page, the announcements feed, settings, and
+ * an honest account of where the content came from.
  */
 export function MoreScreen({ at }: MoreScreenProps): React.JSX.Element {
   const { theme, name } = useTheme();
@@ -85,18 +85,6 @@ export function MoreScreen({ at }: MoreScreenProps): React.JSX.Element {
             }}
           />
         ))}
-      </RowGroup>
-
-      <SectionHeader title="Your festival" />
-      <RowGroup>
-        <NavRow
-          first
-          label="My Weekend"
-          description="Saved sets, grouped by day, with clashes flagged."
-          onPress={() => {
-            router.push('/weekend');
-          }}
-        />
       </RowGroup>
 
       <InstallSection testID="more-install" />

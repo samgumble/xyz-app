@@ -204,10 +204,10 @@ export function HomeScreen({ at }: HomeScreenProps): React.JSX.Element {
         <RowGroup>
           <NavRow
             first
-            label="My Weekend"
+            label="My Schedule"
             description="Your saved sets and any clashes between them."
             onPress={() => {
-              router.push('/weekend');
+              router.push('/my-schedule');
             }}
           />
           <NavRow
